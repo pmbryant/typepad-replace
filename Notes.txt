@@ -109,9 +109,11 @@ Find MISSING images by examining main index pages in browser with typepad.com do
 - *** - page 3 - 95200b-500wi
     2021/08/1937-the-year-ida-lupinos-film-career.html
     title="Ida Lupino at home in 1937, looking in a mirror" 
+  FIXED MANUALLY in 8 files
 - *** - page 4 - 08200b-250wi
     2020/12/the-making-of-moontide-a-noir-fairy-tale.html
     title="Ida Lupino in wardrobe for Moontide" 
+  FIXED MANUALLY in 9 files
 - *** - page 4 - 8e200b-320wi  
     (same file as above)
     title="Director Archie Mayo with Ida Lupino and Jean Gabin on the set of Moontide"
@@ -128,3 +130,9 @@ That is all! (thru page 16 - beginning of blog)
 Copy from 'master' image download file (tmp/pmb.a), sourced from multiple mirror downloads to see which of these images show up.
 The '***' at beginning of lines above indicates they did show up.
 The '---' indicates they are still missing. (None!)
+
+Now fix "img>src" refs in the files from pmbryant.typepad.com to local.
+Complication: They are at different folder depths, so could be "../../.." or "../../../.." or other.
+So fix manually (6 or 7 files per missing image)
+
+
