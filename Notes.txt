@@ -104,3 +104,27 @@ REMOVE the special character files from both blogs BEFORE adding to git repo!
 > find bb-blog -type f -name '*"*' -exec rm -v {} \;
 > find lyg-blog -type f -name '*"*' -exec rm -v {} \;
 > git init
+
+Find MISSING images by examining main index pages in browser with typepad.com domains zeroes out in /etc/hosts:
+- *** - page 3 - 95200b-500wi
+    2021/08/1937-the-year-ida-lupinos-film-career.html
+    title="Ida Lupino at home in 1937, looking in a mirror" 
+- *** - page 4 - 08200b-250wi
+    2020/12/the-making-of-moontide-a-noir-fairy-tale.html
+    title="Ida Lupino in wardrobe for Moontide" 
+- *** - page 4 - 8e200b-320wi  
+    (same file as above)
+    title="Director Archie Mayo with Ida Lupino and Jean Gabin on the set of Moontide"
+- *** - page 4 - f3200b-250wi
+    2020/09/what-happened-to-elinor-norton-1934.html
+    title="Elinor Norton photo feature in Picture Play, Dec. 1934"
+- *** - page 7 - 15200b-150si
+    2018/12/ida-lupinos-years-at-paramount-1933-1937.html
+    alt="Lup1" (gallery)
+- *** - page 7 - 6c200c-150si
+    2018/12/ida-lupino-in-on-dangerous-ground-1951.html
+    alt="Lup1" (gallery)
+That is all! (thru page 16 - beginning of blog)
+Copy from 'master' image download file (tmp/pmb.a), sourced from multiple mirror downloads to see which of these images show up.
+The '***' at beginning of lines above indicates they did show up.
+The '---' indicates they are still missing. (None!)
