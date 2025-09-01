@@ -117,12 +117,15 @@ Find MISSING images by examining main index pages in browser with typepad.com do
 - *** - page 4 - 8e200b-320wi  
     (same file as above)
     title="Director Archie Mayo with Ida Lupino and Jean Gabin on the set of Moontide"
+  FIXED MANUALLY in 9 files
 - *** - page 4 - f3200b-250wi
     2020/09/what-happened-to-elinor-norton-1934.html
     title="Elinor Norton photo feature in Picture Play, Dec. 1934"
+  FIXED MANUALLY in 8 files
 - *** - page 7 - 15200b-150si
     2018/12/ida-lupinos-years-at-paramount-1933-1937.html
     alt="Lup1" (gallery)
+  FIXED MANUALLY in 6 files
 - *** - page 7 - 6c200c-150si
     2018/12/ida-lupino-in-on-dangerous-ground-1951.html
     alt="Lup1" (gallery)
