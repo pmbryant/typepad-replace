@@ -1,0 +1,94 @@
+/*============ TypePad Theme // STRUCTURE - ARCHIVES ========================*/
+ 
+/* Container for each Archive List */
+.archive {
+	clear: both;
+	float: left;
+	padding: 0 0 35px;
+	width: 100%;
+	}
+
+/* Archives.html Page - Archive List Headers */
+.archive-header {
+	margin:	0;
+	padding: 12px 10px 5px;
+	}
+
+/* ArchiveLink list */
+.archive-content {
+	margin: 0 5px 0 0;
+	}
+
+/* Archives.html Page - Archive List Items */
+.archive ul li {
+	display: inline; 
+	float: left;
+	margin: 0;
+	padding-right: 7px;
+	*padding-right: 15px; /* since IE-CV doesn't support the commas in li:after, increase space between elements to make it more readable */
+	}
+
+.archive ul li:after {
+	content: ","; 
+	}
+
+.archive ul li:last-child:after {
+	content: "";
+	margin: 0;
+	padding: 0;
+	}
+
+
+/* Search Results Page - sort/subscribe area */
+
+.search-subheader {
+    margin: 0 0 15px;
+	}
+
+.search-subheader .col {
+    float: left;
+    width: 50%;
+	}
+
+.search-subheader .search-feed-subscribe {
+    float: right;
+    text-align: right;
+	}
+
+.search-subheader .search-feed-subscribe a {
+    padding: 4px 0 2px 22px;
+    background: url(../../../images/feed-icon-16x16.png) no-repeat 0 4px;
+	}
+
+
+
+/* Search Results Entry Header */
+.search-results h3.entry-header {
+	clear: both;
+	}
+
+/* Search Results Listing */
+.search-results .entry {
+	border-top: 1px solid #dedede;
+	margin: 25px 0 15px;
+	padding: 25px 0 0 0;
+	}
+
+/* Top of page - link to previous and next post */
+.content-nav {
+	margin: 0 0 15px;
+	}
+
+/* Header - Category & Monthly Archive & Search Page */
+.content-header {
+	padding: 0;
+	margin: 0 0 20px;
+	}
+
+
+/* Prev/Next link for Pagination */
+.pager {
+	clear: both;
+	margin: 0;
+	padding: 8px 0;
+	}

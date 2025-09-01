@@ -1,0 +1,168 @@
+/*============ TypePad Theme // FRAME - DEFAULT =============================*/
+
+body {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	word-wrap: break-word;
+	}
+
+#container {
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+	}
+
+#container-inner {
+	margin: 0;
+	width: auto;
+	}
+
+#pagebody {
+	clear: both;
+	margin: 0;
+	padding: 0;
+	width: auto;
+	}
+
+#pagebody-inner {
+	width: auto;
+	}
+
+
+/* 1COLUMN LAYOUT ---------------------------------------*/
+
+.layout-one-column #alpha-inner {
+	margin-left: 10px;
+	margin-right: 10px;
+	}
+
+/* Set column padding for one-column sidebar modules */
+.layout-one-column #alpha .module {
+	float: left;
+	padding: 20px 0 10px 0;
+	text-align: left;
+	}
+
+
+/* 2COLUMN-LEFT LAYOUT --------------------------------- */
+.layout-two-column-left #alpha {
+	float: left;
+	padding: 0;
+	}
+
+.layout-two-column-left #beta {
+	float: right;
+	padding: 0;
+	}
+
+.layout-two-column-left #beta-inner {
+	margin-left: 10px;
+	margin-right: 10px;
+	}
+
+
+
+/* 2COLUMN-RIGHT LAYOUT ---------------------------------*/
+.layout-two-column-right #alpha {
+	float: left;
+	padding: 0;
+	}
+
+.layout-two-column-right #alpha-inner {
+	margin-left: 10px;
+	margin-right: 10px;
+	}
+
+.layout-two-column-right #beta {
+	float: right;
+	padding: 0;
+	}
+
+
+/* 3COLUMN LAYOUT ---------------------------------------*/
+.layout-three-column #alpha {
+	float: left;
+	}
+
+.layout-three-column #beta {
+	float: left;
+	}
+
+.layout-three-column #beta-inner {
+	margin-left: 10px;
+	margin-right: 10px;
+	}
+
+.layout-three-column #gamma {
+	float: right;
+	}
+
+
+/* 3COLUMN-RIGHT LAYOUT ---------------------------------*/
+.layout-three-column-right #alpha {
+	float: left;
+	}
+
+.layout-three-column-right #alpha-inner {
+	margin-left: 10px;
+	margin-right: 10px;
+	}
+
+.layout-three-column-right #beta {
+	float: left;
+	}
+
+.layout-three-column-right #gamma {
+	float: right;
+	}
+
+
+/* BLOG FOOTER --------------------------------*/
+#footer {
+	clear: both;
+	margin: 0;
+	padding: 6px;
+	}
+
+.footer-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 1000px;
+	}
+
+.footer-list-item {
+	float: left;
+	}
+
+.footer-list-item a {
+	display: block;
+	padding: 0 10px;
+	}
+
+
+/* Default Images -------------------------------- */
+img.image-full {
+	box-sizing: border-box;
+	display: block;
+	width: 100%;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	}
+
+a img {
+	border: 0;
+	}
+
+/* Standard Helper */
+.pkg:after {
+	clear: both;
+	content: " ";
+	display: block;
+	font-size: .1em;
+	height: .1px;
+	line-height: 0;
+	visibility: hidden;
+	}

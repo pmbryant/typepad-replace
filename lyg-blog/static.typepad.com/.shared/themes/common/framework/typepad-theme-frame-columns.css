@@ -1,0 +1,41 @@
+/*============ TypePad Theme // FRAME - COLUMNS =============================*/
+
+/* Page Width */
+#container { width: 1000px; }
+
+/*------ALL LAYOUTS - Set margins for main column ------*/
+#pagebody-inner { 
+	margin-top: 25px; 
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+/*---1COL-------------------------*/
+/* Sidebar modules at the bottom */
+.layout-one-column #alpha .module { 
+	width: 290px; 
+	margin-left: 15px; 
+	margin-right: 15px;
+}
+
+
+/*---2COL-Left--------------------*/
+.layout-two-column-left #alpha { width: 190px; }
+.layout-two-column-left #beta { width: 770px; }
+
+
+/*---2COL-Right-------------------*/
+.layout-two-column-right #alpha { width: 770px; }
+.layout-two-column-right #beta { width: 190px; }
+
+
+/*---3COLUMN----------------------*/
+.layout-three-column #alpha { width: 190px; margin-right: 15px; }
+.layout-three-column #beta { width: 570px; }
+.layout-three-column #gamma { width: 190px; }
+
+
+/*---3COL-Right-------------------*/
+.layout-three-column-right #alpha { width: 570px; margin-right: 15px; }
+.layout-three-column-right #beta { width: 190px; }
+.layout-three-column-right #gamma { width: 190px; }

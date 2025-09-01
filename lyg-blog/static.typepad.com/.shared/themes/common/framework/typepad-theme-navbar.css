@@ -1,0 +1,37 @@
+/*============ TypePad Theme // NAVBAR ======================================*/
+
+/* Navbar is a little taller for IE-CV to help even out the text alignment there */
+/* Set the line-height to vertical align the links within the bar automatically */
+/* Line-height is set to the same height of the navbar, minus the navbar border width */
+/* IE-CV needs a little doink on the alignment with "*top:3px"	when the search form is in the nav bar */
+	
+	#nav {
+	height: 30px;
+	line-height: 28px;
+	/* IE-CV */	*height: 33px; 
+	/* IE-CV */	*line-height: 31px;
+	position:relative;
+	}
+
+		#nav ul {
+		margin: 0;
+		padding-left: 5px;
+		}
+
+		#nav li {
+		display:inline;
+		}
+
+		#nav .nav-list-item a:link, #nav .nav-list-item a:visited {
+		padding:4px 15px;
+		}
+
+		.nav-search {
+		margin-left: 15px;
+		position:relative;
+		/* IE-CV */	*top:3px; 
+		}
+
+		.nav-search form { 
+		display: inline; 
+		}

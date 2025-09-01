@@ -1,0 +1,38 @@
+/* Base */
+@import url(../../static.typepad.com/.shared/themes/walt/styleless/theme.css);
+
+@import url(../../static.typepad.com/.shared/themes/common/bxslider.css);
+@import url(../../static.typepad.com/.shared/css/widgets.css);
+@import url(../../static.typepad.com/.shared/themes/common/recentpostsfancy.css);
+
+/* Tip Jar */
+@import url(../../static.typepad.com/.shared/themes/common/tipjar.css);
+
+/* Portal */
+
+
+/* Theme */
+@import url(../../static.typepad.com/.shared/themes/typepad/theme-metropolitan/dark.css);
+
+
+
+/* Theme - Custom Banner */
+#banner {
+    background-image: url("../.a/6a00d83451ffec69e201bb09cafdd5970d-1024wi");
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Books Typelist - Update to base file size and re-size to retain original visual spec */
+.typelist-thumbnailed .typelist-thumbnail img { width: 100px; }
+
+
+/* ph=1 */

@@ -1,0 +1,373 @@
+/*============ Metropolitan Theme // GOOGLE WEBFONTS =============================*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Pontano+Sans);
+
+/*============ Metropolitan Theme // FRAMEWORK CSS =============================*/
+@import url(../../common/framework/typepad-theme-frame-default.css);
+@import url(../../common/framework/typepad-theme-frame-columns.css);
+@import url(../../common/framework/typepad-theme-fontbase.css);
+@import url(../../common/framework/typepad-theme-banner.css);
+@import url(../../common/framework/typepad-theme-navbar.css);
+@import url(../../common/framework/typepad-theme-structure-posts.css);
+@import url(../../common/framework/typepad-theme-share-buttons.css);
+@import url(../../common/framework/typepad-theme-structure-comments.css);
+  @import url(../../../css/atp-comments.css);
+@import url(../../common/framework/typepad-theme-structure-sidebar.css);
+@import url(../../common/framework/typepad-theme-structure-archives.css);
+@import url(../../common/framework/typepad-theme-mobile.css);
+
+/*============ Metropolitan Theme // THE BODY =============================*/
+
+body { 
+	font-family: 'Open Sans', sans-serif;
+	font-size: 11pt;
+	}
+
+/* Link Color and Style */
+a { 
+	color: #8CA0B3;
+	text-decoration: none;
+	}
+
+a:hover { color: #333; }
+
+
+/*============ Metropolitan Theme // BANNER =============================*/
+
+#banner { 
+	background: url(banner_1000px.jpg) 0 90px repeat-x;
+	height: 420px;
+	padding: 0; 
+	display: block; 
+	}
+
+	#banner-inner { height: 100%; }
+
+	#banner-header {
+		width: 650px; 
+		height: 30px; 
+		overflow: hidden; 
+		font-size: 16pt;
+		font-weight: 600;
+		display: block;
+		text-transform: capitalize;
+		position: relative;
+		top: 25px;
+		}
+
+		#banner-header a { 
+			text-decoration: none; 
+			font-family: 'Pontano Sans', sans-serif; 
+			}
+
+	#banner-description {
+		display: block;
+		text-transform: lowercase;
+		font-size: 12pt;
+		padding: 12px 15px; 
+		color: #fff; 
+		background: transparent url(gray_overlay.png) repeat !important;
+		width: 970px; 
+		margin: 0;
+		position: absolute;
+		bottom: 0; 
+		}
+
+
+/*============ Metropolitan Theme // LAYOUTS =============================*/
+
+#container { 
+	background: #fff; 
+	padding: 0;
+	width: 1000px; 
+	top: 80px;
+	}
+
+	#pagebody { margin-top: -25px; }
+
+                /* Layout - One Column */
+                .layout-one-column #alpha { padding: 30px 0; }
+
+      		/* Layout - Two Column Right */
+		.layout-two-column-right #alpha { 
+			width: 650px; 
+			border-right: 1px solid #ccc; 
+			}
+		
+			.layout-two-column-right #alpha-inner { padding: 30px 10px 30px 0; }
+		
+		.layout-two-column-right #beta { width: 320px; }
+		
+			.layout-two-column-right #beta-inner { padding: 30px 0 0; }
+		
+		
+		/* Layout - Two Column Left */
+		.layout-two-column-left #alpha { 
+			width: 320px; 
+			border-right: 1px solid #ccc; 
+			}
+		
+			.layout-two-column-left #alpha-inner { padding: 30px 0 0; }
+		
+		.layout-two-column-left #beta { width: 650px; }
+		
+			.layout-two-column-left #beta-inner { padding: 30px 10px 30px 0; }
+
+
+		/* Layout - Three Column Right */
+		.layout-three-column-right #alpha { 
+			width: 480px; 
+			padding: 0; 
+			margin: 0; 
+			}
+		
+			.layout-three-column-right #alpha-inner { padding: 30px 5px 30px 0; }
+		
+		.layout-three-column-right #beta { 
+			width: 320px; 
+			padding: 0; 
+			margin: 0;
+			border-left: 1px solid #ccc; 
+			}
+		
+			.layout-three-column-right #beta-inner { padding: 30px 0 0; }
+		
+		.layout-three-column-right #gamma { 
+			width: 175px; 
+			padding: 0; 
+			margin: 0;
+			border-left: 1px solid #ccc; 
+			}
+		
+			.layout-three-column-right #gamma-inner { padding: 30px 0 0; }
+
+
+		/* Layout - Three Column Split */
+		.layout-three-column #alpha { 
+			width: 320px; 
+			border-right: 1px solid #ccc; 
+			padding-right: 5px;
+			}
+		
+			.layout-three-column #alpha-inner { padding: 30px 10px 0 0; }
+		
+		.layout-three-column #beta { 
+			width: 458px; 
+			padding: 0; 
+			margin: 0 0 0 -5px; 
+			}
+		
+			.layout-three-column #beta-inner { padding: 30px 10px 30px 0; }
+		
+		.layout-three-column #gamma { 
+			width: 185px; 
+			border-left: 1px solid #ccc; 
+			}
+		
+			.layout-three-column #gamma-inner { padding: 30px 10px 0 0; }
+
+
+/*============ Metropolitan Theme // NAVIGATION =============================*/
+
+#nav { 
+	position: absolute; 
+	top: 35px; 
+	right: 0px; 
+	width: 370px; 
+	height: 20px;
+	*height: 25px;
+	overflow: hidden;
+	}
+
+	#nav .nav-list-item a { 
+		text-decoration: none; 
+		font-size: 10pt; 
+		text-transform: uppercase; 
+		color: #333; 
+		}
+	
+	#nav .nav-list-item a:hover { color: #8CA0B3; }
+
+
+
+/*============ Metropolitan Theme // MODULES =============================*/
+
+.module-header { 
+	text-transform: uppercase; 
+	font-size: 11pt; 
+	}
+
+	.module-header, .module-header a { color: #000; }
+
+/* Counteract custom background images for Grid mode by setting background:none for List mode */
+.module-elsewhere .typelist-plain a { background: none !important; }
+
+/* Other Accounts - List Mode */
+.module-elsewhere .typelist-plain a, .module-elsewhere .typelist-plain img { 
+	padding: 0 !important; 
+	display: inline; 
+	}
+
+/* Set original Opacity to remain on link when hovered */
+.module-elsewhere .typelist-plain a:hover { 
+	opacity:1;
+	filter:alpha(opacity=100); /* For IE8 and earlier */ 
+	}
+
+/* Other Accounts - Grid Mode */
+.module-elsewhere img { display: none; }
+
+.module-elsewhere a { 
+	padding: 23px!important; 
+	display: inline-block; 
+	}
+
+.module-elsewhere a[href*="twitter.com"] { background: url(../theme-chevron/twitter_chevron.png) no-repeat center; }
+.module-elsewhere a[href*="flickr.com"] { background: url(../theme-chevron/flickr_chevron.png) no-repeat center; }
+.module-elsewhere a[href*="facebook.com"] { background: url(../theme-chevron/facebook_chevron.png) no-repeat center; }
+.module-elsewhere a[href*="pinterest.com"] { background: url(../theme-chevron/pinterest_chevron.png) no-repeat center; }
+.module-elsewhere a[href*="plus.google.com"] { background: url(../theme-chevron/gplus_chevron.png) no-repeat center; }
+.module-elsewhere a[href*="atom.xml"] { background: url(../theme-chevron/rss_chevron.png) no-repeat center; }
+.module-elsewhere a[href*="profile.typepad.com"] { background: url(../theme-chevron/lilypad_chevron.png) no-repeat center; }
+.module-elsewhere a[href*="extragr.am"] {background: url(../theme-chevron/instagram_chevron.png) no-repeat center; }
+.module-elsewhere a[href*="instagram.com"] {background: url(../theme-chevron/instagram_chevron.png) no-repeat center; } 
+
+/* Set Opacity to differ on link when hovered */
+.module-elsewhere a:hover { 
+	opacity:0.4;
+	filter:alpha(opacity=40); /* For IE8 and earlier */ 
+	}
+
+.module-syndicate a {
+	background: url(../../../images/feed-icon-16x16.png) no-repeat center left; 
+	padding-left: 22px;
+	}
+
+
+/*============ Metropolitan Theme // MISC HEADERS - FONT =============================*/
+
+#banner-header a, 
+.module-header, 
+.date-header, 
+.entry-header, 
+.pager, 
+.comments-header, 
+.comments-open-header { font-family: 'Pontano Sans', sans-serif; }
+
+
+/*============ Metropolitan Theme // ENTRIES AND PAGES =============================*/
+
+.content-nav { 
+	font-size: 0.8em; 
+	text-align: center; 
+	background-color: #f9f9f9; 
+	padding: 10px; 
+	}
+
+.date-header { 
+	text-transform: uppercase; 
+	font-size: 10pt; 
+	margin-top: 0; 
+	}
+
+.archive-header, 
+.content-header,
+.trackbacks-header, 
+.comments-header,
+.comments-open-header { 
+	text-transform: uppercase; 
+	font-size: 12pt; 
+	font-weight: 400; 
+	letter-spacing: 0em; 
+	font-family: 'Pontano Sans', sans-serif; 
+	color: #8CA0B3; 
+	margin: 0; 
+	}
+
+.trackbacks-header, .comments-header, .comments-open-header { padding: 15px 0 0; }
+
+	.trackbacks-info { font-size: 75%; }
+
+.archive-header { 
+	padding: 0 0 10px; 
+	margin-top: -2px; 
+	}
+
+.content-header { padding: 0 0 20px; }
+
+.entry-header { text-transform: capitalize; }
+
+	.entry-header a { color: #687784; }
+
+/* H1-H6 Headers in Entry */
+.entry-content h1, 
+.entry-content h2, 
+.entry-content h3, 
+.entry-content h4, 
+.entry-content h5, 
+.entry-content h6 { 
+	font-family: 'Pontano Sans', sans-serif; 
+	font-weight: 600; 
+	}
+
+
+	/* Wrapper for photos in posts */
+	.photo-wrap { padding: 5px 0 12px; }
+
+.entry-footer { font-size: 9pt; border-top: 1px solid #ccc; padding-top: 10px; }
+
+	/* Entry Footer Buttons - Fix Float Issue in Narrow Post Column */
+	.entry-footer-share-buttons .entry-footer-links-delicious,
+	.entry-footer-share-buttons .entry-footer-links-digg,
+	.entry-footer-share-buttons .entry-footer-links-favorite,
+	.entry-footer-share-buttons .entry-footer-links-reblog,
+	.entry-footer-share-buttons .entry-footer-links-plusone,
+	.entry-footer-share-buttons .entry-footer-links-twitter,
+	.entry-footer-share-buttons .entry-footer-links-pinterest { 
+		height: 20px; 
+		_height: 18px; 
+		*height: 18px; 
+		}
+	
+		.entry-footer-share-buttons a { color: #777; }
+
+
+.pager { 
+	font-size: 14pt; 
+	text-transform: uppercase; 
+	background-color: transparent; 
+	}
+
+	.pager a { color: #333; }
+
+	.pager a:hover { color:  #687784; }
+
+
+/* Textarea width for Comment Form */
+#comment-text { width: 97%; }
+
+
+
+
+/*============ Metropolitan Theme // MOBILE - ADJUSTMENTS FOR METRO =============================*/
+/* Mobile Styles for Screens Less than 650px */
+@media only screen 
+ and (max-device-width: 650px) {
+
+	#banner-header { 
+		display: block; 
+		clear: both; 
+		width: 100%; 
+		height: auto; 
+		}
+
+	#nav { 
+		position: relative; 
+		top: 0; 
+		width: 100%; 
+		height: auto; 
+		display: block; 
+		clear: both; 
+		}
+
+}

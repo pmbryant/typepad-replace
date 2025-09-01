@@ -1,0 +1,153 @@
+/*============ TypePad Theme // STRUCTURE - COMMENTS ========================*/
+
+.comments,#tpc_thread,#atp-comments {
+	margin: 0;	
+	}
+
+/* Outer container for comment thread section */
+.comments-content {
+	margin: 0;
+	overflow: hidden;
+	}
+
+/* Comments Section Header 
+ This applies to TPC - Indent left margin */
+.comments-header {
+	color: #999;
+	font-size: 120%;
+	margin:	25px 0 5px;
+	padding: 0 0 2px;
+}
+
+/* Make up for different placement in header div between regular and TPC comments, adjust the font size 
+ Make sure this code is placed after the main comments-header code 
+ This applies to regular comments and overrides the above - No left margin */
+.comments .comments-header {
+	font-size: 140%;
+	margin-left: 0;
+	}
+
+/* Comments Info - "You can follow this convo" */
+.comments-info {
+	font-size: 100%;
+	margin: 5px 10px 20px;
+	}
+
+/*--- Container for each individual Comment ---*/
+.comment {
+	padding: 10px 15px 10px 10px;
+	}
+
+/* Userpic positioning */
+.comment-avatar {
+	float: left;
+	margin-right: 5px;
+	}
+
+/* Comment Text - paragraph spacing */
+.comment-content p {
+	margin: 0 0 11px;
+	}
+
+/*--- COMMENT TEXT (only the text) - Container ---
+ Regular comments Without Userpic - comment text fills the entire container width automatically */
+.comment-content {
+	padding: 0;
+	}
+
+/* Regular comments With Userpic - indent text past userpic */
+.comment-has-avatar .comment-content {
+	margin-left: 60px;
+	margin-right: 0;
+	}
+
+/* TPC Comments - don't indent comment to the left - it's done automatically */
+#tpc_thread .comment-content {
+	margin-left: 0;
+	}
+
+/*--- "Posted by" line ---*/
+.comment-footer {
+	clear:both;
+	font-size: 95%;
+	margin: 0;
+	padding: 0;
+	}
+
+/* Standard Comments with Userpic - indent footer to the left */
+.comment-has-avatar .comment-footer {
+	margin-left: 60px;
+	padding: 0;
+	}
+
+/* Textarea width */
+#comment-text {
+	width: 500px;
+	}
+
+/* Header - Post a comment */
+h2.comments-open-header {
+	border-bottom: 1px dotted #999;
+	color: #999;
+	margin: 20px 12px 5px 0;
+	padding: 0;
+	}
+
+/* Message when comments are closed */
+.comments-closed {
+	font-size: 80%;
+	margin: 25px 0 15px 10px;
+	}
+
+
+/* sign in to comment external services */
+.comments-open .login-list {
+        display: block;
+        padding-left: 0px;
+		}
+
+.comments-open .login-list span {
+        margin-left: 4px;
+        padding-bottom: 5px;
+		}
+
+.comments-open .login-list .first {
+        margin-left: 0px;
+        padding-left: 0px;
+		}
+
+.comments-open .login-list .typepad {
+        background: url(../../../images/profile/service_icons/typepad.png) top left no-repeat;
+        padding-left: 20px;
+		}
+
+.comments-open .login-list .facebook {
+        background: url(../../../images/profile/service_icons/facebook.png) top left no-repeat;
+        padding-left: 19px;
+		}
+
+.comments-open .login-list .googleplus {
+        background: url(../../../images/profile/service_icons/googleplus.png) top left no-repeat;
+        padding-left: 19px;
+}
+
+/* typepad-jp shows mixi in place of Facebook */
+.comments-open .login-list .mixi {
+        background: url(../../../images/profile/service_icons/mixi.png) top left no-repeat;
+        margin-left: 2px;
+        padding-left: 19px;
+		}
+
+.comments-open .login-list .twitter {
+        background: url(../../../images/profile/service_icons/twitter.png) top left no-repeat;
+        margin-left: 2px;
+        padding-left: 18px;
+		}
+
+
+/* fix flyout being partially obscured in TPC */
+#comments-flyout iframe { 
+height: auto; 
+    /* auto height doesn't work in older versions of IE so set fixed height */
+       *height: 153px; 
+		} 

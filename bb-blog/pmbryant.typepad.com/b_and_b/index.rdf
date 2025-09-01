@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+  xmlns:admin="http://webns.net/mvcb/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns="http://purl.org/rss/1.0/">
+
+<channel rdf:about="https://pmbryant.typepad.com/b_and_b/">
+<title>B and B</title>
+<link>https://pmbryant.typepad.com/b_and_b/</link>
+<description>From the Texas Hill Country:  Science, Politics, Birds, and more.</description>
+<dc:language>en-US</dc:language>
+<dc:creator></dc:creator>
+<sy:updatePeriod>daily</sy:updatePeriod>
+<sy:updateFrequency>2</sy:updateFrequency>
+<dc:date>2012-12-31T14:06:14-06:00</dc:date>
+<admin:generatorAgent rdf:resource="http://www.typepad.com/" />
+
+
+<items>
+<rdf:Seq><rdf:li rdf:resource="https://pmbryant.typepad.com/b_and_b/2012/12/a-year-later-tpwd-still-seeking-donations-to-keep-our-state-parks-open.html" />
+<rdf:li rdf:resource="https://pmbryant.typepad.com/b_and_b/2011/12/texas-parks-and-wildlife-department-is-seeking-donations-in-order-to-keep-our-state-parks-open.html" />
+<rdf:li rdf:resource="https://pmbryant.typepad.com/b_and_b/2011/02/the-republican-party-launches-fight-against-american-workers.html" />
+<rdf:li rdf:resource="https://pmbryant.typepad.com/b_and_b/2010/12/no-more-swap-texas-gets-a-new-state-park-on-the-devils-river-and-can-keep-the-old-one.html" />
+<rdf:li rdf:resource="https://pmbryant.typepad.com/b_and_b/2010/12/obamas-new-direction.html" />
+<rdf:li rdf:resource="https://pmbryant.typepad.com/b_and_b/2010/11/now-is-the-time-for-the-paycheck-fairness-act.html" />
+<rdf:li rdf:resource="https://pmbryant.typepad.com/b_and_b/2010/10/state-park-swap-in-the-works.html" />
+<rdf:li rdf:resource="https://pmbryant.typepad.com/b_and_b/2010/03/three-months-later-health-insurance-reform-imminent.html" />
+<rdf:li rdf:resource="https://pmbryant.typepad.com/b_and_b/2009/12/health-insurance-reform-imminent.html" />
+<rdf:li rdf:resource="https://pmbryant.typepad.com/b_and_b/2009/08/regulate-and-reform-the-health-insurance-industry.html" />
+<rdf:li rdf:resource="https://pmbryant.typepad.com/b_and_b/2009/06/glo_title.html" />
+<rdf:li rdf:resource="https://pmbryant.typepad.com/b_and_b/2009/06/lost-maples-state-natural-area-is-growing-.html" />
+<rdf:li rdf:resource="https://pmbryant.typepad.com/b_and_b/2009/04/texas-parks-and-wildlife-offered-land-next-to-two-state-parks-will-they-take-it.html" />
+<rdf:li rdf:resource="https://pmbryant.typepad.com/b_and_b/2009/02/misleading-headline-of-the-day.html" />
+<rdf:li rdf:resource="https://pmbryant.typepad.com/b_and_b/2009/01/after-15-years-congress-returns-to-the-job-of-protecting-our-public-lands.html" />
+</rdf:Seq>
+</items>
+
+</channel>
+
+<item rdf:about="https://pmbryant.typepad.com/b_and_b/2012/12/a-year-later-tpwd-still-seeking-donations-to-keep-our-state-parks-open.html">
+<title>A year later: TPWD still seeking donations to keep our state parks open</title>
+<link>https://pmbryant.typepad.com/b_and_b/2012/12/a-year-later-tpwd-still-seeking-donations-to-keep-our-state-parks-open.html</link>
+<description>It&#39;s been a year but the Texas Parks and Wildlife Department is still seeking funds to keep Texas parks open. They have raised $2 million of the $4.6 million they need. It&#39;s quite sad that our legislature can&#39;t see fit...</description>
+<content:encoded>&lt;p&gt;It&amp;#39;s been a year but the Texas Parks and Wildlife Department is still seeking funds to keep Texas parks open.&amp;#0160; They have raised $2 million of the $4.6 million they need.&lt;/p&gt;
+&lt;p&gt;It&amp;#39;s quite sad that our legislature can&amp;#39;t see fit to fund parks appropriately.&amp;#0160; Meanwhile, it&amp;#39;s up to us.&lt;/p&gt;
+&lt;p&gt;You can donate &lt;a href=&quot;http://www.tpwd.state.tx.us/spdest/parkinfo/help/?utm_campaign=SPFundraising&amp;amp;utm_medium=PR&amp;amp;utm_source=PressRelease.&quot; target=&quot;_self&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content:encoded>
+
+
+<dc:subject>Public lands</dc:subject>
+<dc:subject>Texas</dc:subject>
+<dc:subject>Texas State Parks</dc:subject>
+
+<dc:creator>P.M.Bryant</dc:creator>
+<dc:date>2012-12-31T14:06:14-06:00</dc:date>
+</item>
+<item rdf:about="https://pmbryant.typepad.com/b_and_b/2011/12/texas-parks-and-wildlife-department-is-seeking-donations-in-order-to-keep-our-state-parks-open.html">
+<title>Texas Parks and Wildlife Department is seeking donations in order to keep our state parks open</title>
+<link>https://pmbryant.typepad.com/b_and_b/2011/12/texas-parks-and-wildlife-department-is-seeking-donations-in-order-to-keep-our-state-parks-open.html</link>
+<description>Texas has been hit with a record drought over the past 15 months. The first few weeks of December saw a little relief, but forecasts call for the drought to likely continue well into next year. Apparently the Texas parks...</description>
+<content:encoded>&lt;p&gt;Texas has been hit with a record drought over the past 15 months.&amp;#0160; The first few weeks of December saw a little relief, but forecasts call for the drought to likely continue well into next year.&lt;br /&gt;&lt;br /&gt;Apparently the Texas parks system has been hit hard in the budget as a result, and they are now asking for people to send donations to help keep our state parks open.&amp;#0160; &lt;br /&gt;&lt;br /&gt;Please consider donating if you love Texas state parks.&amp;#0160; You can do so at the website of the &lt;a href=&quot;http://www.tpwd.state.tx.us/spdest/parkinfo/help/?utm_campaign=SPFundraising&amp;amp;utm_medium=PR&amp;amp;utm_source=PressRelease.&quot; target=&quot;_self&quot;&gt;Texas Parks and Wildlife Department&lt;/a&gt;:&lt;/p&gt;
+&lt;p style=&quot;padding-left: 60px;&quot;&gt;&lt;span style=&quot;color: #033d21;&quot;&gt;Record drought and heat, devastating wildfires, and a drop in visitation have led to a critical situation for state parks.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;padding-left: 60px;&quot;&gt;&lt;span style=&quot;color: #033d21;&quot;&gt;We need to raise $4.6 million to keep state parks operating, and we can&amp;#39;t do it without you.&lt;/span&gt;&lt;/p&gt;
+&lt;h4 style=&quot;padding-left: 60px;&quot;&gt;&lt;span style=&quot;color: #033d21;&quot;&gt;There are three simple ways you can help:&lt;/span&gt;&lt;/h4&gt;
+&lt;p style=&quot;padding-left: 90px;&quot;&gt;1. &lt;span style=&quot;color: #033d21;&quot;&gt;Make a year-end, tax-deductible donation.&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;color: #033d21;&quot;&gt;2. Make a donation when it&amp;#39;s time for you to renew your vehicle registration.&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;color: #033d21;&quot;&gt;3. Most importantly, because visitor fees pay for about half of all park operating costs, visit a state park this holiday season.&lt;/span&gt;&lt;/p&gt;
+&lt;ol style=&quot;padding-left: 60px;&quot;&gt; &lt;/ol&gt;
+&lt;p style=&quot;padding-left: 60px;&quot;&gt;&lt;span style=&quot;color: #033d21;&quot;&gt;Please act now, to help keep Texas State Parks open for everyone to enjoy. Our state parks won&amp;#39;t be the same without you.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;padding-left: 60px;&quot;&gt;&lt;span style=&quot;color: #033d21;&quot;&gt;Thank you,&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;color: #033d21;&quot;&gt;Carter Smith&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;color: #033d21;&quot;&gt;TPWD Executive Director&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: #033d21;&quot;&gt;&lt;span style=&quot;color: #111111;&quot;&gt;In case it helps out, here&amp;#39;s a scene I captured at Guadalupe River State Park north of San Antonio a few weeks ago.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: #033d21;&quot;&gt;&lt;span style=&quot;color: #111111;&quot;&gt; &lt;a href=&quot;http://pmbryant.typepad.com/.a/6a00d83451ffec69e20162fec9a47a970d-pi&quot; style=&quot;float: left;&quot;&gt;&lt;img alt=&quot;GuadalupeRiverDecember2011&quot; border=&quot;0&quot; class=&quot;asset  asset-image at-xid-6a00d83451ffec69e20162fec9a47a970d image-full&quot; src=&quot;https://pmbryant.typepad.com/.a/6a00d83451ffec69e20162fec9a47a970d-800wi&quot; style=&quot;margin: 0px 5px 5px 0px;&quot; title=&quot;GuadalupeRiverDecember2011&quot; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</content:encoded>
+
+
+<dc:subject>Nature</dc:subject>
+<dc:subject>Texas</dc:subject>
+<dc:subject>Texas State Parks</dc:subject>
+
+<dc:creator>P.M.Bryant</dc:creator>
+<dc:date>2011-12-31T13:05:38-06:00</dc:date>
+</item>
+<item rdf:about="https://pmbryant.typepad.com/b_and_b/2011/02/the-republican-party-launches-fight-against-american-workers.html">
+<title>The Republican party launches fight against American workers</title>
+<link>https://pmbryant.typepad.com/b_and_b/2011/02/the-republican-party-launches-fight-against-american-workers.html</link>
+<description>At TPMCafe, Robert Reich has a good summary of how Republican party is pitting Americans against Americans in oder for their obscenely wealthy patrons to re-assert control over the country and the vast majority of its money and resources. He...</description>
+<content:encoded>&lt;p&gt;At TPMCafe, Robert Reich has a good summary of how Republican party is pitting Americans against Americans in oder for their obscenely wealthy patrons to re-assert control over the country and the vast majority of its money and resources.&amp;#0160; He &lt;a href=&quot;http://tpmcafe.talkingpointsmemo.com/2011/02/18/the_republican_strategy/&quot; target=&quot;_self&quot;&gt;begins&lt;/a&gt;:&lt;/p&gt;
+&lt;p style=&quot;padding-left: 60px;&quot;&gt;&lt;span style=&quot;color: #3b5738;&quot;&gt;The Republican strategy is to split the vast middle and working class  - pitting unionized workers against non-unionized, public-sector  workers against non-public, older workers within sight of Medicare and  Social Security against younger workers who don&amp;#39;t believe these programs  will be there for them, and the poor against the working middle class.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;padding-left: 60px;&quot;&gt;&lt;span style=&quot;color: #3b5738;&quot;&gt;By splitting working America along these lines, Republicans want  Americans to believe that we can no longer afford to do what we need to  do as a nation. They hope to deflect attention from the increasing share  of total income and wealth going to the richest 1 percent while the  jobs and wages of everyone else languish.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&quot;http://www.csmonitor.com/USA/Politics/2011/0217/Union-battle-echoes-beyond-Wisconsin-We-re-fighting-for-our-very-existence&quot; target=&quot;_self&quot;&gt;assault on workers&amp;#39; rights&lt;/a&gt; in Wisconsin recently launched by its new governor Scott Walker is only one particularly visible and intense battle.&amp;#0160; Those of us who don&amp;#39;t want to see the country fall into the control of &amp;quot;robber barons&amp;quot; reminiscent of the late 19th century should &lt;a href=&quot;http://www.wisaflcio.org/index.cfm?action=article&amp;amp;articleID=e853549c-2ec7-40b6-954c-c6b096b09e72&quot; target=&quot;_self&quot;&gt;stand with Wisconsin workers&lt;/a&gt;, and those of other states, in this battle.&lt;/p&gt;
+&lt;p&gt;&amp;#0160;&lt;/p&gt;</content:encoded>
+
+
+<dc:subject>Current Affairs</dc:subject>
+<dc:subject>Economic Issues</dc:subject>
+<dc:subject>Republicans</dc:subject>
+
+<dc:creator>P.M.Bryant</dc:creator>
+<dc:date>2011-02-19T14:19:39-06:00</dc:date>
+</item>
+<item rdf:about="https://pmbryant.typepad.com/b_and_b/2010/12/no-more-swap-texas-gets-a-new-state-park-on-the-devils-river-and-can-keep-the-old-one.html">
+<title>No more swap.  Texas gets a new state park on the Devils River and can keep the old one.</title>
+<link>https://pmbryant.typepad.com/b_and_b/2010/12/no-more-swap-texas-gets-a-new-state-park-on-the-devils-river-and-can-keep-the-old-one.html</link>
+<description>I was surprised and encouraged to hear this news. Instead of losing access to a large, remote natural area in order to gain another, smaller, but more accessible, one, the people of Texas will be able to use both thanks...</description>
+<content:encoded>&lt;p&gt;I was surprised and encouraged to hear this news.&amp;#0160; Instead of &lt;a href=&quot;http://pmbryant.typepad.com/b_and_b/2010/10/state-park-swap-in-the-works.html&quot; target=&quot;_self&quot;&gt;losing access&lt;/a&gt; to a large, remote natural area in order to gain another, smaller, but more accessible, one, the people of Texas will be able to use both thanks to private donations.&amp;#0160;&lt;/p&gt;
+&lt;p&gt;From today&amp;#39;s &lt;a href=&quot;http://www.statesman.com/sports/state-to-buy-devils-river-ranch-1136646.html&quot; target=&quot;_self&quot;&gt;Austin American-Statesman&lt;/a&gt;:&lt;/p&gt;
+&lt;p style=&quot;padding-left: 60px;&quot;&gt;&lt;span style=&quot;color: #033d21;&quot;&gt;Using a remarkable pool of private contributions totaling more than $10  million, the commission agreed to buy the Devils River Ranch from  Dallas-area home builder Rod Sanders for $13 million.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;padding-left: 60px;&quot;&gt;&lt;span style=&quot;color: #033d21;&quot;&gt;The ranch fronts the east side of the Devils River for about 10 miles before  the river begins merging with the Amistad International Reservoir on the Rio  Grande near Del Rio. The ranch, which is largely desert scrub, includes a  large lodge, several other residences and an airstrip.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;padding-left: 60px;&quot;&gt;&lt;span style=&quot;color: #033d21;&quot;&gt;The Devils River State Natural Area also is on the east side of the river  about 13 miles upstream, and the two properties will compose a single state  nature complex on the river.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;padding-left: 60px;&quot;&gt;&lt;span style=&quot;color: #033d21;&quot;&gt;The purchase means that the Texas Parks and Wildlife Department now controls  about 38,000 acres adjacent to Devils River, which is only 90 miles long but  is regarded as the purest natural waterway in Texas and is considered sacred  by anglers, paddlers, campers, hikers and wildlife lovers.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;padding-left: 60px;&quot;&gt;&lt;span style=&quot;color: #033d21;&quot;&gt;The deal was in contrast to a land swap proposal in early November in which  the state and Sanders would have exchanged ownership of the two large  tracts, and Sanders would have received $8 million in cash.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;I&amp;#39;m looking forward to checking this place out.&lt;/p&gt;</content:encoded>
+
+
+<dc:subject>Texas</dc:subject>
+<dc:subject>Texas State Parks</dc:subject>
+
+<dc:creator>P.M.Bryant</dc:creator>
+<dc:date>2010-12-21T09:08:38-06:00</dc:date>
+</item>
+<item rdf:about="https://pmbryant.typepad.com/b_and_b/2010/12/obamas-new-direction.html">
+<title>Obama&#39;s new direction?</title>
+<link>https://pmbryant.typepad.com/b_and_b/2010/12/obamas-new-direction.html</link>
+<description>How is Obama going to handle the Republicans who are virtually unanimously out to destroy him? As Paul Krugman relates, his recent words and actions are not a good sign. I hope this changes very soon. Mr. Obama’s [freezing federal...</description>
+<content:encoded>&lt;p&gt;How is Obama going to handle the Republicans who are virtually unanimously out to destroy him?&amp;#0160; As &lt;a href=&quot;http://www.nytimes.com/2010/12/03/opinion/03krugman.html?hp&quot; target=&quot;_self&quot;&gt;Paul Krugman&lt;/a&gt; relates, his recent words and actions are not a good sign.&amp;#0160; I hope this changes very soon.&lt;/p&gt;
+&lt;p style=&quot;padding-left: 60px;&quot;&gt;&lt;span style=&quot;color: #033d21;&quot;&gt;Mr. Obama’s [freezing federal workers&amp;#39;] pay ploy might, just might, have been justified if he  had used the announcement of a freeze as an occasion to take a strong  stand against Republican demands  —  to declare that at a time when  deficits are an important issue, tax breaks for the wealthiest aren’t  acceptable. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;padding-left: 60px;&quot;&gt;&lt;span style=&quot;color: #033d21;&quot;&gt;But he didn’t. Instead, he apparently intended the pay freeze  announcement as a peace gesture to Republicans the day before a  bipartisan summit. At that meeting, Mr. Obama, who has faced two years  of complete scorched-earth opposition, declared that he had failed to  reach out sufficiently to his implacable enemies. He did not, as far as  anyone knows, wear a sign on his back saying “Kick me,” although he  might as well have.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;I do remember that there were times in 1995 after the last Republican takeover during a Democratic administration when I was about completely fed up with Bill Clinton.&amp;#0160; His signing of the &lt;a href=&quot;http://www.hcn.org/issues/89/2748&quot; target=&quot;_self&quot;&gt;salvage logging rider&lt;/a&gt;, suspending environmental laws to permit accelerated logging in U.S. National Forests, was almost the last straw for me.&amp;#0160; Fortunately Clinton realized his mistakes and turned things around in time.&lt;/p&gt;</content:encoded>
+
+
+<dc:subject>Economic Issues</dc:subject>
+<dc:subject>Environmental Issues</dc:subject>
+<dc:subject>Politics</dc:subject>
+
+<dc:creator>P.M.Bryant</dc:creator>
+<dc:date>2010-12-03T20:25:14-06:00</dc:date>
+</item>
+<item rdf:about="https://pmbryant.typepad.com/b_and_b/2010/11/now-is-the-time-for-the-paycheck-fairness-act.html">
+<title>Now is the time for the Paycheck Fairness Act</title>
+<link>https://pmbryant.typepad.com/b_and_b/2010/11/now-is-the-time-for-the-paycheck-fairness-act.html</link>
+<description>The Paycheck Fairness Act may come up for a vote in the U.S. Senate today. This is a critical piece of legislation that addresses several shortfalls in current laws against unequal pay for women. We know from personal experience that...</description>
+<content:encoded>&lt;p&gt;The Paycheck Fairness Act may come up for a vote in the U.S. Senate today.&amp;#0160; This is a critical piece of legislation that addresses several shortfalls in current laws against unequal pay for women.&amp;#0160; We know from personal experience that these shoftfalls need to be addressed before we can hope to achieve the decades-old goal of equal pay.&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://www.whitehouse.gov/blog/2010/11/17/importance-equal-pay-women&quot; target=&quot;_self&quot;&gt;Terrel McSweeny&lt;/a&gt; writes at whitehouse.gov:&lt;/p&gt;
+&lt;p style=&quot;padding-left: 60px;&quot;&gt;&lt;span style=&quot;color: #3b5738;&quot;&gt;Wage discrimination is real.&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span style=&quot;color: #3b5738;&quot;&gt;Just ask Lilly Ledbetter.&amp;#0160; She is a mother.&amp;#0160; She didn’t seek a “less stressful work environment” than her male counter parts.&amp;#0160; And she was paid roughly 30% less.&amp;#0160;&amp;#0160; If she had been allowed to share information about her pay with her colleagues she would have realized she was being paid less than men with less experience.&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span style=&quot;color: #3b5738;&quot;&gt;But Lilly couldn’t bring that case.&amp;#0160; She could have lost her job if she discussed her pay with her colleagues.&amp;#0160; The Paycheck Fairness Act would provide that protection. The author [of a Wall Street Journal op-ed] is right there are a lot of laws aimed at this problem – but because they don’t provide basic tools like pay transparency, discrimination persists. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Also see &lt;a href=&quot;http://boston.com/community/blogs/on_liberty/2010/11/scott_brown_support_paycheck_f.html&quot; target=&quot;_self&quot;&gt;Carol Rose&lt;/a&gt; at boston.com:&lt;/p&gt;
+&lt;p style=&quot;padding-left: 60px;&quot;&gt;&lt;span style=&quot;color: #3b5738;&quot;&gt;Lawmakers meant for The Equal Pay Act of 1963 to ensure equal pay for  equal work, but over time, because of weak remedies and loopholes in  the law, significant disparities in pay persist.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;padding-left: 60px;&quot;&gt;&lt;span style=&quot;color: #3b5738;&quot;&gt;The Paycheck Fairness Act would give employees the legal tools they  need to finally close the wage gap by, for example, requiring employers  to demonstrate that wage differences between men and women doing the  same work have a business justification; prohibiting retaliation against  workers who inquire about their wages; and leveling the playing field  by ensuring that women can obtain the same remedies as those subject to  employment discrimination based on their race or national origin. The  bill would also provide technical assistance to employers and provide  important safeguards for small businesses.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;padding-left: 60px;&quot;&gt;&lt;span style=&quot;color: #3b5738;&quot;&gt; The Paycheck Fairness Act already passed the U.S. House of  Representatives with bipartisan support and now has 40 co-sponsors in  the Senate—more than it has ever had in any previous Congress.   Recently, a report from the White House National Economic Council  underscored the need for the Paycheck Fairness Act as an important step  towards the economic security of women and our nation’s families.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;If we want the tools to eliminate pay discrimination against women, it is time to pass the Paycheck Fairness Act.&lt;/p&gt;</content:encoded>
+
+
+<dc:subject>Congress</dc:subject>
+<dc:subject>Economic Issues</dc:subject>
+<dc:subject>Fair Pay</dc:subject>
+
+<dc:creator>P.M.Bryant</dc:creator>
+<dc:date>2010-11-17T09:28:41-06:00</dc:date>
+</item>
+<item rdf:about="https://pmbryant.typepad.com/b_and_b/2010/10/state-park-swap-in-the-works.html">
+<title>State Park swap in the works?</title>
+<link>https://pmbryant.typepad.com/b_and_b/2010/10/state-park-swap-in-the-works.html</link>
+<description>Potentially interesting maneuvers at Texas Parks and Wildlife. They appear to be in a hurry to swap the existing, remote, Devils River State Natural Area for a somewhat smaller, more accessible ranch downstream. I&#39;m not sure what to think of...</description>
+<content:encoded>&lt;p&gt;Potentially interesting maneuvers at Texas Parks and Wildlife.&amp;#0160; They appear to be in a hurry to swap the existing, remote, Devils River State Natural Area for a somewhat smaller, more accessible ranch downstream.&amp;#0160; I&amp;#39;m not sure what to think of this, but the hurry is definitely unsettling.&lt;/p&gt;
+&lt;p&gt;From &lt;a href=&quot;http://www.chron.com/disp/story.mpl/outdoors/tompkins/7251516.html&quot; target=&quot;_self&quot;&gt;Shannon Tompkins&lt;/a&gt; in the Houston Chronicle:&lt;/p&gt;
+&lt;p id=&quot;id2423406&quot; style=&quot;padding-left: 60px;&quot;&gt;&lt;span style=&quot;color: #3b5738;&quot;&gt;The  swap/purchase would put into Texas Parks and Wildlife Department hands a  &amp;quot;spectacular,&amp;quot; much more accessible-to-the-public tract that could  become &amp;quot;one of the premier parks in our system,&amp;quot; said Scott Boruff, TPWD  deputy executive director.&lt;/span&gt;&lt;/p&gt;
+&lt;p id=&quot;id2423413&quot; style=&quot;padding-left: 60px;&quot;&gt;&lt;span style=&quot;color: #3b5738;&quot;&gt;But  some conservation organizations and paddler/anglers are leery of the  deal, questioning the logic of the transaction, TPWD&amp;#39;s procedures for  informing the public about the proposed exchange and the impact on  paddlers of trading away the only public land along the upper reaches of  the Devils.&lt;/span&gt;&lt;/p&gt;
+&lt;p id=&quot;id2424013&quot; style=&quot;padding-left: 60px;&quot;&gt;&lt;span style=&quot;color: #3b5738;&quot;&gt;&amp;quot;There  are several things that concern us. How are they going to pay for it?  Not just the up-front costs — the $8 million - but development,  operational and maintenance costs, particularly given the economic  issues state agencies are facing,&amp;quot; Ken Kramer, director of the Lone Star  Chapter of the Sierra Club, said of the Devils River swap/purchase  proposal. &amp;quot;And we&amp;#39;re certainly concerned with what seems like a rush to  get this deal done quickly, without much notice and opportunity for  public input. The first I heard about it was last week. It doesn&amp;#39;t  appear to me they are living up to the spirit of their policy on land  transactions.&amp;quot;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;padding-left: 60px;&quot;&gt;&lt;span style=&quot;color: #3b5738;&quot;&gt;...&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;padding-left: 60px;&quot;&gt;&lt;span style=&quot;color: #3b5738;&quot;&gt;The Devils River swap/purchase has been discussed only in  closed-to-the-public executive session of the TPW Commission. The Nov. 4  TPW Commission meeting at which the proposal will be considered for  adoption will be the first meeting at which the transaction is publicly  discussed.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: #3b5738;&quot;&gt;&lt;span style=&quot;color: #111111;&quot;&gt;Hopefully this can be considered with a bit more deliberation and public discussion.&lt;/span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;</content:encoded>
+
+
+<dc:subject>Public lands</dc:subject>
+<dc:subject>Texas</dc:subject>
+<dc:subject>Texas State Parks</dc:subject>
+
+<dc:creator>P.M.Bryant</dc:creator>
+<dc:date>2010-10-18T22:02:32-05:00</dc:date>
+</item>
+<item rdf:about="https://pmbryant.typepad.com/b_and_b/2010/03/three-months-later-health-insurance-reform-imminent.html">
+<title>Three months later... Health insurance reform imminent?</title>
+<link>https://pmbryant.typepad.com/b_and_b/2010/03/three-months-later-health-insurance-reform-imminent.html</link>
+<description>In the three months since my last post on this matter, the push for health care reform has gone through many ups and downs. But now it does really seem to be on the verge of a final vote. Time...</description>
+<content:encoded>&lt;p&gt;In the three months since my last post on this matter, the push for health care reform has gone through many ups and downs.&amp;#0160; But now it does really seem to be on the verge of a final vote.&amp;#0160; Time to push it over the top, for if it goes down, we won&amp;#39;t have another chance for a very long time.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</content:encoded>
+
+
+<dc:subject>Congress</dc:subject>
+<dc:subject>Health Care</dc:subject>
+
+<dc:creator>P.M.Bryant</dc:creator>
+<dc:date>2010-03-20T12:49:28-05:00</dc:date>
+</item>
+<item rdf:about="https://pmbryant.typepad.com/b_and_b/2009/12/health-insurance-reform-imminent.html">
+<title>Health insurance reform imminent?</title>
+<link>https://pmbryant.typepad.com/b_and_b/2009/12/health-insurance-reform-imminent.html</link>
+<description>After so many seemingly interminable months of back-and-forth, is health insurance reform finally imminent? It is looking that way, thankfully. The bill is not as strong as most of us would like, but it still represents a drastic improvement on...</description>
+<content:encoded>&lt;p&gt;After so many seemingly interminable months of back-and-forth, is health insurance reform finally imminent?&amp;#0160; It is &lt;a href=&quot;http://motherjones.com/kevin-drum/2009/12/healthcare-gets-60&quot;&gt;looking that way&lt;/a&gt;, thankfully.&amp;#0160; The bill is not as strong as most of us would like, but it still represents a drastic improvement on the status quo for a huge number of people.&amp;#0160; &lt;a href=&quot;http://www.nytimes.com/2009/12/18/opinion/18krugman.html?em=&amp;amp;adxnnl=1&amp;amp;adxnnlx=1261256735-lgEJUnom4ggf07N8oVFCFw&quot;&gt;Paul Krugman&lt;/a&gt; summed it up in the New York Times a few days ago:&lt;/p&gt;&lt;blockquote&gt;&lt;blockquote&gt;&lt;span style=&quot;color: #007f40;&quot;&gt;[L]et’s all take a deep breath, and consider just how much good
+this bill would do, if passed — and how much better it would be than
+anything that seemed possible just a few years ago. With all its flaws,
+the Senate health bill would be the biggest expansion of the social
+safety net since Medicare, greatly improving the lives of millions.
+Getting this bill would be much, much better than watching health care
+reform fail.&lt;/span&gt;&lt;span style=&quot;color: #007f40;&quot;&gt;At its core, the bill would do two things. First, it
+would prohibit discrimination by insurance companies on the basis of
+medical condition or history: Americans could no longer be denied
+health insurance because of a pre-existing condition, or have their
+insurance canceled when they get sick. Second, the bill would provide
+substantial financial aid to those who don’t get insurance through
+their employers, as well as tax breaks for small employers that do
+provide insurance.&lt;/span&gt;&lt;span style=&quot;color: #007f40;&quot;&gt;All of this would be paid for in large part with the first serious effort ever to rein in rising health care costs.&lt;/span&gt;&lt;p&gt;&lt;span style=&quot;color: #007f40;&quot;&gt;The
+result would be a huge increase in the availability and affordability
+of health insurance, with more than 30 million Americans gaining
+coverage, and premiums for lower-income and lower-middle-income
+Americans falling dramatically. That’s an immense change from where we
+were just a few years ago: remember, not long ago the Bush
+administration and its allies in Congress successfully blocked even a
+modest expansion of health care for children. &lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;p&gt;As the title of his piece says, &amp;quot;Pass the bill!&amp;quot;.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</content:encoded>
+
+
+
+<dc:creator>P.M.Bryant</dc:creator>
+<dc:date>2009-12-19T15:12:24-06:00</dc:date>
+</item>
+<item rdf:about="https://pmbryant.typepad.com/b_and_b/2009/08/regulate-and-reform-the-health-insurance-industry.html">
+<title>Regulate and reform the health insurance industry</title>
+<link>https://pmbryant.typepad.com/b_and_b/2009/08/regulate-and-reform-the-health-insurance-industry.html</link>
+<description>President Obama talks about the need for regulating and reforming the health insurance industry and addresses the ridiculous &quot;death panel&quot; rumors being spread by reform opponents.</description>
+<content:encoded>President Obama talks about the need for regulating and reforming the health insurance industry and addresses the ridiculous &quot;death panel&quot; rumors being spread by reform opponents.
+
+&lt;object height=&quot;505&quot; width=&quot;853&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/a6BcRlMstmU&amp;amp;hl=en&amp;amp;fs=1&amp;amp;rel=0&quot;&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;&gt;&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot;&gt;&lt;embed src=&quot;http://www.youtube.com/v/a6BcRlMstmU&amp;amp;hl=en&amp;amp;fs=1&amp;amp;rel=0&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; height=&quot;505&quot; width=&quot;853&quot;&gt;&lt;/object&gt;</content:encoded>
+
+
+<dc:subject>Health Care</dc:subject>
+
+<dc:creator>P.M.Bryant</dc:creator>
+<dc:date>2009-08-15T14:43:14-05:00</dc:date>
+</item>
+<item rdf:about="https://pmbryant.typepad.com/b_and_b/2009/06/glo_title.html">
+<title>Conservative Supreme Court justices go &quot;activist&quot; against another discrimination law</title>
+<link>https://pmbryant.typepad.com/b_and_b/2009/06/glo_title.html</link>
+<description>The five conservative Supreme Court justices have gone all &quot;activist&quot; in undermining the clear intent of another discrimination law. The previous example was in 2007 with gender discrimination -- a ruling that was remedied by the Lily Ledbetter Fair Pay...</description>
+<content:encoded>&lt;p&gt;The five conservative Supreme Court justices have gone all &amp;quot;activist&amp;quot; in undermining the clear intent of another discrimination law.&amp;#0160; The previous example was in 2007 with gender discrimination -- a ruling that was remedied by the Lily Ledbetter Fair Pay Act.&amp;#0160; This time, in a recent decision, it is with age discrimination.&lt;/p&gt;&lt;p&gt;Employment lawyer Ellen Simon describes what these justices have done in this post at &lt;a href=&quot;http://www.todaysworkplace.org/2009/06/26/new-supreme-court-age-discrimination-decision-will-be-gone-in-a-flash/&quot;&gt;Today&amp;#39;s Workplace&lt;/a&gt;.&amp;#0160; Their argument is rather legalistic, but the intent of the decision is clear -- to make it harder to bring those who discriminate to justice.&amp;#0160; Hopefully Congress will remedy this bad decision soon.&lt;/p&gt;</content:encoded>
+
+
+<dc:subject>Economic Issues</dc:subject>
+<dc:subject>Supreme Court</dc:subject>
+
+<dc:creator>P.M.Bryant</dc:creator>
+<dc:date>2009-06-27T23:13:33-05:00</dc:date>
+</item>
+<item rdf:about="https://pmbryant.typepad.com/b_and_b/2009/06/lost-maples-state-natural-area-is-growing-.html">
+<title>Lost Maples State Natural Area is growing </title>
+<link>https://pmbryant.typepad.com/b_and_b/2009/06/lost-maples-state-natural-area-is-growing-.html</link>
+<description>From the San Antonio Express-News today: For centuries, people have been drawn to the twisting limestone canyons that make up Lost Maples State Natural Area. Lou Waters was one. Now 70, he can hop across white boulders to explore the...</description>
+<content:encoded>&lt;p&gt;From the &lt;a href=&quot;http://www.mysanantonio.com/news/local_news/More_land_for_Lost_Maples.html&quot;&gt;San Antonio Express-News&lt;/a&gt; today:&lt;/p&gt;&lt;p style=&quot;color: #007f40; font-family: Arial; margin-left: 80px;&quot;&gt;For centuries, people have been drawn to the twisting limestone canyons that make up Lost Maples State Natural Area.&lt;/p&gt;
+&lt;p style=&quot;color: #007f40; font-family: Arial; margin-left: 80px;&quot;&gt;Lou Waters was one. Now 70, he can hop across white boulders to explore the grottos like a 10-year-old.&lt;/p&gt;
+&lt;p style=&quot;color: #007f40; font-family: Arial; margin-left: 80px;&quot;&gt;On Friday, he plans to sign paperwork to transfer more than 600
+acres of his neighboring ranch to the Texas Parks and Wildlife
+Department to be added to Lost Maples. Another 100 acres will be
+transferred this fall.&lt;/p&gt;
+&lt;p style=&quot;color: #007f40; font-family: Arial; margin-left: 80px;&quot;&gt;Agency staff said the public should have access to trails on the new
+addition — which is a third of the park&amp;#39;s current size — by 2012.&lt;/p&gt;
+&lt;p style=&quot;color: #007f40; font-family: Arial; margin-left: 80px;&quot;&gt;State appraisers valued the land at more than $2 million, but Waters
+is selling it for $1.5 million because he wants to see the land and its
+Can Creek watershed protected forever.&lt;/p&gt;
+&lt;p style=&quot;color: #007f40; font-family: Arial; margin-left: 80px;&quot;&gt;Land acquisition funds from the Parks and Wildlife Department and a $400,000 federal conservation grant will pay for it.&lt;/p&gt;
+&lt;p style=&quot;color: #007f40; font-family: Arial; margin-left: 80px;&quot;&gt;“You see it and you just want to take care of it,” Waters said.&lt;/p&gt;
+&lt;p style=&quot;color: #007f40; font-family: Arial; margin-left: 80px;&quot;&gt;In a memo explaining the sale, Waters said walking through the Can
+Creek canyons in the fall under the native big-tooth maples was like
+“hiking in a golden-red cathedral.”&lt;/p&gt;
+&lt;p style=&quot;color: #007f40; font-family: Arial; margin-left: 80px;&quot;&gt;His wife, Wanda Waters, said, “It just makes you feel so good that other people are going to be able to enjoy it.”&lt;/p&gt;&lt;p&gt;Lost Maples is about two hour drive west of here and a spectacular park as it is.&amp;#0160; Excellent news that it will soon be about 30% larger.&lt;/p&gt;</content:encoded>
+
+
+<dc:subject>Environmental Issues</dc:subject>
+<dc:subject>Public lands</dc:subject>
+<dc:subject>Texas State Parks</dc:subject>
+
+<dc:creator>P.M.Bryant</dc:creator>
+<dc:date>2009-06-08T20:47:14-05:00</dc:date>
+</item>
+<item rdf:about="https://pmbryant.typepad.com/b_and_b/2009/04/texas-parks-and-wildlife-offered-land-next-to-two-state-parks-will-they-take-it.html">
+<title>Texas Parks and Wildlife offered land next to two state parks.  Will they take it?</title>
+<link>https://pmbryant.typepad.com/b_and_b/2009/04/texas-parks-and-wildlife-offered-land-next-to-two-state-parks-will-they-take-it.html</link>
+<description>From the Hill Country Planning Association: The Hill Country Planning Association asks that you please consider sending two e-mail letters (samples provided (below) to support Tx Parks &amp; Wildlife Commission purchasing 732 acres adjacent to Lost Maples and accepting 3000...</description>
+<content:encoded>&lt;p&gt;From the &lt;a href=&quot;http://www.hillsaround.org/HCPA.htm&quot;&gt;Hill Country Planning Association&lt;/a&gt;:&lt;/p&gt;&lt;p style=&quot;color: #007f40; font-family: Arial; margin-left: 80px;&quot;&gt;The Hill Country Planning Association asks that you &lt;span style=&quot;font-size: 12pt;&quot;&gt;please consider sending &lt;em&gt;two&lt;/em&gt;
+e-mail letters (samples provided (below) to support Tx Parks &amp;amp;
+Wildlife Commission purchasing 732 acres adjacent to Lost Maples and
+accepting 3000 acres adjacent to Government Canyon.&amp;#0160; My understanding
+is that the state needs to hear public support, or the default position
+would be to decline these opportunities to meet &lt;span class=&quot;yshortcuts&quot; id=&quot;lw_1240666491_0&quot; style=&quot;border-bottom: medium none; background: transparent none repeat scroll 0% 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;&quot;&gt;&lt;span class=&quot;yshortcuts&quot; id=&quot;lw_1240668961_2&quot;&gt;budget cuts&lt;/span&gt;&lt;/span&gt;. &amp;#0160;With sufficient support, they have a good chance of being passed.&amp;#0160;&amp;#0160;&amp;#0160;&lt;/span&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;Thanks&lt;/span&gt;&amp;#0160;&lt;/p&gt;
+&lt;p style=&quot;color: #007f40; font-family: Arial; margin-left: 80px;&quot;&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;****************************************************************************&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;padding-top: 0in; padding-bottom: 0in; margin-bottom: 12pt; line-height: 121%; color: #007f40; font-family: Arial; margin-left: 80px;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 10pt; line-height: 121%;&quot;&gt;Land Purchase - Bandera County:&amp;#0160; &lt;span class=&quot;yshortcuts&quot; id=&quot;lw_1240666491_1&quot; style=&quot;border-bottom: 1px dashed #0066cc;&quot;&gt;&lt;span class=&quot;yshortcuts&quot; id=&quot;lw_1240668961_3&quot; style=&quot;border-bottom: 1px dashed #0066cc; cursor: pointer;&quot;&gt;Lost Maples State Park&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;/span&gt;&lt;/strong&gt;&lt;span style=&quot;font-size: 10pt; line-height: 121%;&quot;&gt;In a meeting &lt;span class=&quot;yshortcuts&quot; id=&quot;lw_1240668961_4&quot; style=&quot;border-bottom: 1px dashed #0066cc; cursor: pointer;&quot;&gt;on May 27, 2009&lt;/span&gt;, the &lt;span class=&quot;yshortcuts&quot; id=&quot;lw_1240666491_2&quot;&gt;&lt;span class=&quot;yshortcuts&quot; id=&quot;lw_1240668961_5&quot; style=&quot;background: transparent none repeat scroll 0% 0%; cursor: pointer; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;&quot;&gt;Texas Parks and Wildlife Commission&lt;/span&gt;&lt;/span&gt;
+(the Commission) will consider the purchase of approximately 732 acres
+of land adjacent to Lost Maples State Park in Bandera County. At this
+meeting the public will have an opportunity to comment on the proposed
+transaction before the Commission takes action. The meeting will start
+at &lt;span class=&quot;yshortcuts&quot; id=&quot;lw_1240668961_6&quot; style=&quot;border-bottom: 1px dashed #0066cc; background: transparent none repeat scroll 0% 0%; cursor: pointer; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;&quot;&gt;9:00 a.m&lt;/span&gt;. at the &lt;span class=&quot;yshortcuts&quot; id=&quot;lw_1240666491_3&quot;&gt;&lt;span class=&quot;yshortcuts&quot; id=&quot;lw_1240668961_7&quot;&gt;Texas Parks and Wildlife Department Headquarters&lt;/span&gt;&lt;/span&gt;, &lt;span class=&quot;yshortcuts&quot; id=&quot;lw_1240666491_4&quot; style=&quot;border-bottom: 1px dashed #0066cc;&quot;&gt;&lt;span class=&quot;yshortcuts&quot; id=&quot;lw_1240668961_8&quot; style=&quot;border-bottom: 1px dashed #0066cc; cursor: pointer;&quot;&gt;4200 Smith School Road, Austin, Texas 78744&lt;/span&gt;&lt;/span&gt;. Prior to the meeting, public comment may be submitted to Ted Hollingsworth, Land Conservation, &lt;span class=&quot;yshortcuts&quot; id=&quot;lw_1240666491_5&quot; style=&quot;border-bottom: 1px dashed #0066cc;&quot;&gt;&lt;span class=&quot;yshortcuts&quot; id=&quot;lw_1240668961_9&quot; style=&quot;border-bottom: 1px dashed #0066cc; cursor: pointer;&quot;&gt;Texas Parks and
+Wildlife Department&lt;/span&gt;&lt;/span&gt;, 4200 Smith School Road, Austin, Texas 78744 or by email at:&amp;#0160; &lt;a href=&quot;http://click.icptrack.com/icp/relay.php?r=19110187&amp;amp;msgid=111836&amp;amp;act=3LE5&amp;amp;c=440928&amp;amp;admin=0&amp;amp;destination=https%3A%2F%2Fapp.icontact.com%2Fmc%2Fcompose%3Fto%3Dted.hollingsworth%2540tpwd.state.tx.us&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;&lt;span style=&quot;color: #1e66ae;&quot;&gt;ted.hollingsworth@tpwd.state.tx.us&lt;/span&gt;&lt;/a&gt; &amp;#0160;or through the TPWD web site at &lt;a href=&quot;http://click.icptrack.com/icp/relay.php?r=19110187&amp;amp;msgid=111836&amp;amp;act=3LE5&amp;amp;c=440928&amp;amp;admin=0&amp;amp;destination=http%3A%2F%2Fwww.tpwd.state.tx.us%2F&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;&lt;span class=&quot;yshortcuts&quot; id=&quot;lw_1240666491_6&quot;&gt;&lt;font color=&quot;#003399&quot;&gt;www.tpwd.state.tx.us&lt;/font&gt;&lt;/span&gt;&lt;/a&gt; .&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;color: #007f40; font-family: Arial; margin-left: 80px;&quot;&gt;Dear Mr. Hollingsworth:&amp;#0160;&lt;/p&gt;
+&lt;p style=&quot;color: #007f40; font-family: Arial; margin-left: 80px;&quot;&gt;I will not be able to attend the &lt;span class=&quot;yshortcuts&quot; id=&quot;lw_1240668961_10&quot; style=&quot;border-bottom: 1px dashed #0066cc; cursor: pointer;&quot;&gt;May 27, 2009&lt;/span&gt;
+meeting described below.&amp;#0160; I wish to submit my opinion for public
+comment.&amp;#0160; I strongly support purchase of land adjacent to Lost Maples
+State Park in Bandera County.&amp;#0160; Lost Maples is a popular destination and
+is at risk of having its natural resources decline through overuse.&amp;#0160;
+Purchasing an additional 732 acres of land adjacent to Lost Maples will
+help protect more of this invaluable and rapidly vanishing habitat.&lt;/p&gt;
+&lt;p style=&quot;color: #007f40; font-family: Arial; margin-left: 80px;&quot;&gt;&amp;#0160;&lt;/p&gt;
+&lt;p style=&quot;color: #007f40; font-family: Arial; margin-left: 80px;&quot;&gt;Sincerely,&lt;/p&gt;
+&lt;p style=&quot;color: #007f40; font-family: Arial; margin-left: 80px;&quot;&gt;(name and address)&lt;/p&gt;
+&lt;p style=&quot;padding-top: 0in; padding-bottom: 0in; margin-bottom: 12pt; line-height: 121%; color: #007f40; font-family: Arial; margin-left: 80px;&quot;&gt;&lt;span style=&quot;font-size: 10pt; line-height: 121%;&quot;&gt;****************************************************************************&lt;br /&gt;
+&lt;strong&gt;Acceptance of Land Donation - &lt;span class=&quot;yshortcuts&quot; id=&quot;lw_1240666491_7&quot;&gt;&lt;span class=&quot;yshortcuts&quot; id=&quot;lw_1240668961_11&quot;&gt;Bexar County:&amp;#0160; Government&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;yshortcuts&quot; id=&quot;lw_1240666491_8&quot; style=&quot;border-bottom: 1px dashed #0066cc;&quot;&gt;Canyon State Park&lt;/span&gt;&lt;br /&gt;
+&lt;/strong&gt;&lt;br /&gt;
+In a meeting on Ma7 27, 2009, the Texas Parks and Wildlife Commission
+(the Commission) will consider accepting a donation of approximately
+3,000 acres adjacent to &lt;span class=&quot;yshortcuts&quot; id=&quot;lw_1240666491_9&quot;&gt;Government Canyon State Park&lt;/span&gt; in &lt;span class=&quot;yshortcuts&quot; id=&quot;lw_1240666491_10&quot;&gt;&lt;span class=&quot;yshortcuts&quot; id=&quot;lw_1240668961_12&quot; style=&quot;border-bottom: 1px dashed #0066cc; cursor: pointer;&quot;&gt;Bexar County&lt;/span&gt;&lt;/span&gt;.
+&amp;#0160;At this meeting the public will have an opportunity to comment on the
+proposed transaction before the Commission takes action. &amp;#0160;The meeting
+will start at 9:00 a.m. at the Texas Parks and Wildlife Department
+Headquarters, 4200 Smith School Road, Austin, Texas 78744. &amp;#0160;Prior to
+the meeting, public comment may be submitted to Ted Hollingsworth, Land
+Conservation, &lt;span class=&quot;yshortcuts&quot; id=&quot;lw_1240668961_13&quot;&gt;Texas Parks and Wildlife Department&lt;/span&gt;, 4200 Smith School Road, Austin, Texas 78744 or by email at:&amp;#0160; &lt;a href=&quot;http://click.icptrack.com/icp/relay.php?r=19110187&amp;amp;msgid=111836&amp;amp;act=3LE5&amp;amp;c=440928&amp;amp;admin=0&amp;amp;destination=https%3A%2F%2Fapp.icontact.com%2Fmc%2Fcompose%3Fto%3Dted.hollingsworth%2540tpwd.state.tx.us&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;&lt;span style=&quot;color: #1e66ae;&quot;&gt;ted.hollingsworth@tpwd.state.tx.us&lt;/span&gt;&lt;/a&gt; &amp;#0160;or through the TPWD web site at &lt;a href=&quot;http://click.icptrack.com/icp/relay.php?r=19110187&amp;amp;msgid=111836&amp;amp;act=3LE5&amp;amp;c=440928&amp;amp;admin=0&amp;amp;destination=http%3A%2F%2Fwww.tpwd.state.tx.us%2F&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;&lt;font color=&quot;#003399&quot;&gt;&lt;span class=&quot;yshortcuts&quot; id=&quot;lw_1240668961_14&quot;&gt;www.tpwd.state.tx.us&lt;/span&gt;&lt;/font&gt;&lt;/a&gt; .&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;color: #007f40; font-family: Arial; margin-left: 80px;&quot;&gt;Dear Mr. Hollingsworth:&lt;/p&gt;
+&lt;p style=&quot;color: #007f40; font-family: Arial; margin-left: 80px;&quot;&gt;I
+will not be able to attend the May 27, 2009 meeting described below.&amp;#0160; I
+wish to submit my opinion for public comment.&amp;#0160; I strongly support
+TP&amp;amp;W Commission accepting donation of 3000 acres adjacent to
+Government Canyon State Park in Bexar County.&amp;#0160; &lt;span class=&quot;yshortcuts&quot; id=&quot;lw_1240668961_15&quot; style=&quot;border-bottom: 1px dashed #0066cc; cursor: pointer;&quot;&gt;Government Canyon State Park&lt;/span&gt; is a wonderful asset that the public is just starting to utilize.&amp;#0160;&amp;#0160; With such close proximity &lt;span class=&quot;yshortcuts&quot; id=&quot;lw_1240666491_11&quot;&gt;&lt;span class=&quot;yshortcuts&quot; id=&quot;lw_1240668961_16&quot;&gt;to San Antonio, it&lt;/span&gt;&lt;/span&gt;
+is expected the park will be heavily utilized.&amp;#0160; The City of San Antonio
+Parks and Natural Areas are already over-utilized and crowded.&amp;#0160;
+Accepting donation of additional land adjacent to Government Canyon
+will help protect more of this invaluable and rapidly vanishing habitat.&lt;/p&gt;
+&lt;p style=&quot;color: #007f40; font-family: Arial; margin-left: 80px;&quot;&gt;&amp;#0160;&lt;/p&gt;
+&lt;p style=&quot;color: #007f40; font-family: Arial; margin-left: 80px;&quot;&gt;Sincerely,&lt;/p&gt;
+&lt;p style=&quot;color: #007f40; font-family: Arial; margin-left: 80px;&quot;&gt;(name and address)&lt;/p&gt;&lt;br /&gt;</content:encoded>
+
+
+<dc:subject>Environmental Issues</dc:subject>
+<dc:subject>Public lands</dc:subject>
+<dc:subject>Texas</dc:subject>
+<dc:subject>Texas State Parks</dc:subject>
+
+<dc:creator>P.M.Bryant</dc:creator>
+<dc:date>2009-04-25T09:37:38-05:00</dc:date>
+</item>
+<item rdf:about="https://pmbryant.typepad.com/b_and_b/2009/02/misleading-headline-of-the-day.html">
+<title>Misleading headline of the day</title>
+<link>https://pmbryant.typepad.com/b_and_b/2009/02/misleading-headline-of-the-day.html</link>
+<description>New York Times headline today: By Slim Margin, Senate Advances Stimulus Bill A more accurate description: Senate Advances Stimulus Bill 61 to 36 &quot;Slim-margin&quot; is of course referring to the Senate rules that allow any 40 Senators to block legislation....</description>
+<content:encoded>&lt;p&gt;New York Times headline &lt;a href=&quot;http://www.nytimes.com/2009/02/10/washington/10stimulus.html?_r=1&amp;amp;hp&quot;&gt;today&lt;/a&gt;:&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;div style=&quot;margin-left: 40px;&quot;&gt;&lt;span style=&quot;font-size: 18px; font-family: Arial;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;By Slim Margin, Senate Advances Stimulus Bill&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;A more accurate description:&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;div style=&quot;margin-left: 40px;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 18px; font-family: Arial;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Senate Advances Stimulus Bill 61 to 36&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;br /&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&amp;quot;Slim-margin&amp;quot; is of course referring to the Senate rules that allow any 40 Senators to block legislation.&amp;#0160; But anywhere else a 61 to 36 margin would be considered decisive -- even perhaps a &amp;quot;landslide&amp;quot;.&lt;/p&gt;</content:encoded>
+
+
+<dc:subject>Congress</dc:subject>
+<dc:subject>Economic Issues</dc:subject>
+
+<dc:creator>P.M.Bryant</dc:creator>
+<dc:date>2009-02-09T20:41:52-06:00</dc:date>
+</item>
+<item rdf:about="https://pmbryant.typepad.com/b_and_b/2009/01/after-15-years-congress-returns-to-the-job-of-protecting-our-public-lands.html">
+<title>After 15 years, Congress returns to the job of protecting our public lands</title>
+<link>https://pmbryant.typepad.com/b_and_b/2009/01/after-15-years-congress-returns-to-the-job-of-protecting-our-public-lands.html</link>
+<description>I wasn&#39;t able to pay it much attention at the time due to all the excitement surrounding Obama&#39;s inauguration and the major concern over our economic downturn, but about ten days ago, the Senate passed a measure that purports to...</description>
+<content:encoded>&lt;p&gt;I wasn&amp;#39;t able to pay it much attention at the time due to all the excitement surrounding Obama&amp;#39;s inauguration and the major concern over our economic downturn, but about ten days ago, the Senate passed a measure that purports to &lt;a href=&quot;http://wilderness.org/content/key-legislation-omnibus-public-lands-management-act-2009&quot;&gt;protect&lt;/a&gt; large areas of federal lands in numerous states.&amp;#0160; &lt;/p&gt;&lt;p&gt;According to at least one news article (from &lt;a href=&quot;http://www.ens-newswire.com/ens/jan2009/2009-01-15-094.asp&quot;&gt;ENN&lt;/a&gt;), it provides &amp;quot;the largest expansion of the National Wilderness Preservation System in 15 years.&amp;quot;&amp;#0160; The one 15 years ago must be the &lt;a href=&quot;http://angeles.sierraclub.org/news/SS_2005-01/cdpa.asp&quot;&gt;California Desert Protection Act&lt;/a&gt;, passed in October 1994 as one of the last acts of the Democratic-controlled Congress.&amp;#0160; The Gingrich/DeLay GOP, and their antipathy to the very concept of land that belongs to everyone in the country, took over Congress a few weeks later.&lt;/p&gt;&lt;p&gt;Virtually ever since then, we&amp;#39;ve had to play defense in public lands protection, including &lt;a href=&quot;http://pmbryant.typepad.com/b_and_b/2007/02/bush_trying_aga.html&quot;&gt;numerous fights&lt;/a&gt; over preventing the Bush administration and the Republican-controlled Congress from selling off our lands to developers and other special interests.&amp;#0160; It is nice to be on the offensive again.&lt;/p&gt;</content:encoded>
+
+
+<dc:subject>Congress</dc:subject>
+<dc:subject>Environmental Issues</dc:subject>
+<dc:subject>Public lands</dc:subject>
+
+<dc:creator>P.M.Bryant</dc:creator>
+<dc:date>2009-01-24T17:39:06-06:00</dc:date>
+</item>
+
+
+</rdf:RDF>
+
+<!-- ph=1 -->

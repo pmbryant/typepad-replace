@@ -1,0 +1,355 @@
+/*============ TypePad Theme // STRUCTURE - SIDEBAR =========================*/
+
+/* Set bottom margin to change spacing between sidebar modules */
+.module {
+	overflow: hidden;
+	padding: 0 10px;
+	margin-bottom: 15px; 
+	}
+
+.module-header {
+	margin: 0;
+	}
+
+.module-content {
+	margin: 0;
+	}
+
+.module-list {
+	list-style:none;
+	margin: 0;
+	padding: 5px 0;
+	}
+
+/* Spacing between list items */
+.module-list-item {
+	margin-bottom: 4px;
+	}
+
+/* "More..." in long archivelist */
+.module-more {
+	margin: 0;
+	}
+
+/* Additional module spacing */
+.module-search,
+.module-photo {
+	padding-bottom: 12px;
+	}
+
+/* Other Accounts - padding between Grid and Title */
+.module-elsewhere .module-content {
+	padding: 8px 0 5px;
+	}
+
+/* Other Accounts - padding between List and Title */
+.module-elsewhere .typelist-plain {
+	padding: 2px 0;
+	}
+		
+/* Photo Albums */
+.module-galleries img {
+	width: 75px;
+	padding: 0 0 5px;
+	}
+
+
+/* TypeList - Images & Description */
+
+.typelist-thumbnailed { 
+	margin: 0 0 20px; 
+	}
+
+.typelist-thumbnailed .module-list-item {
+	display: block;
+	clear: both;
+	margin: 0;
+	}
+
+/* positioniseverything.net/easyclearing.html */
+.typelist-thumbnailed .module-list-item:after {
+	content: " ";
+	display: block;
+	visibility: hidden;
+	clear: both;
+	height: 0.1px;
+	font-size: 0.1em;
+	line-height: 0;
+	}
+
+.typelist-thumbnail {
+	float: left;
+	margin: 0 5px 0 0;
+	text-align: center;
+	vertical-align: middle;
+	}
+
+.typelist-thumbnail img { 
+	margin: 4px 0px; 
+	}
+
+.typelist-description {
+	margin: 0;
+	padding: 5px;
+	}
+
+.typelist-no-description {
+	margin: 10px 0;
+	}
+
+
+
+/* SEARCH MODULE -----------------------------*/
+
+.module-search .module-header {
+	padding: 0 0 8px;
+	}
+
+.module-search form {
+	margin: 0;
+	padding: 0;
+	}
+
+.module-search input[type="search"] {
+	display: inline;
+	margin: 0;
+	padding: 0;
+	width: 53%;
+	}
+
+.module-search input[type="submit"] {
+	display: inline;
+	margin: -1px 0 0;
+	padding: 0;
+	}
+
+
+
+/* Mini-Profile Module */
+
+/* Plain Mini-profile */
+.module-miniprofile  {
+	background: transparent;
+	border: 0;
+	border-radius: 0;
+	margin: 0;
+	padding: 0 10px 30px;
+	}
+
+.module-miniprofile .module-content {
+	font-size: 70%;
+	margin: 0;
+	}
+
+.module-miniprofile .mp-container {
+	display: inline-block; 
+	background: #fafafa;
+	background: rgba(0, 0, 0, 0.025);
+	border-width: 1px;
+	border-style: solid;
+	border-color: #f2f2f2;
+	border-color: rgba(0, 0, 0, 0.05);
+	padding: 10px;
+	text-align: left;
+	}
+
+
+.layout-one-column .module-miniprofile .mp-container {
+	width: 190px;
+	margin: 0px;
+	}
+
+.module-miniprofile .mp-counts,
+.module-miniprofile .mp-connections {
+	margin: 15px auto 0px;
+ 	display: block;
+	clear: both;
+	}
+
+.module-miniprofile .mp-avatar {
+	display: inline;
+	float: left;
+	width: 50px;
+	}
+
+.module-miniprofile .mp-avatar a {
+	display: block;
+	}
+
+.module-miniprofile .mp-details {
+	margin-left: 60px;
+	}
+
+.module-miniprofile .mp-name {
+	margin-bottom: 5px;
+	font-size: 1.25em;
+	}
+
+.module-miniprofile .mp-following,
+.module-miniprofile .mp-followers {
+	display: inline;
+	float: left;
+	width: 50%;
+	text-align: center;
+	margin: 0px auto;
+	}
+
+.module-miniprofile .mp-following .mp-inner {
+	padding-right: 5px;
+	}
+
+.module-miniprofile .mp-followers .mp-inner {
+	padding-left: 5px;
+	}
+
+.module-miniprofile .mp-counts a {
+	display: block;
+	padding: 5px;
+	text-decoration: none;
+	background: #f2f2f2;
+	background: rgba(0, 0, 0, 0.05);
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	}
+
+.module-miniprofile .mp-counts a:hover {
+	text-decoration: none;
+	background: #e5e5e5;
+	background: rgba(0, 0, 0, 0.1);
+	}
+
+.module-miniprofile .mp-counts span {
+	display: block;
+	}
+
+.module-miniprofile .mp-count {
+	font-size: 1.25em;
+	}
+
+.module-miniprofile .mp-connections span,
+.module-miniprofile .mp-connections a,
+.module-miniprofile .mp-connections img {
+	display: block;
+	}
+
+.module-miniprofile .mp-connections span {
+	float: left;
+	padding: 0 1px 1px 0;
+	}
+
+
+/* Calendar ---------------------------- */
+
+.module-calendar {
+	padding: 0 0 18px 10px;
+	margin: 0;
+	}
+
+.module-calendar .module-header {
+	padding: 0;
+	margin: 0;
+	}
+
+.module-calendar .module-content {
+	font-size: 11px;
+	margin: 0;
+	padding: 0;
+	float: left;
+	}
+
+.module-calendar .module-content table {
+	margin: 0 auto;
+	text-align: left;
+	width: auto;
+	}
+
+.module-calendar .module-content table td a {
+	font-size: 11px;
+	font-weight: 600;
+	}
+
+.module-content table th {
+	font-weight: 400;
+	font-family: "Lucida Console";
+	margin: 0; 
+	padding: 0;
+	}
+
+.module-calendar .module-content table th,.module-calendar .module-content table td {
+	margin: 0;
+	text-align: center;
+	}
+
+
+/* Category Cloud ---------------------------- */
+.module-category-cloud .module-list {
+	margin-left: 0;
+	margin-right: 0;
+	}
+
+.module-category-cloud .module-list-item {
+	background: none;
+	display: inline;
+	line-height: 1.2em;
+	margin: 0;
+	padding: 0;
+	}
+
+.module-category-cloud .cloud-weight-1 { font-size:.85em; }
+.module-category-cloud .cloud-weight-2 { font-size:.9em; } 
+.module-category-cloud .cloud-weight-3 { font-size:.95em; }
+.module-category-cloud .cloud-weight-4 { font-size:1em; }
+.module-category-cloud .cloud-weight-5 { font-size:1.125em; }
+.module-category-cloud .cloud-weight-6 { font-size:1.25em; }
+.module-category-cloud .cloud-weight-7 { font-size:1.3em; }
+.module-category-cloud .cloud-weight-8 { font-size:1.35em; }
+.module-category-cloud .cloud-weight-9 { font-size:1.4em; }
+.module-category-cloud .cloud-weight-10 { font-size:1.5em; }
+
+/* Pinterest Widget ---------------------------- */
+
+#display-pinterest1,
+#display-pinterest2,
+#display-pinterest3 {
+       line-height: 0;
+       -webkit-column-gap:   0px;
+       -moz-column-gap:      0px;
+       column-gap:           0px;
+       margin-bottom: 10px;
+}
+
+
+#display-pinterest1 img,
+#display-pinterest2 img,
+#display-pinterest3 img {
+       width: 100% !important;
+       height: auto !important;
+}
+
+
+.ppo {
+        overflow:hidden;
+        display: inline-block;
+        border: 1px solid transparent !important;
+}
+
+.module-pinterest img:hover {
+        opacity:0.7;
+        filter:alpha(opacity=70);
+}
+
+
+.pinterest-badge { margin: 15px auto 20px; }
+
+.pinterest-user-title {
+        text-align: left;
+        clear: both;
+        margin: 10px auto 5px;
+}
+
+.pinterest-user-title a {
+        color: #444;
+        padding: 0 0 5px 18px;
+        background: transparent url(../../../images/profile/service_icons/pinterest.png) 0 0 no-repeat;
+}

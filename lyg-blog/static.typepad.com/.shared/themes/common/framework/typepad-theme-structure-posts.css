@@ -1,0 +1,282 @@
+﻿@import url(../../../css/featherlight-gallery.css);
+/*============ TypePad Theme // STRUCTURE - POSTS ===========================*/
+
+/* Post Date Header */
+h2.date-header {
+    clear: both;
+    margin: 0;
+    padding: 0 0 6px;
+}
+
+/* Container for the whole entry piece through to the post divider - 25px/25px spacing between posts */
+.entry {
+    margin: 0 0 25px;
+    padding: 0 0 25px;
+}
+
+/* Post Title */
+h3.entry-header {
+    display: table;
+    margin: 0;
+    padding: 0 0 8px;
+}
+
+/* Featured Post - Title*/
+.entry-featured h3.entry-header {
+    margin: 0;
+    padding: 0 0 8px 0;
+}
+
+/* Featured Post - Post */
+.entry-featured .entry-content {
+    margin: 0 0 10px;
+    padding: 6px 0 0 0;
+}
+
+/* Vertical-align the Title within border */
+h3.entry-header a {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/* Author Pic in Entry Title */
+h3.entry-header .author-photo {
+    margin: 0 3px 0 0;
+}
+
+
+/* Outer Container for the Post Text */
+.entry-content {
+    clear: both;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+/* Inner Container for the Post Text */
+.entry-body,.entry-more {
+    margin: 0 0 5px;
+    padding: 0;
+}
+
+/* Post text paragraph margins */
+.entry-body p,.entry-more p {
+    margin: 0 0 11px;
+    clear: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 10px 0 5px;
+}
+
+ol,ul { clear:both; }
+
+blockquote {
+    margin: 4px 30px 16px; 
+    padding: 12px 20px 0;
+    float: none;
+}
+
+/* clear floated contents in a blockquote so it's at least as high as content */
+blockquote:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+/* Add margin around video */
+.entry-content iframe {
+    margin: 5px auto;
+}
+
+/* Wrapper for photos in posts */
+.photo-wrap {
+    margin: 0;
+    padding: 5px 8px 12px;
+}
+
+/* Fix full-size image scaling in webkit browsers when caption is present */
+.photo-full {
+    width: 100%;
+}
+
+	/* Fix full-size image scaling in all browsers so image does not extend past border of post column */
+	.photo-full {
+		box-sizing: border-box; 
+		-webkit-box-sizing: border-box; 
+		-moz-box-sizing: border-box; 
+		-ms-box-sizing: border-box; 
+			/* reduce scaled width since IE7 doesn't support box-sizing */
+			*width: 99% !important;
+		}
+
+/* Photo Gallery in Posts */
+fieldset.asset-image-multiple {
+    border: 1px solid;
+}
+fieldset.asset-image-multiple.lrg-img-mult.noborder {
+    border: 0px solid;
+}
+fieldset.asset-image-multiple.med-img-mult.noborder {
+    border: 0px solid;
+}
+fieldset.asset-image-multiple.small-img-mult.noborder {
+    border: 0px solid;
+}
+legend.asset-image-multiple {
+    border: 1px black solid;
+    margin-left: 1em;
+    padding: 0.2em 0.8em;
+    width: auto;
+    margin-bottom: 0;
+    font-size: inherit;
+}
+legend.asset-image-multiple.noborder {
+    border: 0px solid;
+    margin-left: 1em;
+    padding: 0.2em 0;
+    width: auto;
+    margin-bottom: 0;
+    font-size: inherit;
+}
+div.asset-image-multiple {
+    margin-left: 1em;
+}
+.small-img-mult { width: 320px; }
+.med-img-mult { width: 500px; }
+.lrg-img-mult { max-width: 560px; }
+
+.asset-image-multiple ul {
+	margin: 0;
+	padding: 0;
+    /* border: 1px solid; */
+	}
+
+.asset-image-multiple .asset-thumbnails {
+	margin: 0 0 5px 0;
+	padding: 4px 4px 4px 4px;
+	text-indent: 0;
+	}
+
+.asset-image-multiple .asset-thumbnails img {
+    padding: 4px;
+    }
+
+.asset-image-multiple .asset-thumbnails li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-indent: 0;
+    display: inline;
+    }
+
+.asset-image-multiple .asset-thumbnails li.on img {
+    border: 2px solid #800;
+    padding: 0;
+    }
+    
+/* Caption under photos in posts */
+.photo-caption {
+    margin: 0;
+    padding: 2px;
+}
+
+/* Continue Reading Link */
+.entry-more-link {
+    margin: 0 0 12px;
+    padding: 0;
+}
+
+
+/*-----ENTRY FOOTER-----*/
+.entry-footer p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for entire post footer (from avatar to buttons) */
+.entry-footer {
+    clear: both;
+    margin: 0;
+    padding: 0;
+    *margin-top: 5px;  /* IE floated blockquote collapses margin */
+}
+
+/* Everything except for the buttons */
+p.entry-footer-info {
+    line-height: 1.25em;
+    margin: 0;
+    padding: 0 0 5px;
+}
+
+/* Author Photo in post footer */
+.entry-footer .author-photo {
+    float: left;
+    margin: 0 2px 2px 0;
+    padding: 0;
+}
+
+/* Technorati Tags section */
+p.entry-footer-tags {
+    clear: both;
+    margin: 0 0 5px;
+}
+
+
+/*-----POST REACTIONS-----*/
+
+/* Reactions List Wrapper */
+.reactions .reactions-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	}
+
+/* Display Reactions in horizontal list */
+.reactions .reaction {
+	display: inline;
+	float: left;
+	position: relative;
+	margin: 0 8px 8px 0;
+	}
+
+	.reactions .reaction-link { display: block; }
+
+/* Resize avatars from people who have reacted */
+.reactions .reaction-avatar {
+	width: 32px;
+	height: 32px;
+	}
+
+/* Reactions Bade Wrapper */
+.reactions .reaction-badge {
+	display: block;
+	position: absolute;
+	right: -4px;
+	bottom: -4px;
+	width: 16px;
+	height: 16px;
+	}
+
+	/* Reactions - Favorite Badge */
+	.reactions .reaction-favorite .reaction-badge { background-image: url(../images/badge-favorite.png); }
+	
+	/* Reactions - Reblog Badge */
+	.reactions .reaction-reblog .reaction-badge { background-image: url(../images/badge-reblog.png); }
+
+
+
+/* Signature Module ---------------------------- */
+#signature {
+        display: block;
+        float: none;
+        clear: both;
+}
+
+#signature img, #signature embed {
+        width: auto; 
+        height: auto;
+        max-width:100%;
+}

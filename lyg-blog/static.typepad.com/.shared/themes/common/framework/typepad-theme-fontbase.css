@@ -1,0 +1,213 @@
+/*============ TypePad Theme // FONT BASE ===================================*/
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 100%;
+	}
+
+h1,h2,h3,h4,h5,h6 {
+	font-style: normal;
+	font-weight: 400;
+	text-align: left;
+	}
+
+h1 { font-size: 130%; }
+h2 { font-size: 125%; }
+h3 { font-size: 120%; }
+h4 { font-size: 115%; }
+h5 { font-size: 110%; }
+h6 { font-size: 105%; }
+
+ol,ul {
+	font-size: 100%;
+	font-style: normal;
+	font-weight: 400;
+	}
+
+
+/*----------POSTS----------*/
+
+/* Date Header */
+h2.date-header {
+	font-size: 100%;
+	font-style: normal;
+	font-weight: 400;
+	text-align: left;
+	}
+
+/* Post Title */
+.entry-header {
+	font-size: 130%;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 100%;
+	text-align: left;
+	}
+
+/* Post Body Font Size */
+.entry-body,.entry-more {
+	font-size: 90%;
+	}
+
+/* Post Text */
+.entry-body,.entry-body p,.entry-more,.entry-more p {
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%;
+	text-align: left;
+	}
+
+/* Blockquote */
+blockquote {
+	font-size: 100%;
+	}
+
+/* Photo Caption */
+.photo-caption {
+	font-size: 90%;
+	font-style: italic;
+	font-weight: 400;
+	text-align: center;
+	}
+
+/* Continue Reading Link */
+.entry-more-link {
+	font-size: 90%;
+	font-style: normal;
+	font-weight: 400;
+	text-align: left;
+	}
+
+/* Post Footer */
+.entry-footer {
+	font-size: 86%;
+	font-style: normal;
+	font-weight: 400;
+	text-align: left;
+	}
+
+/* Technorati Tags */
+.entry-footer-tags a {
+	color: #666;
+	font-size: 90%;
+	}
+
+
+/*---------SIDEBAR---------*/
+
+/* Sidebar - Module Header */
+.module-header {
+	font-size: 105%;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 100%;
+	}
+
+/* Sidebar - Module Content */
+.module-content {
+	font-size: 90%;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 135%;
+	}
+
+/* Sidebar - Link Weight */
+.module-content a {
+	font-weight: 400;
+	}
+
+/* Sidebar - Notes TypeList - Title Weight */
+.typelist-note-label {
+	font-weight: 700;
+	}
+
+/* Sidebar - Notes TypeList - Note */
+.typelist-note {
+	font-size: 95%;
+	font-style: normal;
+	font-weight: 400;
+	}
+
+/* Sidebar - TypeList Book/Album Link */
+.typelist-description a,.typelist-description a:hover {
+	color: #333;
+	font-size: 85%;
+	font-style: normal;
+	font-weight: 400;
+	}
+
+.typelist-description {
+	line-height: 100%;
+	}
+
+
+/*---------NAV BAR---------*/
+
+/* Nav Bar - Font Size */
+.nav-list-item a {
+	font-size: 80%;
+	font-style: normal;
+	font-weight: 400;
+}
+
+/* Prev/Next link for Pagination */
+.pager {
+	text-align: center;
+	}
+
+.pager a {
+	font-size: 110%;
+	font-style: normal;
+	font-weight: 700;
+	}
+
+/* Category & Monthly Archive Page - Header */
+.content-header {
+	font-size: 140%;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 95%;
+	}
+
+/* Archives.html Page - Headers */
+.archive-header {
+	font-size: 120%;
+	font-style: normal;
+	font-weight: 400;
+	}
+
+/* Archives.html - Archive list */
+.archive ul {
+	font-size: 95%;
+	list-style-type: none;
+	line-height: 150%;
+	}
+
+/* Individual Archive Page - link to previous and next post */
+.content-nav {
+	font-size: 91%;
+	font-style: normal;
+	font-weight: 400;
+	}
+
+/* Footer Links */
+#footer a {
+	font-size: 90%;
+	font-weight: 400;
+	}
+
+/* Search Results Page */
+.search-subheader {
+	font-size: 85%;
+	}
+
+/* Archives.html Page - Links */
+.archive ul li {
+	font-size: 93%;
+	}
+
+/* Outer container for entire comments section */
+.comments,#tpc_thread,#atp-comments {
+	font-size: 85%;
+	line-height: 150%;
+	}

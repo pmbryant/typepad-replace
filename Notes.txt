@@ -1,0 +1,106 @@
+Archive wget command - initial attempt:
+
+  > wget -mpckE --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" -e robots=off --wait 1 https://pmbryant.typepad.com/letyourselfgo/
+
+    Significant issue! Missing static content from domains like static.typepad.com - try "span-hosts" (-H) option:
+
+Test:
+
+  > wget -mpckEH -Dtypepad.com --exclude-domains www.typepad.com,everything.typepad.com,profile.typepad.com --no-parent --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" -e robots=off --wait 1 https://pmbryant.typepad.com/letyourselfgo/2025/03/claudette-colbert-director.html
+
+    Worked - downloaded sytlesheets etc, without going crazy with irrelevant stuff. So try with entire LetYourselfGo blog
+
+  > wget -mpckEH -Dtypepad.com --exclude-domains www.typepad.com,everything.typepad.com,profile.typepad.com --no-parent --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" -e robots=off --wait 1 https://pmbryant.typepad.com/letyourselfgo/
+
+    Worked quite well for LYG. But this grabbed way too many extra typepad blogs for B-and-B blog. So switch to whitelist domains for that one.
+
+  > wget -mpckEH -Dstatic.typepad.com,up0.typepad.com,up1.typepad.com,up2.typepad.com,up3.typepad.com,up4.typepad.com,up5.typepad.com,up6.typepad.com,up7.typepad.com,pmbryant.typepad.com --no-parent --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" -e robots=off --wait 1 https://pmbryant.typepad.com/b_and_b/
+
+    Much better for B-and-B.
+
+Verify consistency of local mirrored copy by setting /etc/hosts to 0.0.0.0 for www.typepad.com,pmbryant.typepad.com,static.typepad.com,up4.typepad.com
+Then restart Firefox.
+Be sure to "Disable Cache" in browser developer tools when verifying!
+
+Validation of mirrored sites locally:
+
+For LYG, the only apparent issues from quick local browsing:
+(1) occasional inline images where link wasn't converted
+(2) image links (to open image on its own) weren't converted -- none of them.
+
+For BandB, I can't find any examples of #1, but #2 is same problem.
+
+Example of #1 (See "src" attribut of the "img" tag) below. Also serves as example of #2 ("href" attribute of "a" tag).
+  From: 
+    letyourselfgo/2021/05/assembling-the-cast-of-the-noir-classic-road-house-1948.html
+
+<a class="asset-img-link"  style="float: right;" href="https://pmbryant.typepad.com/.a/6a00d83451ffec69e2027880270664200d-pi">
+  <img class="asset  asset-image at-xid-6a00d83451ffec69e2027880270664200d img-responsive" style="width: 160px; margin: 0px 0px 5px 5px;" 
+    alt="Celeste Holm" title="Celeste Holm" 
+    src="https://pmbryant.typepad.com/.a/6a00d83451ffec69e2027880270664200d-200wi" />
+</a>
+
+Good inline image for comparison (with "href" still broken of course):
+
+<a class="asset-img-link"  style="float: right;" href="https://pmbryant.typepad.com/.a/6a00d83451ffec69e202788027070c200d-pi">
+  <img class="asset  asset-image at-xid-6a00d83451ffec69e202788027070c200d img-responsive" style="width: 160px; margin: 0px 0px 5px 5px;" 
+  alt="Victor Mature" title="Victor Mature" 
+  src="../../../.a/6a00d83451ffec69e202788027070c200d-200wi" />.
+</a>
+
+Try:
+
+> find . -type f -name "*.html" -exec sed -i '' 's|src=\"https://pmbryant.typepad.com|src=\"../../..|g' {} +
+
+Ok, but images are actually missing from downloaded mirror so links still won't work.
+Re-mirror LYG to see if that pulls any of the missing images, since Typepad has been flaky with image displays for a while.
+Got 8 more images:
+
+- 61b4200c-500wi
+   2022/07/here-is-a-fascinating-glimpse-into-ida-lupino-when-she-was-still-at-a-very-early-stage-of-her-life-and-career-this-article-p.html
+   (Page 2) Manually changed path in file
+- 8c67200b-200wi
+   2024/07/the-attempted-pairing-of-bette-davis-and-ida-lupino.html
+   (Joan Lorring and John Dall) Manually changed path in file
+- 9c3f3200b-250si
+   2018/12/the-films-directed-by-ida-lupino-1949-1966.html
+   (Lup4) Manually changed path in file
+- 2d407200d-200wi
+   2018/09/three-smart-girls-1936.html
+   (?) Manually changed path in file
+- 30865200c-220si
+   2018/12/ida-lupinos-relationship-with-humphrey-bogart-in-high-sierra-1941.html
+   (Lup1) Manually changed path in file
+- ab8da200c-250wi
+   2021/08/1937-the-year-ida-lupinos-film-career.html
+   (Her Jungle Love poster) Manually changed path in file
+- a5aab200c-500wi
+   2020/05/pard-the-dog-from-high-sierra-was-it-really-bogarts-dog.html
+   (PhilInquirer1941) Manually changed path in file
+- 0664200d-200wi
+   2021/05/assembling-the-cast-of-the-noir-classic-road-house-1948.html
+   (Celeste Holm) Manually changed path in file.
+
+Ok - this neglects all the index.html files that also need to be updated -- to much to do manually!
+
+Meanwhile, these files with odd names are causing trouble with git (errors on committing anything if changed) and probably aren't functional,
+so I'd like to just delete them:
+  \".html
+  \"javascript:void.html
+  \"6Ldg1s4SAAAAAEvvZX2ILFkWp7KB-jjdL4v0JV2e\".html
+
+> find . -name '\\\".html' -o -name '\\\"javascript:void.html' -o -name '\\\"6Ldg1s4SAAAAAEvvZX2ILFkWp7KB-jjdL4v0JV2e\\\".html'
+
+Couldn't do the 'rm' via above trick, but below worked:
+
+> find . -type f -name '*"*' -exec rm -v {} \;
+
+-----
+2025 Sep 1
+
+RESET local git repo and REDOWNLOAD letyourselfgo blog.
+REMOVE the special character files from both blogs BEFORE adding to git repo!
+
+> find bb-blog -type f -name '*"*' -exec rm -v {} \;
+> find lyg-blog -type f -name '*"*' -exec rm -v {} \;
+> git init

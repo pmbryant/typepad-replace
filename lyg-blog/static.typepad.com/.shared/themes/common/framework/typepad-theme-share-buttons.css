@@ -1,0 +1,144 @@
+﻿/*============ TypePad Theme // SHARE BUTTONS ===============================*/
+
+.entry-footer-share {
+	clear: both;
+	display: block;
+	font-size: 14px !important; /* Required for button text alignment */
+	height: 20px;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	vertical-align: top;
+	}
+
+	.entry-footer-share span {
+		line-height: 0.75em;
+		position: relative;
+		top: 0;
+		vertical-align: middle;
+		float: left; 
+		margin: 1px 2px 1px 0; 
+		display: inline-block;
+		}
+
+	.entry-footer-share .separator {
+		color: #ccc;
+		}
+
+	.entry-footer-share-buttons .separator {
+		display: none;
+		}
+
+	/* Text alignment in buttons */
+	.entry-footer-share-buttons {
+		font-size: 10px;
+		height: 20px;
+		line-height: 1em;
+		margin: 0 1px 0 0;
+		position: relative;
+		top: 0px;
+		}
+
+	/* Post Footer Buttons */
+	.entry-footer-share-buttons .share-link {
+		background-color: #ededed;
+		background-repeat: no-repeat;
+		border: 1px solid #ddd;
+		color: #777;
+		display: inline-block;
+		font-family: Verdana, sans-serif;
+		font-style: normal;
+		font-weight: 400;
+		padding: 4px 6px 4px 24px;
+		text-decoration: none;
+		text-transform: none;
+		vertical-align: bottom;
+		-moz-border-radius: 2px;
+		-webkit-border-radius: 2px;
+		}
+
+	/* Button Base */
+	.entry-footer-share-buttons .entry-footer-links-delicious,.entry-footer-share-buttons .entry-footer-links-digg,.entry-footer-share-buttons .entry-footer-links-favorite,.entry-footer-share-buttons .entry-footer-links-reblog,.entry-footer-share-buttons .entry-footer-links-plusone,.entry-footer-share-buttons .entry-footer-links-twitter {
+		display: inline-block;
+		float: left;
+		text-align: left;
+		vertical-align: top;
+		white-space: nobreak;
+		}
+
+	/* Button Hover */
+	.entry-footer-share-buttons .share-link:hover {
+		border-color: #bbb;
+		color: #555;
+	}
+
+	/* Reblog Button */
+	.entry-footer-share-buttons .share-link-reblog {
+		background-image: url(../images/share-link-bg-reblog.gif);
+		display: inline-block;
+		font-family: Verdana, sans-serif;
+		font-size: 10px;
+		height: 10px;
+		vertical-align: top;
+	}
+
+	/* Favorite Button */
+	.entry-footer-share .favorite {
+		height: 20px;
+		vertical-align: top;
+		width: 84px;
+		}
+
+	/* Digg Button */
+	.entry-footer-share-buttons .share-link-digg {
+		background-image: url(../images/share-link-bg-digg.gif);
+		font-family: Verdana, sans-serif;
+		font-size: 10px;
+		height: 10px;
+		}
+
+	/* Delicious Button */
+	.entry-footer-share-buttons .share-link-delicious {
+		background-image: url(../images/share-link-bg-delicious.gif);
+		font-family: Verdana, sans-serif;
+		font-size: 10px;
+		height: 10px;
+		min-width: 102px;
+		}
+
+	/* Tweet Button 
+	 button is cut off in IE-CV 
+	 Can't set fixed width here because it will cut off the # of tweets when present 
+	 But for IE-CV only - we will set it 
+	 Need to use to override embedded style in html */
+	.entry-footer-share .entry-footer-links-twitter iframe {
+		min-width: 58px !important;
+		*width: 58px !important;
+		}
+
+	/* Google Plus Button 
+	 Set fixed width here to make the space on the right side a little less 
+	 so the facebook button can be closer */
+	.entry-footer-links-plusone {
+		display: inline-block;
+		width: 60px;
+		*width: 0px;
+		}
+
+	/* Facebook Button */
+	.entry-footer-share .entry-footer-links-facebook_like {
+		padding: 0;
+		width: 47px;
+		*width: 47px;
+		margin: 0 1px 0 0;
+		position: relative; 
+		top: 0; 
+		}
+
+	/* Pinterest Button */
+	.entry-footer-share .entry-footer-links-pinterest {
+		position: relative;
+		margin: 0 2px 0 0;
+		*margin: 0 0 0 0;
+		top: 0; 
+		}

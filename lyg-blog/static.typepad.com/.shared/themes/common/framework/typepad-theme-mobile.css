@@ -1,0 +1,105 @@
+/* Mobile Styles for Screens Less than 650px */
+@media only screen 
+ and (max-device-width: 650px) {
+
+	/* Tell Safari to increase font size */
+	body {
+		-webkit-text-size-adjust: 200%;
+	}
+
+	/* Set Container to full width of Safari browser */
+	#container {
+		width: 100%;
+		float: none;
+		margin: 0 0 0 30px; /* push container off left margin by 30px */
+		padding: 0;
+	}
+
+	/* Set banner, banner-inner and navigation bar to full width of container */
+	#banner, #banner-inner, #nav {
+		width: 100%;
+	}
+
+	/* Increased font size in Safari creates additional space at bottom of navigation bar so increase top padding */
+	#nav .nav-list-item { padding-top: 2px; }
+
+	/* If search module is placed in navigation bar then make sure it's not touching borders of navigation bar list-items */
+	#nav .nav-search { padding: 0px 5px; }
+
+		/* One-Column Layout - Hide all columns except one with entries */
+		.layout-one-column #alpha {
+			width: 100%;
+			float: none;
+			margin: 0;
+		}
+
+		/* Two-Column-Left Layout - Hide all columns except one with entries */
+		.layout-two-column-left #alpha { display: none; }
+		.layout-two-column-left #beta { 
+			width: 100% !important;
+			float: none;
+			margin: 0;
+		}
+
+		/* Two-Column-Right Layout - Hide all columns except one with entries */
+		.layout-two-column-right #alpha { 
+			width: 100% !important;
+			float: none;
+			margin: 0;
+		}
+		.layout-two-column-right #beta { display: none; }
+
+		/* Three-Column Layout - Hide all columns except one with entries */
+		.layout-three-column #alpha { display: none; }
+		.layout-three-column #beta { 
+			width: 100% !important;
+			float: none;
+			margin: 0;
+		}
+		.layout-three-column #gamma { display: none; }
+
+		/* Three-Column-Right Layout - Hide all columns except one with entries */
+		.layout-three-column-right #alpha { 
+			width: 100% !important;
+			float: none;
+			margin: 0;
+		}
+		.layout-three-column-right #beta { display: none; }
+		.layout-three-column-right #gamma { display: none; }
+
+
+	/* Hide date-header as it disrupts spacing between posts in mobile view */
+	.date-header {
+		display: none; 
+	}
+
+	/* Add space between, and pad left-right sides of, posts */
+	.entry {
+		clear: both;
+		margin: 20px 0px;
+		padding: 20px 5px 0px;
+	}
+
+	/* Hide author photos from post title and post footer since they don't scale */
+	.entry .author-photo { display: none; }
+
+	/* Set images inside posts to 100% width of post column, scaled height to match; can set max-width (e.g. max-width: 480px;) if necessary */
+	.entry-content img {
+		width: 100%;
+		height: auto;
+		width: auto\9; /* ie8 */
+	}
+
+	/* Set embedded content inside posts to 100% width of post column; can set max-width (e.g. max-width: 480px;) if necessary */
+	.entry-content iframe, .entry-content embed, .entry-content object {
+		width: 100%;
+		height: auto;
+		width: auto\9; /* ie8 */
+	}
+	
+	/* Increased font size in Safari makes a mess of the post footer buttons; reset font size to original 100% */
+	.entry-footer-share-buttons span a { 
+		-webkit-text-size-adjust: 100%;
+	}
+
+}
