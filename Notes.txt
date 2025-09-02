@@ -147,3 +147,21 @@ For BandB blog, I loaded all 57 pages of main index (with /etc/hosts disabling t
 
  Plus the pages browse well for both blogs, so the deleted special character files appear to have been irrelevant as suspected.
 
+----
+
+Download image links that wget mirror did not get (i.e., virtually all)
+
+- Use go app to build list extracted from "href" values in "a" tags pointing to pmbryant.typepad.com.
+- Use wget to download by directory. (I got 403s when trying to do this automatically in a go app.)
+
+> wget -i imagelinks.photos.txt --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" -e robots=off --wait 1 
+
+> wget -i imagelinks.a.txt --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" -e robots=off --wait 1 
+
+> wget -i imagelinks.shared.uncat.txt --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" -e robots=off --wait 1 
+
+- Saved these under "downloads"
+
+Had trouble with images from the subdirs under ".shared", perhaps due to special characters in path. But the jpg files 
+downloaded could not be opened. The links work in browser howerver so I manually downloaded all 50 or so
+and just saved them in "downloads/.shared"
