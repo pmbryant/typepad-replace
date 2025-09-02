@@ -129,6 +129,8 @@ Find MISSING images by examining main index pages in browser with typepad.com do
 - *** - page 7 - 6c200c-150si
     2018/12/ida-lupino-in-on-dangerous-ground-1951.html
     alt="Lup1" (gallery)
+  FIXED MANUALLY in 6 files
+
 That is all! (thru page 16 - beginning of blog)
 Copy from 'master' image download file (tmp/pmb.a), sourced from multiple mirror downloads to see which of these images show up.
 The '***' at beginning of lines above indicates they did show up.
@@ -138,4 +140,10 @@ Now fix "img>src" refs in the files from pmbryant.typepad.com to local.
 Complication: They are at different folder depths, so could be "../../.." or "../../../.." or other.
 So fix manually (6 or 7 files per missing image)
 
+On validation, formerly missing images appear to be loading on the various pages now.
+
+For BandB blog, I loaded all 57 pages of main index (with /etc/hosts disabling typepad domains) and 
+ did not find any missing images.
+
+ Plus the pages browse well for both blogs, so the deleted special character files appear to have been irrelevant as suspected.
 
