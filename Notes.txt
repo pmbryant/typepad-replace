@@ -165,3 +165,14 @@ Download image links that wget mirror did not get (i.e., virtually all)
 Had trouble with images from the subdirs under ".shared", perhaps due to special characters in path. But the jpg files 
 downloaded could not be opened. The links work in browser howerver so I manually downloaded all 50 or so
 and just saved them in "downloads/.shared"
+
+At some point later, if desired, the image links in the blog html files can be repaired to point to these "downloads", but 
+there is NO URGENCY on my part for that. I mainly wanted to make sure I had the larger versions of the images for myself.
+Linking them from the blog is not critical in vast majority of cases. Any cases that are important (for legibility, etc)
+can be fixed later now that I have the images.
+
+What next?
+
+I think I have recovered about all I can hope to from Typepad. So next task is to find a new host to upload these to.
+
+
