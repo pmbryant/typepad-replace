@@ -2,7 +2,7 @@
 
 set -e
 
-DEST_DIR="docs"
+DEST_DIR="_site"
 
 # Remove all contents of destination directory if it exists
 if [ -d "$DEST_DIR" ]; then
@@ -34,9 +34,9 @@ merge_subdirs "bb-blog"
 # Merge subdirs under lyg-blog
 merge_subdirs "lyg-blog"
 
-# Copy contents of docs_permanent into destination directory
-if [ -d "docs_permanent" ]; then
-    cp -a docs_permanent/. "$DEST_DIR/"
+# Copy contents of docs into destination directory
+if [ -d "docs" ]; then
+    cp -a docs/. "$DEST_DIR/"
 fi
 
 echo "Merge complete."
