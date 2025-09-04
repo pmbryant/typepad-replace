@@ -1,0 +1,20 @@
+name: Merge Site
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  merge-site:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up bash
+        run: sudo apt-get update && sudo apt-get install -y bash
+      - name: Make merge_site.sh executable
+        run: chmod +x merge_site.sh
+      - name: Run merge_site.sh
+        run: ./merge_site.sh
