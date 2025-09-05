@@ -7,7 +7,7 @@ import (
 	"regexp"
 )
 
-func main() {
+func main2() {
 	rootDir := "/Users/peterbryant/Documents/Codebase/typepad-replace/lyg-blog/pmbryant.typepad.com/letyourselfgo/2017/10" // Change as needed
 	replaceHref := "https://pmbryant.com/x/letyourselfgo/index.html"                                                       // Configurable replacement value
 	pattern := regexp.MustCompile(`href=["']([^"']*\\&quot;6Ldg1s4SAAAAAEvvZX2ILFkWp7KB-jjdL4v0JV2e\\&quot;\.html)["']`)
