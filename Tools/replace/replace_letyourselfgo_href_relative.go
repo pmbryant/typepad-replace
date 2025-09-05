@@ -29,9 +29,11 @@ func main() {
 		{`href="../../../atom.xml"`, ``},
 		{`href="../../../../atom.xml"`, ``},
 		{`href="../../../../../atom.xml"`, ``},
-		{`href="https://pmbryant.typepad.com/letyourselfgo/atom.xml"`, ``}, // These only show up in atom.xml files so no replacement
-		{`href="https://pmbryant.typepad.com/b_and_b/atom.xml"`, ``},       // These only show up in atom.xml files so no replacement
-		{`<a href="https://www.typepad.com/" title="Blog">Blog</a> powered by <a href="https://www.typepad.com/" title="Typepad">Typepad</a>`, `Blog powered by Typepad`},
+		{`href="https://pmbryant.typepad.com/letyourselfgo/atom.xml"`, ``}, // These only show up in atom.xml files so no replacement happens
+		{`href="https://pmbryant.typepad.com/b_and_b/atom.xml"`, ``},       // These only show up in atom.xml files so no replacement happens
+		{`<a href="https://www.typepad.com/" title="Blog">Blog</a>`, `<a  title="Blog">Blog</a>`},
+		{`<a href="https://www.typepad.com/" title="TypePad">Typepad</a>`, `<a  title="TypePad">Typepad</a>`},
+		{`<a href="http://www.typepad.com/">Powered by Typepad</a>`, `<a >Powered by Typepad</a>`},
 	}
 
 	var files []string
