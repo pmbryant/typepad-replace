@@ -61,6 +61,12 @@ document.write('<img src="https://www.typepad.com/t/stats?blog_id=50890&amp;user
 		{`<link rel="openid.server" href="https://www.typepad.com/services/openid/server" />`, `<link rel="openid.server" href="https://defunct.domain.goes.here/services/openid/server" />`},
 		{`<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.typepad.com/`, `<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://defunct.domain.goes.here/`},
 		{`<link rel="meta" type="application/rdf+xml" title="FOAF" href="https://pmbryant.typepad.com/foaf.rdf" />`, `<link rel="meta" type="application/rdf+xml" title="FOAF" href="https://x.defunct.domain.goes.here/foaf.rdf" />`},
+		{`href="../page/30/pzmyers@pharyngula.org.html"`, `href="../index.html"`},
+		{`href="../../page/30/pzmyers@pharyngula.org.html"`, `href="../../index.html"`},
+		{`href="../../../page/30/pzmyers@pharyngula.org.html"`, `href="../../../index.html"`},
+		{`href="../../../../page/30/pzmyers@pharyngula.org.html"`, `href="../../../../index.html"`},
+		{`href="../30/pzmyers@pharyngula.org.html"`, `href="../30/index.html"`},
+		{`href="page/30/pzmyers@pharyngula.org.html"`, `href="index.html"`},
 	}
 
 	var files []string
