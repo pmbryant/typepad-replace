@@ -34,7 +34,9 @@ func main() {
 		{`<a href="https://www.typepad.com/" title="Blog">Blog</a>`, `<a  title="Blog">Blog</a>`},
 		{`<a href="https://www.typepad.com/" title="TypePad">Typepad</a>`, `<a  title="TypePad">Typepad</a>`},
 		{`<a href="http://www.typepad.com/">Powered by Typepad</a>`, `<a >Powered by Typepad</a>`},
-		{`Blog powered by Typepad`, `<a  title="Blog">Blog</a> powered by <a  title="Typepad">Typepad</a>`}, // Put back links (as disabled) that I removed entirely earlier (B and B only)
+		{`Blog powered by Typepad`, `<a  title="Blog">Blog</a> powered by <a  title="Typepad">Typepad</a>`},                                      // Put back links (as disabled) that I removed entirely earlier (B and B only)
+		{`<input type="submit" value="Search" />`, `<input type="submit" value="Search" disabled/>`},                                             // Search submit button for LYG blog
+		{`<input type="submit" name="btnG" value=" Google Search " /> `, `<input type="submit" name="btnG" value=" Google Search " disabled/> `}, // Search submit button for BandB blog
 	}
 
 	var files []string
