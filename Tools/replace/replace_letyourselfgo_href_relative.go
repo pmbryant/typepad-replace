@@ -54,6 +54,7 @@ document.write('<img src="https://www.typepad.com/t/stats?blog_id=50890&amp;user
 		{`onclick="b=document.body; TYPEPAD___bookmarklet_domain='https://www.typepad.com/'; TYPEPAD___reblog_entryxid='6a00d83451ffec69e201b8d2b4251e970c'; TYPEPAD___is_reblog = 1; if (b &amp;&amp; !document.xmlVersion) { void ( z=document.createElement('script')); void(z.type='text/javascript'); void(z.src='https://static.typepad.com/.shared/js/qp/loader-combined-min.js'); void(b.appendChild(z));}else{}"`, ``},                                                                                                                                             // And there are apparenlty over 150 other other these entry xIDs!
 		{`TYPEPAD___bookmarklet_domain='https://www.typepad.com/'`, `TYPEPAD___bookmarklet_domain='https://defunct.domain.goes.here'`},                                         // Give up on prior approach and just get rid of the typepad.com call entirely.
 		{`void(z.src='https://static.typepad.com/.shared/js/qp/loader-combined-min.js'`, `void(z.src='https://defunct.domain.goes.here/.shared/js/qp/loader-combined-min.js'`}, // Do same for the statis.typepad.com call in that line
+		{`TPApp.app_uri = "https://www.typepad.com/";`, `TPApp.app_uri = "https://defunct.domain.goes.here/";`},
 	}
 
 	var files []string
