@@ -37,6 +37,13 @@ func main() {
 		{`Blog powered by Typepad`, `<a  title="Blog">Blog</a> powered by <a  title="Typepad">Typepad</a>`},                                      // Put back links (as disabled) that I removed entirely earlier (B and B only)
 		{`<input type="submit" value="Search" />`, `<input type="submit" value="Search" disabled/>`},                                             // Search submit button for LYG blog
 		{`<input type="submit" name="btnG" value=" Google Search " /> `, `<input type="submit" name="btnG" value=" Google Search " disabled/> `}, // Search submit button for BandB blog
+		{`<script type="text/javascript">
+<!--
+var extra_happy = Math.floor(1000000000 * Math.random());
+document.write('<img src="https://www.typepad.com/t/stats?blog_id=124080652610737932&amp;user_id=100838&amp;page=' + escape(location.href) + '&amp;referrer=' + escape(document.referrer) + '&amp;i=' + extra_happy + '" width="1" height="1" alt="" style="position: absolute; top: 0; left: 0;" />');
+// -->
+</script>`, ``}, // remove stats calls for LYG blog
+		{`<!--WEBBOT bot="Script" startspan PREVIEW="Site Meter" --><script type="text/javascript" language="JavaScript">var site="sm3BandBBlog"</script><script type="text/javascript" language="JavaScript1.2" src="https://sm3.sitemeter.com/js/counter.js?site=sm3BandBBlog"></script><noscript><a href="http://sm3.sitemeter.com/stats.asp?site=sm3BandBBlog" target="_top"><img src="http://sm3.sitemeter.com/meter.asp?site=sm3BandBBlog" alt="Site Meter" border="0"/></a></noscript><!-- Copyright (c)2005 Site Meter --><!--WEBBOT bot="Script" Endspan -->`, ``}, // Disable for BandB blog
 	}
 
 	var files []string
