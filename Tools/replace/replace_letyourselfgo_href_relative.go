@@ -8,7 +8,8 @@ import (
 )
 
 func main() {
-	rootDir := "/Users/peterbryant/Documents/Codebase/typepad-replace/lyg-blog/pmbryant.typepad.com/letyourselfgo" // Change as needed
+	//rootDir := "/Users/peterbryant/Documents/Codebase/typepad-replace/lyg-blog/pmbryant.typepad.com/letyourselfgo"
+	rootDir := "/Users/peterbryant/Documents/Codebase/typepad-replace"
 
 	// Define match and replace pairs
 	matchReplace := []struct {
@@ -21,7 +22,15 @@ func main() {
 		{`href="../2021/01/\&quot;6Ldg1s4SAAAAAEvvZX2ILFkWp7KB-jjdL4v0JV2e\&quot;.html`, `href="../index.html`},
 		{`href="../../2021/01/\&quot;6Ldg1s4SAAAAAEvvZX2ILFkWp7KB-jjdL4v0JV2e\&quot;.html`, `href="../../index.html`},
 		{`href="../../../2021/01/\&quot;6Ldg1s4SAAAAAEvvZX2ILFkWp7KB-jjdL4v0JV2e\&quot;.html`, `href="../../../index.html`},
-		{`href="../../../../2021/01/\&quot;6Ldg1s4SAAAAAEvvZX2ILFkWp7KB-jjdL4v0JV2e\&quot;.html`, `href="../../../../index.html`}, // Add more pairs as needed
+		{`href="../../../../2021/01/\&quot;6Ldg1s4SAAAAAEvvZX2ILFkWp7KB-jjdL4v0JV2e\&quot;.html`, `href="../../../../index.html`},
+		{`href="atom.xml"`, ``},
+		{`href="../atom.xml"`, ``},
+		{`href="../../atom.xml"`, ``},
+		{`href="../../../atom.xml"`, ``},
+		{`href="../../../../atom.xml"`, ``},
+		{`href="../../../../../atom.xml"`, ``},
+		{`href="https://pmbryant.typepad.com/letyourselfgo/atom.xml"`, ``},
+		{`href="https://pmbryant.typepad.com/b_and_b/atom.xml"`, ``},
 	}
 
 	var files []string
