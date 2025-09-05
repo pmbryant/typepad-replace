@@ -58,6 +58,9 @@ document.write('<img src="https://www.typepad.com/t/stats?blog_id=50890&amp;user
 		{`<meta property="og:url" content="https://pmbryant.typepad.com/`, `<meta property="og:url" content="https://pmbryant.com/x/`},
 		{`<meta property="og:image" content="https://up4.typepad.com/`, `<meta property="og:image" content="https://pmbryant.typepad.com/up4.typepad.com/`}, // Ooops ! Fixed with below line.
 		{`<meta property="og:image" content="https://pmbryant.typepad.com/up4.typepad.com/`, `<meta property="og:image" content="https://pmbryant.com/up4.typepad.com/`},
+		{`<link rel="openid.server" href="https://www.typepad.com/services/openid/server" />`, `<link rel="openid.server" href="https://defunct.domain.goes.here/services/openid/server" />`},
+		{`<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.typepad.com/`, `<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://defunct.domain.goes.here/`},
+		{`<link rel="meta" type="application/rdf+xml" title="FOAF" href="https://pmbryant.typepad.com/foaf.rdf" />`, `<link rel="meta" type="application/rdf+xml" title="FOAF" href="https://x.defunct.domain.goes.here/foaf.rdf" />`},
 	}
 
 	var files []string
