@@ -67,6 +67,7 @@ document.write('<img src="https://www.typepad.com/t/stats?blog_id=50890&amp;user
 		{`href="../../../../page/30/pzmyers@pharyngula.org.html"`, `href="../../../../index.html"`},
 		{`href="../30/pzmyers@pharyngula.org.html"`, `href="../30/index.html"`},
 		{`href="page/30/pzmyers@pharyngula.org.html"`, `href="index.html"`},
+		{`href="pzmyers@pharyngula.org.html"`, `href="../..index.html"`},
 	}
 
 	var files []string
