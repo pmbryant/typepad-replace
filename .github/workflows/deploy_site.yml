@@ -17,8 +17,9 @@ jobs:
 
       - name: Build static files
         id: build
+        # Pass "disabled" to merge_site.sh to not include the full content.
         run: |
-          ./build/merge_site.sh
+          ./build/merge_site.sh disabled
 
       - name: Upload static files as artifact
         id: deployment
@@ -37,7 +38,7 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-      
+
     runs-on: ubuntu-latest
     steps:
       - name: Deploy to GitHub Pages
