@@ -56,7 +56,8 @@ document.write('<img src="https://www.typepad.com/t/stats?blog_id=50890&amp;user
 		{`void(z.src='https://static.typepad.com/.shared/js/qp/loader-combined-min.js'`, `void(z.src='https://defunct.domain.goes.here/.shared/js/qp/loader-combined-min.js'`}, // Do same for the statis.typepad.com call in that line
 		{`TPApp.app_uri = "https://www.typepad.com/";`, `TPApp.app_uri = "https://defunct.domain.goes.here/";`},
 		{`<meta property="og:url" content="https://pmbryant.typepad.com/`, `<meta property="og:url" content="https://pmbryant.com/x/`},
-		{`<meta property="og:image" content="https://up4.typepad.com/`, `<meta property="og:image" content="https://pmbryant.typepad.com/up4.typepad.com/`},
+		{`<meta property="og:image" content="https://up4.typepad.com/`, `<meta property="og:image" content="https://pmbryant.typepad.com/up4.typepad.com/`}, // Ooops ! Fixed with below line.
+		{`<meta property="og:image" content="https://pmbryant.typepad.com/up4.typepad.com/`, `<meta property="og:image" content="https://pmbryant.com/up4.typepad.com/`},
 	}
 
 	var files []string
