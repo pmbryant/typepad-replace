@@ -4,11 +4,53 @@ import (
 	"fmt"
 	"os"
 	"path/filepath"
+	"regexp"
 	"strings"
 )
 
+// matchAndReplaceRegex performs match and replace against a slice of regex patterns across all html files
+// baseDir: directory to scan
+// patterns: slice of pairs (regex pattern, replacement string)
+func matchAndReplaceRegex(baseDir string, patterns []struct {
+	pattern *regexp.Regexp
+	replace string
+}) {
+	var files []string
+	filepath.Walk(baseDir, func(path string, info os.FileInfo, err error) error {
+		if err != nil {
+			return err
+		}
+		if !info.IsDir() && filepath.Ext(path) == ".html" {
+			files = append(files, path)
+		}
+		return nil
+	})
+
+	for _, path := range files {
+		input, err := os.ReadFile(path)
+		if err != nil {
+			fmt.Printf("Error reading %s: %v\n", path, err)
+			continue
+		}
+		content := string(input)
+		newContent := content
+		for _, pr := range patterns {
+			newContent = pr.pattern.ReplaceAllString(newContent, pr.replace)
+		}
+		if newContent != content {
+			err = os.WriteFile(path, []byte(newContent), 0644)
+			if err != nil {
+				fmt.Printf("Error writing %s: %v\n", path, err)
+				continue
+			}
+			fmt.Printf("Updated: %s\n", path)
+		}
+	}
+}
+
 func main() {
 	//rootDir := "/Users/peterbryant/Documents/Codebase/typepad-replace/lyg-blog/pmbryant.typepad.com/letyourselfgo"
+	//rootDir := "/Users/peterbryant/Documents/Codebase/typepad-replace/bb-blog/pmbryant.typepad.com/b_and_b/2012/12"
 	rootDir := "/Users/peterbryant/Documents/Codebase/typepad-replace"
 
 	// Define match and replace pairs
@@ -106,4 +148,17 @@ document.write('<img src="https://www.typepad.com/t/stats?blog_id=50890&amp;user
 			fmt.Printf("Updated: %s\n", path)
 		}
 	}
+
+	patterns := []struct {
+		pattern *regexp.Regexp
+		replace string
+	}{
+		{regexp.MustCompile(`<a href="https://www\.typekey\.com/.*">Typepad</a>`), `<a title="disabled-as-defunct">Typepad</a>`},
+		{regexp.MustCompile(`<a href="https://www\.typekey\.com/.*">Facebook</a>`), `<a title="disabled-as-defunct">Facebook</a>`},
+		{regexp.MustCompile(`<a href="https://www\.typekey\.com/.*">Twitter</a>`), `<a title="disabled-as-defunct">Twitter</a>`},
+		{regexp.MustCompile(`<a href="https://www\.typekey\.com/.*">more...</a>`), `<a title="disabled-as-defunct">more...</a>`},
+		{regexp.MustCompile(`<a href="https://pmbryant\.typepad\.com/\.services/sitelogout.*">Sign Out</a>`), `<a title="disabled-as-defunct">Sign Out</a>`}, // Another typekey ref in the URI
+	}
+
+	matchAndReplaceRegex(rootDir, patterns)
 }
