@@ -70,7 +70,8 @@ document.write('<img src="https://www.typepad.com/t/stats?blog_id=50890&amp;user
 		{`href="pzmyers@pharyngula.org.html"`, `href="../..index.html"`},
 		{`href="https://cache.blogads.com/261914443/feed.css"`, ``}, // blogads is defunct and irrelevant
 		{`src="https://cache.blogads.com/261914443/feed.js"`, ``},
-		{`src="http://pharyngula.org/images/ttbbadge.gif"`, ``}, // pharyngula.org is defunct
+		{`src="http://pharyngula.org/images/ttbbadge.gif"`, ``},                                                        // pharyngula.org is defunct
+		{`src="https://www.leftyblogs.com/cgi-bin/blogwire.cgi?feed=texas&site=pmbryant.typepad.com&tz=cst&n=60"`, ``}, // leftyblogs.com is defunct
 	}
 
 	var files []string
