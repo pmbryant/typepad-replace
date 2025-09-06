@@ -114,7 +114,7 @@ document.write('<img src="https://www.typepad.com/t/stats?blog_id=50890&amp;user
 		{`src="https://cache.blogads.com/261914443/feed.js"`, ``},
 		{`src="http://pharyngula.org/images/ttbbadge.gif"`, ``},                                                        // pharyngula.org is defunct
 		{`src="https://www.leftyblogs.com/cgi-bin/blogwire.cgi?feed=texas&site=pmbryant.typepad.com&tz=cst&n=60"`, ``}, // leftyblogs.com is defunct
-		{`href="https://pmbryant.typepad.com/about.html"`, `https://pmbryant.com/x/b_and_b/about.html`},                // Will not work locally but impatient and don't want to deal with different folder depths.
+		{`href="https://pmbryant.typepad.com/about.html"`, `href="https://pmbryant.com/x/b_and_b/about.html"`},         // Will not work locally but impatient and don't want to deal with different folder depths.
 	}
 
 	var files []string
