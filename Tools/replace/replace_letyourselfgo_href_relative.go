@@ -49,7 +49,7 @@ func matchAndReplaceRegex(baseDir string, patterns []struct {
 }
 
 func main() {
-	//rootDir := "/Users/peterbryant/Documents/Codebase/typepad-replace/lyg-blog/pmbryant.typepad.com/letyourselfgo"
+	//rootDir := "/Users/peterbryant/Documents/Codebase/typepad-replace/lyg-blog/pmbryant.typepad.com/letyourselfgo/linda-darnell"
 	//rootDir := "/Users/peterbryant/Documents/Codebase/typepad-replace/bb-blog/pmbryant.typepad.com/b_and_b/2012/12"
 	rootDir := "/Users/peterbryant/Documents/Codebase/typepad-replace"
 
@@ -115,6 +115,7 @@ document.write('<img src="https://www.typepad.com/t/stats?blog_id=50890&amp;user
 		{`src="http://pharyngula.org/images/ttbbadge.gif"`, ``},                                                        // pharyngula.org is defunct
 		{`src="https://www.leftyblogs.com/cgi-bin/blogwire.cgi?feed=texas&site=pmbryant.typepad.com&tz=cst&n=60"`, ``}, // leftyblogs.com is defunct
 		{`href="https://pmbryant.typepad.com/about.html"`, `href="https://pmbryant.com/x/b_and_b/about.html"`},         // Will not work locally but impatient and don't want to deal with different folder depths.
+		{`href="https://profile.typepad.com/pmbryant"`, `href="https://pmbryant.com/profile.typepad.com/pmbryant.html"`},
 	}
 
 	var files []string
@@ -162,6 +163,7 @@ document.write('<img src="https://www.typepad.com/t/stats?blog_id=50890&amp;user
 		{regexp.MustCompile(`<script type="text/javascript">
 \(function\(i,s,o,g,r,a,m\)\{i\['GoogleAnalyticsObject'\][\s\S]*ga\('Typepad.send', 'pageview'\);
 </script>`), `<!-- google - analytics REMOVED -->`},
+		{regexp.MustCompile(`<iframe src="https://www\.typepad\.com/services/connect/profile_module.*" width="100%" height="20" frameborder="0" scrolling="no" allowtransparency="true"></iframe>`), `<iframe  width="100%" height="20" frameborder="0" scrolling="no" allowtransparency="true"></iframe>`},
 	}
 
 	matchAndReplaceRegex(rootDir, patterns)
