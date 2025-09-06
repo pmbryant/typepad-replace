@@ -159,6 +159,9 @@ document.write('<img src="https://www.typepad.com/t/stats?blog_id=50890&amp;user
 		{regexp.MustCompile(`<a href="https://www\.typekey\.com/.*">Twitter</a>`), `<a title="disabled-as-defunct">Twitter</a>`},
 		{regexp.MustCompile(`<a href="https://www\.typekey\.com/.*">more...</a>`), `<a title="disabled-as-defunct">more...</a>`},
 		{regexp.MustCompile(`<a href="https://pmbryant\.typepad\.com/\.services/sitelogout.*">Sign Out</a>`), `<a title="disabled-as-defunct">Sign Out</a>`}, // Another typekey ref in the URI
+		{regexp.MustCompile(`<script type="text/javascript">
+\(function\(i,s,o,g,r,a,m\)\{i\['GoogleAnalyticsObject'\][\s\S]*ga\('Typepad.send', 'pageview'\);
+</script>`), `<!-- google - analytics REMOVED -->`},
 	}
 
 	matchAndReplaceRegex(rootDir, patterns)
