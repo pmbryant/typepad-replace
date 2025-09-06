@@ -1,0 +1,679 @@
+/*
+
+TypePad App: Lists
+Six Apart
+http://www.sixapart.com/
+
+*/
+
+.list {
+    margin-bottom: 10px;
+}
+
+.list .item p {
+    margin-bottom: 5px;
+}
+
+.list .item-inner {
+    margin-bottom: 1px;
+    border-width: 0 1px 1px 0;
+    border-style: solid;
+    border-color: #aaa;
+    padding: 10px 9px 4px 10px;
+    background-color: #fff;
+    box-shadow: 1px 1px 2px #aaa;
+    -webkit-box-shadow: 1px 1px 2px #aaa;
+    -moz-box-shadow: 1px 1px 2px #aaa;
+}
+
+.list .selected .item-inner {
+    background-color: #fff5e5;
+}
+
+.list .item-checkbox {
+    overflow: hidden;
+    width: 14px;
+    margin-right: 10px;
+    padding-top: 3px;
+    text-align: center;
+}
+
+.item .item-excerpt .excerpt-text,
+.item .item-excerpt .excerpt-meta {
+    margin-bottom: 5px;
+}
+
+.item .item-excerpt .excerpt-author,
+.item .item-excerpt .excerpt-source,
+.item .item-excerpt .excerpt-meta {
+    color: #848681;
+}
+
+.item .item-excerpt .excerpt-title a {
+    font-weight: bold;
+}
+
+.item .item-excerpt .excerpt-author .comment-author {
+    font-weight: bold;
+}
+
+.item .item-excerpt .excerpt-source .flyout-init-trackback-source,
+.item .item-excerpt .excerpt-meta .flyout-init-comment-entry,
+.item .item-excerpt .excerpt-meta .flyout-init-trackback-entry {
+    padding-right: 10px;
+    font-weight: bold;
+    background: url(../../../images/app/global/arrow-blue-on-white-small.png) no-repeat right center;
+}
+
+.list .item-status {
+    width: 42px;
+}
+
+
+/* Blogs */
+
+.list .blog .item-favicon {
+    width: 16px;
+    margin-right: 10px;
+    padding-top: 1px;
+}
+
+.list .blog .item-main {
+    width: 554px;
+}
+
+.list .blog .item-primary {
+    margin-bottom: 10px;
+    border-bottom: 1px dotted #ddd;
+    padding-bottom: 5px;
+}
+
+.list .blog .item-info {
+    overflow: hidden;
+    width: 444px;
+    margin-right: 10px;
+}
+
+.list .blog .item-action {
+    width: 100px;
+    padding-bottom: 5px;
+}
+
+.list .blog .item-name,
+.list .blog .item-uri,
+.list .blog .item-stats {
+    margin-bottom: 5px;
+}
+
+.list .blog .item-name {
+    font-weight: bold;
+    font-size: 1.4em;
+    line-height: 1;
+}
+
+.list .blog .item-name span {
+    color: #666;
+    font-weight: normal;
+    font-size: 0.6em;
+    text-transform: lowercase;
+}
+
+.list .blog .item-uri,
+.list .blog .item-uri a {
+    color: #666;
+}
+
+.list .blog .item-uri {
+    font-size: 0.9em;
+}
+
+.list .blog .today-title {
+    margin-right: 5px;
+    font-weight: bold;
+    font-size: 0.9em;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+.list .blog .today-count {
+    font-size: 1.6em;
+    line-height: 1;
+}
+
+.list .blog .today-label {
+    margin-right: 5px;
+    color: #666;
+    font-size: 0.85em;
+    line-height: 1;
+}
+
+
+/* Photo Albums */
+
+.list .album .item-favicon {
+    width: 36px;
+    margin-right: 10px;
+    padding-top: 1px;
+}
+
+.list .album .item-favicon img {
+    border: 1px solid #ccc;
+    padding: 1px;
+    background-color: #fff;
+}
+
+.list .album .item-main {
+    width: 664px;
+}
+
+.list .album .item-primary {
+    margin-bottom: 10px;
+    border-bottom: 1px dotted #ddd;
+    padding-bottom: 5px;
+}
+
+.list .album .item-info {
+    width: 534px;
+    margin-right: 10px;
+}
+
+.list .album .item-action {
+    width: 120px;
+    padding-bottom: 5px;
+}
+
+.list .album .item-name,
+.list .album .item-description,
+.list .album .item-uri,
+.list .album .item-stats {
+    margin-bottom: 5px;
+}
+
+.list .album .item-name a {
+    font-weight: bold;
+    font-size: 1.4em;
+    line-height: 1;
+}
+
+.list .album .item-description,
+.list .album .item-uri,
+.list .album .item-uri a {
+    color: #666;
+}
+
+.list .album .item-description,
+.list .album .item-uri {
+    font-size: 0.9em;
+}
+
+
+/* TypeLists */
+
+/*
+.list .typelist .item-favicon {
+    width: 16px;
+    margin-right: 10px;
+    padding-top: 1px;
+}
+*/
+
+.list .typelist .item-main {
+/*
+    width: 684px;
+*/
+    width: 710px;
+}
+
+.list .typelist .item-primary {
+    margin-bottom: 10px;
+    border-bottom: 1px dotted #ddd;
+    padding-bottom: 5px;
+}
+
+.list .typelist .item-info {
+/*
+    width: 554px;
+*/
+    width: 580px;
+    margin-right: 10px;
+}
+
+.list .typelist .item-action {
+    width: 120px;
+    padding-bottom: 5px;
+}
+
+.list .typelist .item-name,
+.list .typelist .item-description,
+.list .typelist .item-stats {
+    margin-bottom: 5px;
+}
+
+.list .typelist .item-name a {
+    font-weight: bold;
+    font-size: 1.4em;
+    line-height: 1;
+}
+
+.list .typelist .item-description {
+    color: #666;
+}
+
+.list .typelist .item-description {
+    font-size: 0.9em;
+}
+
+
+/* Posts/Pages */
+
+.list .post .item-excerpt,
+.list .page .item-excerpt {
+    overflow: hidden;
+    width: 438px;
+    margin-right: 10px;
+}
+
+.list .post .featured-item {
+    padding: 2px 7px 2px 5px;
+    color: #960;
+    background-color: #ff9;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+
+.list .post .featured-item img {
+    vertical-align: -3px;
+}
+
+.list .post .item-badge,
+.list .page .item-badge {
+    width: 16px;
+    margin-right: 12px;
+    padding-top: 5px;
+}
+
+
+/* Comments */
+
+.list .comment .item-author {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.list .comment .item-excerpt {
+    width: 434px;
+    margin-right: 10px;
+}
+
+.list .comment .item-excerpt .excerpt-text {
+    overflow: hidden;
+    width: 434px;
+}
+
+
+/* TrackBacks */
+
+.list .trackback .item-excerpt {
+    width: 494px;
+    margin-right: 10px;
+}
+
+.list .trackback .item-excerpt .excerpt-text {
+    overflow: hidden;
+    width: 494px;
+}
+
+
+/* Designs */
+
+#basic-designs-list {
+    margin-bottom: 20px;
+}
+
+.list .design .item-excerpt .excerpt-title .design-label {
+    font-weight: bold;
+}
+
+.list .design .item-excerpt .excerpt-title a {
+    font-weight: normal;
+}
+
+.list .design .item-excerpt {
+    overflow: hidden;
+    width: 300px;
+    margin-right: 10px;
+}
+
+.list .design .item-actions {
+    width: 236px;
+    overflow: hidden;
+    text-align: right;
+}
+
+.list .design .apply-design,
+.list .design .preview-design,
+.list .design .edit-design,
+.list .design .save-design,
+.list .design .cancel-design {
+    padding: 2px 5px;
+    background-color: #efedf4;
+}
+
+.list .design .save-design img {
+    vertical-align: -3px;
+}
+
+.list .design .design-field,
+.list .design .cancel-design,
+.list .design .save-design {
+    display: none;
+}
+
+.list .design-state-edit .design-label,
+.list .design-state-edit .edit-design {
+    display: none;
+}
+
+.list .design-state-edit .design-field,
+.list .design-state-edit .cancel-design,
+.list .design-state-edit .save-design {
+    display: inline;
+}
+
+
+/* Photos */
+
+.list .photo .item-thumbnail {
+    width: 75px;
+    margin-right: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.list .photo .item-excerpt {
+    overflow: hidden;
+    width: 601px;
+}
+
+
+/* TypeList Items */
+
+.list .tli .item-excerpt {
+    overflow: hidden;
+    width: 686px;
+}
+
+
+/* TypeList Quick Add Items */
+
+.list .tlqai .item-artwork {
+    width: 81px;
+    margin-right: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.list .tlqai .item-artwork img {
+    border: 1px solid #ccc;
+    padding: 2px;
+    background-color: #fff;
+}
+
+.list .tlqai .item-excerpt {
+    overflow: hidden;
+    width: 595px;
+}
+
+.list .tlqai .item-excerpt .excerpt-title {
+    font-weight: bold;
+}
+
+
+/* TypeList Publishing */
+
+#tlp-list {
+    margin-bottom: 20px;
+}
+
+.list .tlp .item-excerpt {
+    overflow: hidden;
+    width: 686px;
+}
+
+
+/* TypeList Publishing (Advanced Templates) */
+
+.list .tlpat .item-excerpt {
+    overflow: hidden;
+    width: 710px;
+}
+
+
+/* Blocked */
+
+.list .blocked .item-name {
+    width: 100px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.list .blocked .item-note {
+    width: 316px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.list .blocked .item-date {
+    width: 100px;
+}
+
+
+/* List Header */
+
+.list-header {
+    padding: 8px 10px;
+    background-color: #d5e9f5;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-top-right-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-topright: 3px;
+}
+
+.list-header .content-title,
+.list-header .filter-bar {
+    float: left;
+    display: inline;
+}
+
+.list-header .related-action {
+    float: right;
+    display: inline;
+}
+
+.list-header .related-action a.add{
+    padding-left: 19px;
+    background: url(../../../images/lists/icon-add.gif) left 0px no-repeat;
+}
+
+.list-header .content-title {
+    margin-right: 20px;
+}
+
+.list-header .content-title h3,
+.list-header .list-title h3 {
+    font-size: 1.4em;
+}
+
+.list-header .content-title h3 {
+    font-weight: bold;
+}
+
+.list-header .filter-bar {
+    line-height: 25px;
+}
+
+.list-header .filter-bar input {
+    margin: 0;
+}
+
+.list-header .filter-bar select#filter-name {
+    width: 130px;
+}
+
+.list-header .filter-bar #filter-mode-filter {
+    margin-right: 6px;
+}
+
+.list-header .filter-bar #filter-mode-search {
+    margin-left: 6px;
+}
+
+.list-header .related-action {
+    padding-top: 5px;
+}
+
+
+/* Action Bar */
+
+.action-bar {
+    position: relative;
+    padding: 8px 10px 10px;
+    background-color: #d5e9f5;
+}
+
+.action-bar .action-checkbox,
+.action-bar .action-buttons {
+    overflow: hidden;
+}
+
+.action-bar .action-checkbox {
+    width: 72px;
+    margin-right: 10px;
+    padding-top: 3px;
+    text-align: center;
+}
+
+.action-bar .action-buttons {
+    width: 488px;
+}
+
+.action-bar .action-buttons li {
+    display: block;
+    float: left;
+    margin-right: 5px;
+    padding: 3px 7px 2px;
+    font-weight: bold;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    background-color: #000;
+    background-repeat: repeat-x;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+
+.action-bar .action-buttons li,
+.action-bar .action-buttons li a {
+    color: #fff;
+}
+
+.action-bar .action-buttons .action-publish,
+.action-bar .action-buttons .action-flag-ham {
+    background-color: #8acb3d;
+    background-image: url(../../../images/app/buttons/publish-bg.png);
+}
+
+.action-bar .action-buttons .action-draft,
+.action-bar .action-buttons .action-unpublish {
+    background-color: #e87100;
+    background-image: url(../../../images/app/buttons/unpublish-bg.png);
+}
+
+.action-bar .action-buttons .action-delete,
+.action-bar .action-buttons .action-remove {
+    background-color: #b20009;
+    background-image: url(../../../images/app/buttons/delete-bg.png);
+}
+
+.action-bar .action-buttons .action-flag-spam {
+    background-color: #9b6201;
+    background-image: url(../../../images/app/buttons/spam-bg.png);
+}
+
+.action-bar .action-more {
+    position: absolute;
+    top: 7px;
+    right: 10px;
+}
+
+
+/* Pagination Bar */
+
+.pagination-bar {
+    padding: 5px;
+    line-height: 1;
+    text-align: center;
+}
+
+.pagination-bar a,
+.pagination-bar span {
+    padding: 4px 8px;
+}
+
+.pagination-bar a:hover {
+    text-decoration: none;
+    background-color: #d5e9f5;
+}
+
+.pagination-bar .yah {
+    border: 1px solid #d3e2ee;
+    color: #000;
+    font-weight: bold;
+    background-color: #fff;
+}
+
+
+/* Zerostate */
+
+.zerostate {
+    margin-bottom: 2px;
+    padding: 10px 10px 5px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 1px 1px 2px #999;
+    -webkit-box-shadow: 1px 1px 2px #999;
+    -moz-box-shadow: 1px 1px 2px #999;
+}
+
+.zerostate p {
+    margin-bottom: 5px;
+}
+
+/* Purge spam */
+
+.purge-spam {
+    margin-bottom: 2px;
+    padding: 10px 10px 5px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 1px 1px 2px #999;
+    -webkit-box-shadow: 1px 1px 2px #999;
+    -moz-box-shadow: 1px 1px 2px #999;
+}
+
+.purge-spam p {
+    margin-bottom: 5px;
+}
+
+#import-progress {
+    text-align: center;
+}
+
+#import-progressbar {
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+}

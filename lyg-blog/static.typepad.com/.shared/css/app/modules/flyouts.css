@@ -1,0 +1,136 @@
+/*
+
+TypePad App: Flyouts
+Six Apart
+http://www.sixapart.com/
+
+*/
+
+.flyout-rel {
+    position: relative;
+}
+
+.flyout {
+    display: none;
+    position: absolute;
+    left: -12px;
+    top: -12px;
+    width: 324px;
+    color: #000;
+    box-shadow: 1px 1px 2px #aaa;
+    -webkit-box-shadow: 1px 1px 2px #aaa;
+    -moz-box-shadow: 1px 1px 2px #aaa;
+    z-index: 10;
+}
+
+.flyout-focus-comment-author .author-flyout,
+.flyout-focus-trackback-source .source-flyout,
+.flyout-focus-comment-entry .entry-flyout,
+.flyout-focus-trackback-entry .entry-flyout {
+    display: block;
+}
+
+.flyout-border {
+    border-width: 0 1px 1px 0;
+    border-style: solid;
+    border-color: #aaa;
+    padding: 2px;
+    background-color: #fff;
+}
+
+.flyout-inner {
+    padding: 10px 9px 5px 10px;
+    background-color: #f0f5f8;
+}
+
+.flyout h4,
+.flyout p {
+    margin-bottom: 5px;
+}
+
+.flyout h4 {
+    font-weight: bold;
+}
+
+.author-flyout .flyout-userpic {
+    width: 50px;
+    margin: 0 10px 5px 0;
+}
+
+.author-flyout .flyout-details {
+    width: 240px;
+}
+
+
+/* Status Flyout */
+
+.status-chooser {
+    position: relative;
+}
+
+.current-status a {
+    display: block;
+    border: 1px solid #ececeb;
+}
+
+.current-status .choose {
+    border-left: 1px solid #ececeb;
+}
+
+.status-options {
+    display: none;
+    position: absolute;
+    right: 16px;
+    top: 0;
+    width: 140px;
+    border-top: 1px solid #ececeb;
+    background-color: #ffffe9;
+    box-shadow: 1px 1px 2px #999;
+    -webkit-box-shadow: 1px 1px 2px #999;
+    -moz-box-shadow: 1px 1px 2px #999;
+    z-index: 10;
+}
+
+.status-draft .status-options,
+.status-unpublished .status-options {
+    top: -26px;
+}
+
+.status-spam .status-options {
+    top: -78px;
+}
+
+.flyout-focus-post-actions .status-options,
+.flyout-focus-page-actions .status-options,
+.flyout-focus-comment-actions .status-options,
+.flyout-focus-trackback-actions .status-options {
+    display: block;
+}
+
+.status-options a,
+.status-options span {
+    display: block;
+}
+
+.status-options a,
+.status-options .option-inner {
+    border-width: 0 1px 1px;
+    border-style: solid;
+    border-color: #ececeb;
+}
+
+.status-options .option-name {
+    width: 103px;
+    margin: 0 5px;
+    font-weight: bold;
+    line-height: 25px;
+    text-align: right;
+}
+
+.status-options .option-icon {
+    width: 25px;
+}
+
+.status-options .option-icon img {
+    border-left: 1px solid #ececeb;
+}

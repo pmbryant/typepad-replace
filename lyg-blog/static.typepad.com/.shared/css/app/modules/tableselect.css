@@ -1,0 +1,153 @@
+/* tables */
+
+.tableselect table {
+    border: 1px solid #d5e9f5;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.tableselect tr.odd {
+    background: #f6f9fb;
+}
+.tableselect th {
+    background: #f0f5f8;
+    text-align: left;
+    font-size: .9em;
+    padding: 5px;
+}
+.tableselect thead th {
+    border-bottom: 1px solid #d5e9f5;
+}
+.tableselect tfoot th {
+    border-top: 1px solid #d5e9f5;
+    text-align: center;
+}
+.tableselect td {
+    padding: 5px;
+}
+.tableselect th.cb,
+.tableselect td.cb {
+    padding: 0 5px;
+    width: 25px;
+}
+
+/* common tableselect styles */
+fieldset{
+    padding: 20px;
+}
+
+fieldset .header{
+    font-size: 14px;
+    font-weight: bold;
+    color: #595B5D;
+}
+
+.template-set{
+    margin: 10px 0 20px 0;
+}
+
+.add-table-item{
+    padding: 5px 0 5px 17px;
+    background: url(../../../images/app/global/create-hover.png) no-repeat 2px center;
+    font-weight: bold;
+}
+
+/* designs */
+
+.theme-form{
+    margin-bottom: 20px;
+}
+
+.tableselect tr.active td.si img{
+    background-image: url(../../../images/status_icons/published.gif);
+}
+.tableselect tbody tr.selected td {
+    border-bottom-color: #bdf;
+    color: #fff;
+    background-color: #369;
+}
+.tableselect tbody tr.selected td a {
+    color: #fff;
+}
+.tableselect tr td.filename img {
+    margin-right: 3px;
+    vertical-align: -1px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+.tableselect tr.active.selected td.si img{
+    background-image: url(../../../images/status_icons/published-selected.gif);
+}
+.tableselect tr.fileish td.filename img{
+    background-image: url(../../../images/file_manager/file.gif);
+}
+.tableselect tr.folderish td.filename img{
+    background-image: url(../../../images/file_manager/folder.gif);
+}
+.tableselect tr td.link img{
+    background-image: url(../../../images/file_manager/link.gif);
+}
+.tableselect tr td.table-button{
+    text-align: center;
+}
+.tableselect tr td.table-button a{
+    padding: 2px 10px;
+    background-color: #efedf4;
+}
+.tableselect .design-field,
+.tableselect .save-design{
+    display: none;
+}
+.tableselect .rowstate-edit .design-label,
+.tableselect .rowstate-edit .edit-design{
+    display: none;
+}
+
+.tableselect .rowstate-edit .design-field,
+.tableselect .rowstate-edit .save-design{
+    display: inline;
+}
+
+/* quickadd */
+.quickadd-bar .ti{
+    width: 220px;
+}
+
+
+/* Authors */
+
+.tableselect#authors-list .author .author-email a {
+    color: #666;
+}
+
+
+/* Bit.ly Stats */
+
+.tableselect#share-traffic .col-clicks {
+    width: 15%;
+    text-align: center;
+}
+
+.tableselect#share-traffic .col-post {
+    width: 60%;
+}
+
+.tableselect#share-traffic .col-post .info-title {
+    font-weight: bold;
+}
+
+.tableselect#share-traffic .col-post .info-meta {
+    color: #848681;
+}
+
+.tableselect#share-traffic .col-hash {
+    width: 25%;
+}
+
+.tableselect#share-traffic td {
+    vertical-align: top;
+}
+
+.tableselect#share-traffic td.col-clicks {
+    font-weight: bold;
+    font-size: 2em;
+}

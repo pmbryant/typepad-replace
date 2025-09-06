@@ -1,0 +1,122 @@
+/*
+
+TypePad App: Messages
+Six Apart
+http://www.sixapart.com/
+
+*/
+
+.message {
+    position: relative;
+    margin-bottom: 20px;
+    border: 1px solid #fc0;
+    padding: 14px 14px 9px;
+    background-color: #fdfbd5;
+}
+
+.message h1, .message h2, .message h3,
+.message h4, .message h5, .message h6,
+.message p,  .message ol, .message ul {
+    margin-bottom: 5px;
+}
+
+.message h1, .message h2, .message h3,
+.message h4, .message h5, .message h6 {
+    font-weight: bold;
+}
+
+.message ol,
+.message ul {
+    padding-left: 30px;
+}
+
+.message ol {
+    list-style-type: decimal;
+}
+
+.message ul {
+    list-style-type: disc;
+}
+
+.message a {
+    color: #333;
+    text-decoration: underline;
+}
+
+.message .submessage {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+.message .info-submessage {
+    padding-left: 26px;
+    background-image: url(../../../images/silk/information.png);
+}
+
+.message .alert-submessage {
+    padding-left: 26px;
+    color: #ff1800;
+    font-weight: bold;
+    background-image: url(../../../images/silk/error.png);
+}
+
+.message .alert-submessage a {
+    color: #ff1800;
+    text-decoration: underline;
+}
+
+.message .submessage:last-child,
+.message .last-submessage {
+    margin-bottom: 0;
+    border-bottom-width: 0;
+    padding-bottom: 0;
+}
+
+.message .message-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.message .message-close a {
+    display: block;
+    padding: 16px 14px 16px 10px;
+}
+
+
+/* Error Message */
+
+.error-message {
+    border-color: #da000c;
+    color: #fff;
+    background-color: #da000c;
+}
+
+.error-message a {
+    color: #fff;
+}
+
+
+/* In-App Message */
+
+.inapp-message {
+    border-color: #d5e9f5;
+    padding-right: 38px;
+    background-color: #f8fcff;
+}
+
+
+/* In-App Message */
+
+.plain-message {
+    border-width: 0;
+    padding: 0;
+    background-color: transparent;
+}
+
+.plain-message .submessage {
+    border-bottom-width: 0;
+}

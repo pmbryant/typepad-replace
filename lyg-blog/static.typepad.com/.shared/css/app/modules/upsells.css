@@ -1,0 +1,63 @@
+/* Content Upsells */
+
+#content .upsell {
+    margin-bottom: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #f2f2c2 #e5e5b8 #e5e5b8 #f2f2c2;
+    background-color: #ffc;
+    background-image: url(../../../images/app/promos/upsell-bg.png);
+    background-repeat: repeat-x;
+    background-position: 0% 100%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+#content .upsell h3 {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#content .upsell p {
+    margin-bottom: 5px;
+}
+
+#content .upsell-content {
+    padding: 15px 14px 10px;
+}
+
+#content .upsell-cta {
+    margin: 10px 0 5px;
+}
+
+#content .upsell-badge-left .upsell-content {
+    padding-left: 72px;
+    background-image: url(../../../images/app/promos/upsell-gopro.png);
+    background-repeat: no-repeat;
+    background-position: 14px 15px;
+}
+
+#content .upsell-badge-right {
+    float: right;
+    margin: 0 0 5px 10px;
+}
+
+
+/* Footer Upsell */
+
+#footer .upsell {
+    float: left;
+    width: 470px;
+    font-size: 0.9em;
+    background-color: #ffc;
+}
+
+#footer .upsell-content {
+    padding: 1em;
+}
+
+#footer .upsell-cta {
+    float: right;
+    margin-left: 1em;
+}

@@ -1,0 +1,53 @@
+.main-action {
+    background: #f0f5f8;
+    font-size: 14px;
+    margin: 0 0 20px 0;
+    padding: 8px 15px;
+    border-right: 1px solid #d5e9f5;
+    border-bottom: 1px solid #d5e9f5;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+.main-action h3 {
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.main-action .setting {
+    background: none;
+    padding: 0;
+    border: none;
+    margin-bottom: 10px;
+    clear: both;
+}
+.main-action .setting .setting-field {
+    padding: 0;
+}
+.main-action input.ti {
+    font-size: 16px;
+}
+
+
+/* TypeLists */
+
+.main-action-typelist {
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+.main-action-typelist input.ti {
+    color: #666;
+    font-size: 13px;
+}
+
+.main-action-typelist input.qa-focus {
+    color: #000;
+}
+
+
+/* Inverted */
+
+.main-action-inverted {
+    background: #fff;
+}

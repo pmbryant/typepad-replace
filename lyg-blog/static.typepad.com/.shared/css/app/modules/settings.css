@@ -1,0 +1,557 @@
+/*
+
+TypePad App: Settings
+Six Apart
+http://www.sixapart.com/
+
+*/
+
+fieldset,
+.info-group {
+    margin-bottom: 1px;
+    border-right: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 1px 1px 2px #aaa;
+    -webkit-box-shadow: 1px 1px 2px #aaa;
+    -moz-box-shadow: 1px 1px 2px #aaa;
+}
+.subset{
+    border-right: 1px solid #d5e9f5;
+    border-bottom: 1px solid #d5e9f5;
+    padding: 12px 15px;
+    background-color: #f0f5f8;
+}
+.fieldset-header {
+    font-size: 14px;
+    font-weight: bold;
+    color: #595B5D;
+    margin-bottom: 8px;
+}
+
+.fieldset-header-note {
+    margin-bottom: 10px;
+    color: #666;
+    font-size: 0.85em;
+}
+
+.fieldset-content {
+    padding: 5px 10px;
+}
+.field,
+.info-item {
+    margin-bottom: 10px;
+}
+.field .field {
+    margin-left: 15px;
+}
+.field-description {
+    color: #777;
+    clear: both;
+    margin-top: 5px;
+}
+.field-error {
+    color: #900;
+    font-weight: bold;
+}
+.field-intro p,
+.field-description p,
+.field-error p {
+    margin-bottom: 5px;
+}
+
+.field-description p.warn{
+    padding-left: 20px;
+    background: url(../../../images/status_icons/warning.gif) 6px 3px no-repeat;
+}
+
+.field-content li,
+.field-description li {
+    margin-bottom: 3px;
+}
+.field-content .protect-fields label,
+.field-content .protect-fields input{
+    float: left;
+    display: block;
+    width: 70px;
+}
+.field-content .protect-fields input{
+    width: 120px;
+}
+.field-content img {
+    vertical-align: middle;
+}
+
+.field-textinput .field-label,
+.field-select .field-label,
+.field-checkbox .field-label,
+.field-table .field-label,
+.info-label {
+    float: left;
+    width: 110px;
+    text-align: right;
+    margin-right: 10px;
+}
+.field-textinput .field-label,
+.field-select .field-label {
+    padding-top: 4px;
+}
+.field-textinput .field-content,
+.field-select .field-content,
+.field-checkbox .field-content,
+.info-content {
+    float: left;
+    width: 400px;
+}
+
+.basics .field-label {
+width: 120px !important;
+}
+
+.basics .field-content {
+width: 380px !important;
+}
+
+.field-userpic {
+    float: left;
+    margin-right: 20px;
+    border: 1px solid black;
+}
+
+.billing-info {
+    margin-bottom: 20px;
+}
+
+.billing-info .info-label {
+    width: 120px;
+}
+
+.billing-info .info-content {
+    width: 380px;
+}
+
+.card-update .field-label {
+    width: 140px;
+}
+
+.card-update .field-content {
+    width: 360px;
+}
+
+.tip {
+    font-size: 12px;
+    color: #777;
+    margin: 5px 0 0 0;
+}
+
+.field-disabled label {
+    color: #999;
+}
+
+.field .new {
+    padding: 1px 3px 0;
+    color: #fff;
+    font-weight: bold;
+    font-size: 11px;
+    text-transform: uppercase;
+    background-color: #c60;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+}
+
+
+/* footer */
+.form-footer {
+    background: #d5e9f5;
+    padding: 15px 10px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    -moz-border-radius-bottomright: 4px;
+}
+.form-footer .lcol {
+    display: inline;
+    float: left;
+}
+.form-footer .rcol {
+    display: inline;
+    float: right;
+    width: 280px;
+    text-align: right;
+}
+.form-footer .form-summary {
+    display: inline;
+    float: left;
+    width: 550px;
+    margin-left: 20px;
+}
+
+
+/* Authors */
+
+#authors-list-form {
+    margin-bottom: 20px;
+}
+#invite-form table,
+#invite-form th,
+#invite-form tr,
+#invite-form td {
+    border: none;
+    background: none;
+}
+#invite-form td {
+    padding: 3px 0px;
+}
+#invite-form .author,
+#invite-form .email{
+    width: 200px;
+}
+#invite-form th {
+    display: none;
+}
+input.input-default{
+    color: #999;
+}
+
+
+/* Categories */
+
+#new-category-field {
+    width: 325px;
+}
+.tableselect#category-list td {
+    line-height: 24px;
+}
+.tableselect#category-list .category-label{
+    display: block;
+    overflow: hidden;
+    width: 400px;
+    white-space: nowrap;
+}
+.tableselect#category-list .col-edit,
+.tableselect#category-list .col-delete {
+    text-align: center;
+}
+.tableselect#category-list .col-edit img,
+.tableselect#category-list .col-delete img {
+    margin-top: 4px;
+}
+.tableselect#category-list .col-edit {
+    width: 12%;
+}
+.tableselect#category-list .col-delete {
+    width: 15%;
+}
+.tableselect#category-list tbody tr.rowstate-edit td {
+    border-bottom-color: #fff;
+    background-color: #ffc;
+}
+.tableselect#category-list .category-field,
+.tableselect#category-list .save-category,
+.tableselect#category-list .cancel-category {
+    display: none;
+}
+.tableselect#category-list .rowstate-edit .category-label,
+.tableselect#category-list .rowstate-edit .edit-category,
+.tableselect#category-list .rowstate-edit .delete-category {
+    display: none;
+}
+.tableselect#category-list .rowstate-edit .category-field,
+.tableselect#category-list .rowstate-edit .save-category,
+.tableselect#category-list .rowstate-edit .cancel-category {
+    display: inline;
+}
+
+
+/* Mobile */
+
+.field-content .highlight {
+    background: #fdfbd5;
+    border: 1px solid #fc0;
+    padding: 5px;
+    text-align: center;
+    font-size: 14px;
+    margin: 0 0px 8px;
+}
+
+
+/* Ban */
+
+#add-banned input.ti,
+#add-banned textarea {
+    width: 350px;
+}
+#add-banned.main-action .setting {
+    margin-bottom: 10px;
+}
+#add-banned.main-action .setting .setting-label {
+    float: left;
+    width: 120px;
+    margin-right: 10px;
+    text-align: right;
+    font-size: 13px;
+    line-height: 28px;
+}
+#add-banned.main-action .setting .setting-field {
+    float: left;
+    width: 350px;
+}
+#add-banned.main-action .setting .setting-submit {
+    clear: both;
+}
+
+
+/* Add Blog Form */
+
+#add-blog-form #name,
+#add-blog-form #dirname {
+    color: #666;
+}
+
+#add-blog-form #name.ti-focus,
+#add-blog-form #dirname.ti-focus {
+    color: #000;
+}
+
+.faux-ti {
+    margin: 2px 0;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #c5c5c5 #eee #eee #c5c5c5;
+    padding: 2px 4px;
+    line-height: 1em;
+    background-color: #f9f9f9;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.faux-ti #dirname-uri {
+    color: #999;
+}
+
+.faux-ti #dirname,
+.faux-ti .ti {
+    margin: 0;
+    border-width: 0;
+    padding: 0;
+    font-size: 1em;
+    font-family: Helvetica, Arial, Verdana, sans-serif;
+    background-color: transparent;
+}
+
+.faux-ti #dirname {
+    width: 390px;
+}
+
+
+/* Numbered Settings */
+
+.numbered-settings .step {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.numbered-settings .last-step {
+    margin-bottom: 5px;
+    border-bottom-width: 0;
+    padding-bottom: 0;
+}
+
+.numbered-settings .number-col {
+    width: 50px;
+    margin: 0 10px 10px 0;
+}
+
+.numbered-settings .number-col .step-number {
+    border-width: 0 1px 1px 0;
+    border-style: solid;
+    border-color: #d5e9f5;
+    padding: 5px 0;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    background-color: #f0f5f8;
+}
+
+.numbered-settings .content-col {
+    width: 490px;
+}
+
+.content-2col .numbered-settings .content-col {
+    width: 630px;
+}
+
+.numbered-settings .content-col .step-header,
+.numbered-settings .content-col p {
+    margin-bottom: 10px;
+}
+
+.numbered-settings .content-col .step-header {
+    font-weight: bold;
+}
+
+
+/* API Key */
+
+#typekey-api-section input {
+    margin: 0 0 5px 0;
+}
+
+#typepad-apply-section,
+.typepad-apply #typepad-keys-section,
+.typepad-apply #typekey-api-section,
+.typepad-edit #typepad-keys-section,
+.typepad-edit #typekey-api-section {
+    display: none;
+}
+
+#typepad-keys-section .tp-button-bar .button-green, .button-l {  text-align: center !important;  }
+#typepad-keys-section .tp-button-bar .tp-button .button-l a { padding: 5px 10px 2px !important; margin: 0 !important; width: 140px !important; }
+
+.typepad-edit-section {
+    position: relative;
+}
+
+.typepad-apply #typepad-apply-section {
+    display: block;
+}
+
+#requirements h4 {
+    font-size: 11px;
+    color: #C00;
+    text-transform: uppercase;
+}
+
+#requirements h3 {
+    font-size: 18px;
+    color: #C00;
+    text-transform: uppercase;
+}
+
+#requirements ul {
+    list-style: disc outside;
+    padding: 0 30px;
+}
+
+#requirements li {
+    margin-bottom: 10px;
+}
+
+.api-listing .field-content p,
+.api-edit .field-content p {
+    padding: 4px 0 0 0;
+}
+
+.api-listing .field-label {
+    text-align: left;
+    width: 90px;
+}
+
+.typepad-api-listing .field-label {
+    width: 180px;
+}
+
+.typepad-api-listing .field-content {
+    width: 310px;
+}
+
+.api-listing p.site-name {
+    font-weight: bold;
+    color: #333;
+}
+
+.api-listing .field {
+    margin-bottom: 3px;
+}
+
+.api-listing .fieldset-content {
+    padding: 0;
+}
+
+.request-api-key {
+    margin: 20px 0 0 0;
+}
+
+.typekey-auth-urls {
+    margin: 10px 0 0 0;
+}
+
+.typekey-auth-urls p {
+    padding: 0 0 3px 0;
+}
+
+.r-edit {
+    width: 230px;
+    float: left;
+    text-align: right;
+    padding: 4px 0 0 0;
+}
+
+.r-cancel {
+    float: right; 
+    position: absolute;
+    top: 12px; 
+    right: 15px;
+}
+
+.api-listing .fieldset-content { 
+    width: 450px;
+}
+
+.api-listing .r-edit {
+    float: right;
+    width: auto;
+}
+
+.api-listing .field-content {
+    width: 250px;
+}
+
+.api-listing .site-url a {
+    background: url('/.shared/images/app/icons/16si/bullet_external.png') no-repeat bottom right;
+    padding-right: 18px;
+}
+
+.field-center {
+    float: right;
+    width: 400px;
+    text-align: center;
+    margin: 5px 15px 0 0;
+}
+
+.field-table {
+    width: 400px;
+}
+
+.field-table tr {
+    height: 24px;
+}
+
+.field-table th {
+    text-align: left;
+}
+
+.field-table-alt {
+    border: 1px solid #ddd;
+}
+
+.field-table-alt th {
+    padding: 3px 5px;
+}
+
+.field-table-alt td {
+    padding: 3px 0px 3px 4px;
+}
+
+.field-table-alt tr.odd {
+    background: #eee;
+}
+
+.required {
+    color: #f00;
+}

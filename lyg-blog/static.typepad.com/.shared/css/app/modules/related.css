@@ -1,0 +1,558 @@
+/*
+
+TypePad App: Related
+Six Apart
+http://www.sixapart.com/
+
+*/
+
+
+/* Help */
+
+.related-help {
+    margin-bottom: 10px;
+    border-right: 1px solid #deebf0;
+    border-bottom: 1px solid #deebf0;
+    padding: 15px 14px 0 15px;
+    background: #f8fcff;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    line-height: 1.4;
+    font-size: 92.3%;
+    color: #666;
+}
+
+.related-help .related-header {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.help-header {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+    background: #deebf0;
+    padding: 5px 15px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    font-size: 1.1em;
+}
+
+.related-help .help {
+    padding-bottom: 10px;
+}
+
+.related-help .help h4 {
+    color: #333;
+    font-weight: bold;
+}
+
+.related-help .help h4,
+.related-help .help p {
+    margin-bottom: 5px;
+}
+
+.related-help .help ul,
+.related-help .help dd {
+    margin-bottom: 5px;
+}
+
+.related-help .help li {
+    padding-left: 16px;
+    background-image: url(../../../images/app/icons/16si/bullet_black.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+.related-help .help li.external {
+    background-image: url(../../../images/app/icons/16si/bullet_external.png);
+}
+
+.related-help .help dt {
+    font-weight: bold;
+}
+
+
+/* Promo */
+
+.related-promo {
+    margin-bottom: 20px;
+}
+
+.related-promo .more,
+.related-promo .more a {
+    color: #666;
+}
+
+.related-promo .more {
+    margin-top: 5px;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+
+/* Quickstart */
+
+.related-quickstart .link {
+    margin: 7px 15px 0;
+}
+.related-quickstart .link a {
+    background: url(../../../images/lists/icon-add.gif) no-repeat 2px 0;
+    color: #999;
+    padding-left: 24px;
+}
+
+.related-quickstart {
+    margin-bottom: 20px;
+}
+
+.related-quickstart h4 {
+    font-weight: bold;
+    margin: 0 15px 5px;
+}
+
+.related-quickstart .quickstart-blog-group {
+    margin-bottom: 15px;
+}
+
+.related-quickstart .quickstart-blog-rule {
+    margin: 0;
+    border-width: 1px 0 0;
+    border-style: solid;
+    border-color: #e5e5e5;
+}
+
+.related-quickstart .menu-list {
+    position: relative;
+    margin-bottom: 0;
+    z-index: 1;
+}
+
+.related-quickstart .menu-list .blog {
+    background-color: #fff;
+    border-bottom: 1px dotted #ccc;
+    display: block;
+    margin: 0 15px;
+    padding: 4px 0;
+    position: relative;
+}
+
+.related-quickstart .menu-list .blog-only {
+    border-bottom: none;
+    padding-top: 15px;
+}
+
+.related-quickstart .menu-list .blog .blog-name,
+.related-quickstart .menu-list .blog .view-blog-link,
+.related-quickstart .menu-list .blog .compose-link,
+.related-quickstart .menu-list .blog .flyout-init-blog-actions {
+    display: block;
+    float: left;
+    height: 20px;
+    overflow: hidden;
+    padding: 5px 8px 1px;
+}
+
+.related-quickstart .menu-list .blog .blog-name {
+    background-image: url(../../../images/profile/service_icons/typepad.png);
+    background-repeat: no-repeat;
+    background-position: 0 5px;
+    font-weight: normal;
+    padding-left: 24px;
+    width: 176px;
+}
+
+.related-quickstart .menu-list .blog .blog-name span {
+    font-weight: normal;
+    font-size: 11px;
+    color: #999;
+    margin-left: 5px;
+}
+
+.related-quickstart .menu-list .blog-only .blog-name {
+    padding-left: 0;
+}
+
+
+/* styles for default blog */
+
+.related-quickstart .menu-list .blog-main .view-blog-link,
+.related-quickstart .menu-list .blog-main .compose-link,
+.related-quickstart .menu-list .blog-main .flyout-init-blog-actions {
+    padding: 0 8px;
+}
+
+.related-quickstart .menu-list .blog-main .blog-name {
+    width: 274px;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+
+/* styles for connected blogs */
+
+.related-quickstart .menu-list-connected {
+    border-top: 1px dotted #ccc;
+    margin: 0 15px;
+}
+
+.related-quickstart .menu-list-connected .blog {
+    padding: 2px 0;
+    margin: 0;
+}
+
+.related-quickstart .menu-list-connected .blog .blog-name {
+    width: 248px;
+}
+
+.related-quickstart .menu-list .blog-platform-typepad .blog-name      { background-image: url(../../../images/profile/service_icons/typepad.png); }
+.related-quickstart .menu-list .blog-platform-movabletype .blog-name  { background-image: url(../../../images/profile/service_icons/movabletype.png); }
+.related-quickstart .menu-list .blog-platform-wordpress .blog-name    { background-image: url(../../../images/profile/service_icons/wordpress.png); }
+.related-quickstart .menu-list .blog-platform-blogger .blog-name      { background-image: url(../../../images/profile/service_icons/blogger.png); }
+.related-quickstart .menu-list .blog-platform-tumblr .blog-name       { background-image: url(../../../images/profile/service_icons/tumblr.png); }
+.related-quickstart .menu-list .blog-platform-typepadjapan .blog-name { background-image: url(../../../images/profile/service_icons/typepadjapan.png); }
+.related-quickstart .menu-list .blog-platform-generic .blog-name      { background-image: url(../../../images/app/global/generic-service.png); }
+
+
+
+.related-quickstart .menu-list .blog .blog-sparkline {
+    float: right;
+    margin: 0 0 12px;
+    padding: 0;
+    text-align: center;
+    width: 188px;
+}
+.related-quickstart .menu-list .blog-only .blog-sparkline {
+    margin-right: 15px;
+}
+
+.related-quickstart .menu-list .blog .blog-design-thumb {
+    border: 1px solid #ccc;
+    display: block;    
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+}
+
+.related-quickstart .menu-list .blog .blog-thumbnail {
+    float: left;
+    margin: 0 0 10px 25px;
+    width: 80px;
+}
+
+.related-quickstart .menu-list .blog-only .blog-thumbnail {
+    margin-left: 0;
+}
+
+.related-quickstart .menu-list .blog .blog-thumbnail .blog-view-link {
+    width: 76px;
+    text-align: center;
+    display: block;
+    padding: 5px 2px 3px;
+    background: #e2edf4;
+    text-transform: uppercase;
+    font-size: 11px; 
+}
+
+.related-quickstart .menu-list .blog ul.blog-sections {
+    float: right;
+    clear: right;
+    width: 188px;
+}
+
+.related-quickstart .menu-list .blog-only ul.blog-sections {
+    width: 213px;
+}
+
+.related-quickstart .menu-list .blog ul.blog-sections li {
+    float: left;
+    width: 94px;
+    margin-bottom: 3px;
+}
+
+.related-quickstart .menu-list .blog ul.blog-sections li.left { width: 78px; }
+.related-quickstart .menu-list .blog ul.blog-sections li.right { width: 110px; }
+
+.related-quickstart .menu-list .blog-only ul.blog-sections li {
+    width: 106px;
+}
+
+.related-quickstart .menu-list .blog ul.blog-sections li a {
+    display: block;
+    padding-left: 16px;
+    background: url(../../../images/app/icons/16si/bullet_blue.png) no-repeat 0 1px;
+}
+
+.related-quickstart .menu-list .blog ul.blog-sections li a span {
+    color: #999;
+    font-size: 11px;
+}
+
+.related-quickstart .menu-list .blog .compose-link {
+    text-align: center;
+    border-left: 1px dotted #ccc;
+}
+
+.related-quickstart .menu-list .blog .flyout-init-blog-actions {
+    background-image: url(../../../images/app/dashboard/dashboard-option-arrow.gif);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border-left: 1px dotted #ccc;
+    width: 10px;
+    overflow: hidden;
+    text-indent: -9999px;
+}
+
+.related-quickstart .menu-list .blog-main .flyout-init-blog-actions {
+    text-indent: 0;
+    width: auto;
+    background-position: 90% 50%;
+    padding-right: 23px;
+}
+
+.related-quickstart .menu-list .flyout-focus-blog-actions .flyout-init-blog-actions {
+    background: #287098;
+    background-image: url(../../../images/app/dashboard/dashboard-option-arrow-on.gif);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    color: #fff;
+}
+
+.related-quickstart .menu-list .blog-main.flyout-focus-blog-actions .flyout-init-blog-actions {
+    background-position: 90% 50%;
+}
+
+.related-quickstart .menu {
+    display: none;
+    position: absolute;
+    width: 120px;
+    top: 28px;
+    right: 0;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    border-color: #bbb #999 #999 #bbb;
+    padding: 0;
+    background-color: #f2f2f2;
+    font-size: 0.95em;
+    font-weight: normal;
+    overflow: hidden;
+}
+
+.related-quickstart .blog-main .menu {
+    top: 58px;
+}
+
+.related-quickstart .flyout-focus-blog-actions .menu {
+    display: block;
+}
+
+.related-quickstart .menu .menu-item {
+    border-bottom: 1px solid #ddd;
+}
+
+.related-quickstart .menu .menu-item a,
+.related-quickstart .menu .menu-item span {
+    display: block;
+    padding: 4px 6px 3px;
+}
+
+.related-quickstart .menu .menu-item-sep {
+    border-top: 1px solid #999;
+}
+
+.related-quickstart .menu .menu-item-last {
+    border-bottom: none;
+}
+
+
+/* suspended */
+
+.related-quickstart .menu-list .blog-suspended .blog-name {
+    color: #999;
+}
+
+.related-quickstart .menu-list .blog-suspended .compose-link {
+    color: #c99;
+}
+
+
+/* promo */
+
+.related-quickstart .promo {
+    margin-bottom: 15px;
+    padding: 15px 14px 0
+}
+
+.related-quickstart .promo-idea {
+    padding-left: 35px;
+    background-image: url(../../../images/silk/lightbulb.png);
+    background-repeat: no-repeat;
+    background-position: 14px 15px;
+}
+
+.related-quickstart .promo h5 {
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.related-quickstart .promo p {
+    margin-bottom: 5px;
+    color: #666;
+}
+
+.related-quickstart .promo .tp-button-bar {
+    margin-top: 10px;
+}
+
+
+/* News */
+
+.related-news {
+    margin-bottom: 20px;
+    padding: 15px 15px 10px;
+    background-color: #f8fcff;
+}
+
+.related-news .related-header,
+.related-news .related-footer {
+    margin-bottom: 5px;
+}
+
+.related-news .related-content,
+.related-news .related-footer {
+    color: #333;
+    font-size: 0.9em;
+}
+
+.related-news .header-title,
+.related-news .header-title a {
+    color: #d33402;
+}
+
+.related-news .header-title {
+    margin-right: 10px;
+    border-right: 1px solid #ccc;
+    padding-right: 10px;
+    font-weight: bold;
+    font-size: 1.15em;
+}
+
+.related-news .header-subscribe {
+    padding-left: 15px;
+    background-image: url(../../../images/app/dashboard/feed.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.related-news .content-title {
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 1.3em;
+    line-height: 1.2;
+}
+
+.related-news .content-body {
+    margin-bottom: 5px;
+}
+
+.related-news .content-meta {
+    margin-bottom: 5px;
+    color: #999;
+}
+
+
+/* Other Ways to Post */
+
+.related-help-other {
+    margin-bottom: 20px;
+    padding: 15px 14px 4px 15px;
+}
+
+.related-help-other .related-header,
+.related-help-other .help {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #d5e9f5;
+    padding-bottom: 10px;
+}
+
+.related-help-other .help-last {
+    margin-bottom: 0;
+    border-bottom-width: 0;
+}
+
+.related-help-other .help-quickpost,
+.related-help-other .help-postbyemail,
+.related-help-other .help-mobile,
+.related-help-other .help-googleanalytics,
+.related-help-other .help-chartbeat {
+    padding-left: 26px;
+    background-repeat: no-repeat;
+}
+
+.related-help-other .help-quickpost {
+    background-image: url(../../../images/app/icons/16si/bookmark.png);
+    background-position: 9px 0;
+}
+
+.related-help-other .help-postbyemail {
+    background-image: url(../../../images/silk/email.png);
+    background-position: 5px 0;
+}
+
+.related-help-other .help-mobile {
+    background-image: url(../../../images/silk/phone.png);
+    background-position: 5px 0;
+}
+
+.related-help-other .help-googleanalytics {
+    background-image: url(../../../images/app/icons/16si/google-analytics.png);
+    background-position: 5px 0;
+}
+
+.related-help-other .help-chartbeat {
+    background-image: url(../../../images/app/icons/16si/chartbeat.png);
+    background-position: 5px 0;
+}
+
+.related-help-other .new {
+    vertical-align: 1px;
+    padding: 1px 3px 0;
+    color: #fff;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    background-color: #c60;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+}
+
+.related-help-other .bookmarklet {
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 0.9em;
+    line-height: 20px;
+    font-family: "Lucida Grande", sans-serif;
+}
+
+.related-help-other .bookmarklet a {
+    padding: 2px 10px 4px;
+    color: #262626;
+    background-color: #969696;
+    text-shadow: #c0c0c0 0 1px 0;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+.related-help-other .bookmarklet a:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #626262;
+    text-shadow: #3b3b3b 0 1px 0;
+}

@@ -1,0 +1,33 @@
+/*
+
+TypePad App: Thumbselect
+Six Apart
+http://www.sixapart.com/
+
+*/
+
+.thumbselect .opt {
+    width: 92px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.thumbselect .opt-thumb {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.thumbselect .opt-label {
+    display: block;
+    font-size: 0.9em;
+}
+
+.thumbselect .opt-label input {
+    float: left;
+    margin-top: 1px;
+}
+
+.thumbselect .opt-label .opt-text {
+    display: block;
+    margin-left: 18px;
+}

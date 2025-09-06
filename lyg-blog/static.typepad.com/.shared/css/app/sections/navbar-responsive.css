@@ -1,0 +1,107 @@
+/* Navbar */
+.navbar-brand  {
+    margin-right: 10px !important;
+}
+
+.navbar-brand img {
+    padding: 0 !important;
+    height: 14px !important;
+    width: 24px !important;
+}
+
+nav .avatar {
+     margin-right: 5px;
+}
+ .bg-dark {
+     background-color: #82a365 !important;
+}
+ .navbar {
+     padding: 0;
+}
+ .container {
+     padding: 5px;
+}
+/* Toggle button */
+ .navbar-toggler:focus, .navbar-toggler:active {
+     outline: none;
+     box-shadow: none;
+}
+ .navbar-toggler {
+     border: 0;
+     padding: 2px 0;
+}
+
+ #content-inner {
+     width: 100%;
+}
+/* WIDTHS */
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query since this is the default in Bootstrap */
+/* YELLOW */
+ .navbar .container {
+    padding: 0 10px;
+}
+ .container {
+     width: 100%;
+     min-width: 100%;
+}
+ .nav-item {
+     padding: 10px 5px;
+     margin: 0;
+}
+ .nav-link {
+     padding: 0;
+     margin: 0;
+}
+ .nav-item:hover {
+     background: #68854f;
+     border-radius: 2px;
+     -webkit-border-radius: 2px;
+     text-decoration: none;
+}
+ .nav-link, .nav-link:visited {
+     color: #fff !important;
+     font-size: .9rem;
+     text-decoration: none;
+}
+ .navbar-collapse {
+     margin-bottom: 15px;
+}
+
+    
+/* Small devices (landscape phones, 576px and up) */
+/* RED */
+ @media (min-width:576px){
+}
+/* Medium devices (tablets, 768px and up) */
+/* Green */
+ @media (min-width:768px){
+ .navbar .container {
+    padding: 0 0 0 10px;
+}
+     .nav-link, .nav-link:visited, .nav-link:hover {
+         text-decoration: underline;
+    }
+     .nav-link:hover {
+         text-decoration: underline;
+    }
+     .nav-item {
+         padding: 2px;
+         margin: 5px 0;
+    }
+     .navbar-collapse {
+         margin-bottom: 0;
+    }
+}
+/* Large devices (desktops, 992px and up) */
+/* Blue */
+  @media (min-width:992px) {
+      .container {
+         width: 100%;
+         min-width: auto;
+         max-width: 1000px;
+    }
+}
+/* Extra large devices (large desktops, 1200px and up) */
+ @media (min-width:1200px){
+}

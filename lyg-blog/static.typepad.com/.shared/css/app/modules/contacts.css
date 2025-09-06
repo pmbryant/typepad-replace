@@ -1,0 +1,198 @@
+
+/* Contacts Page Styling -------------------------------------------------------- */
+
+.contacts .contact {
+    white-space: nowrap;
+    overflow: hidden;
+    float: left;
+    width: 93px;
+    height: 115px;
+    margin: 6px;
+    *margin: 5px; /* IE */
+    text-align: center;
+}
+
+.contacts .contact,
+.contacts .contact .contact-name {
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 5px 0 5px 0;
+    font-size: 90%;
+    text-align: center;
+}
+
+.contact-list .contact .contact-avatar {
+    height: 50px;
+    width: 50px;
+}
+
+.contacts .pagination {
+    padding: 20px 0 10px;
+    text-align: center;
+}
+
+.contacts .contacts-stats {
+    margin-bottom: 10px;
+}
+
+/* Contacts/Memberships Following */
+
+.contacts .user-following {
+    padding-top: 5px;
+    background: #fff;
+}
+
+.contacts .following-module .module-content {
+    padding: 5px 0 5px 6px;
+    background-color: #fff;
+}
+
+.contacts .following-module .module-list {
+    margin: 0;
+}
+
+.contacts .following-module .module-list-item a {
+    display: block;
+    float: left;
+}
+
+.contacts .following-module .module-list-item .userpic {
+    width: 32px;
+    height: 32px;
+    padding: 0 5px 5px 0;
+}
+
+.contacts .following-module .view-all {
+    margin-right: 10px;
+    padding: 0;
+    text-align: right;
+}
+
+.contacts .user-followers,
+.contacts .user-contacts,
+.contacts .user-flyout,
+.contacts .user-follow-actions {
+    height: 50px;
+    margin: 0;
+}
+
+.contacts .user-follow-actions {
+    float: left;
+    width: 39%;
+    text-align: center;
+}
+
+.contacts .register-to-follow {
+    padding: 12px 0 0;
+    text-align: center;
+}
+
+.contacts .unfollow-display {
+    margin: 5px 0 0;
+    color: #8baa6e;
+    font-weight: bold;
+    font-size: 0.95em;
+    background: url(../../../images/flyout/following-check-mark.png) no-repeat 5px 3px;
+}
+
+.contacts .follow-action {
+    display: block;
+    height: 22px;
+    margin: 5px;
+    background: url(../../../images/app/buttons/flyout-button-grey-left.gif);
+    background-repeat: no-repeat;
+}
+
+.contacts a.follow-action:hover {
+    text-decoration: none;
+    background: url(../../../images/app/buttons/flyout-button-grey-left-hover.gif);
+    background-repeat: no-repeat;
+}
+
+.contacts .follow-action span {
+    display: block;
+    padding: 5px;
+    line-height: 0.95em;
+    background: url(../../../images/app/buttons/flyout-button-grey-right.gif);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.contacts a.follow-action:hover span {
+    text-decoration: none;
+    background: url(../../../images/app/buttons/flyout-button-grey-right-hover.gif);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.contacts .follow-confirmation-important {
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+.contacts .follow-confirmation-important-text {
+    font-size: 0.8em;
+}
+
+.contacts .signin-or-register {
+    width: 100%;
+    background-image: none;
+}
+
+.contacts .hiddenBox,
+.groups .hiddenBox {
+    display: none !important;
+}
+
+.groups .group-list {
+    margin-top: 15px;
+}
+
+.groups .group-list .group{
+    margin-bottom: 15px;
+}
+.groups .group-list .group img{
+    float: left;
+    margin-right: 15px;
+}
+.groups .group-list .group h3{
+    font-size: 18px;
+}
+.groups .group-list .group .group-status{
+    font-weight: bold;
+}
+.groups .group-list .group .group-action{
+    font-weight: normal;
+}
+
+.user-follow-actions2 a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.user-follow-actions2 a.follow-display2 {
+    padding: 5px;
+    color: #000;
+    background: url(../../../images/app/buttons/follow-button-white-small.png) no-repeat center 10%;
+}
+
+.user-follow-actions2 a.unfollow-display2 {
+    padding: 5px;
+    color:#fff;
+    background: url(../../../images/app/buttons/follow-button-green-small.png) no-repeat center 10%;
+}
+
+.user-follow-actions2 a.unfollow-display2:hover {
+    padding: 5px;
+    color:#fff;
+    background: url(../../../images/app/buttons/follow-button-red-small.png) no-repeat center 10%;
+}
+
+.user-block-actions a {
+    text-align: center;
+    font-size: 9px;
+    color: #999999;
+}
