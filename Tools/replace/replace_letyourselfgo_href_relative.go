@@ -70,6 +70,7 @@ document.write('<img src="https://www.typepad.com/t/stats?blog_id=50890&amp;user
 		{`href="pzmyers@pharyngula.org.html"`, `href="../..index.html"`},
 		{`href="https://cache.blogads.com/261914443/feed.css"`, ``}, // blogads is defunct and irrelevant
 		{`src="https://cache.blogads.com/261914443/feed.js"`, ``},
+		{`src="http://pharyngula.org/images/ttbbadge.gif"`, ``}, // pharyngula.org is defunct
 	}
 
 	var files []string
