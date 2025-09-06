@@ -68,6 +68,8 @@ document.write('<img src="https://www.typepad.com/t/stats?blog_id=50890&amp;user
 		{`href="../30/pzmyers@pharyngula.org.html"`, `href="../30/index.html"`},
 		{`href="page/30/pzmyers@pharyngula.org.html"`, `href="index.html"`},
 		{`href="pzmyers@pharyngula.org.html"`, `href="../..index.html"`},
+		{`href="https://cache.blogads.com/261914443/feed.css"`, ``}, // blogads is defunct and irrelevant
+		{`src="https://cache.blogads.com/261914443/feed.js"`, ``},
 	}
 
 	var files []string
