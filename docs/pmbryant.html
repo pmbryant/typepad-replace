@@ -7,12 +7,12 @@
     <style>
         body {
             margin: 0;
-            background: #222;
+            background: #444;
             min-height: 100vh;
             font-family: 'Segoe UI', Arial, sans-serif;
         }
         .container {
-            max-width: 600px;
+            max-width: 900px;
             margin: 40px auto;
             background: #f7f7f7;
             border-radius: 8px;
@@ -20,9 +20,9 @@
             overflow: hidden;
         }
         .title-bar {
-            background: #fff;
+            background: #f7f6f3;
             padding: 32px 24px 24px 24px;
-            text-align: center;
+            text-align: left;
         }
         .title-top {
             color: #222;
@@ -37,6 +37,21 @@
             font-weight: 700;
             margin-bottom: 0;
         }
+        .menu-bar {
+            background: #d6d2ca;
+            padding: 12px 24px;
+            display: flex;
+            gap: 32px;
+            border-bottom: 1px solid #d0d0d0;
+        }
+        .menu-bar a {
+            color: #555;
+            text-decoration: none;
+            font-size: 1.08rem;
+            font-variant: small-caps;
+            font-weight: 500;
+            text-transform: capitalize;
+        }
         .content {
             background: #f3f1ed;
             padding: 32px 24px;
@@ -50,14 +65,17 @@
             margin-bottom: 24px;
             line-height: 1.7;
         }
-        @media (max-width: 650px) {
+        @media (max-width: 900px) {
             .container {
                 margin: 0;
                 border-radius: 0;
             }
-            .title-bar, .content {
+            .title-bar, .content, .menu-bar {
                 padding-left: 12px;
                 padding-right: 12px;
+            }
+            .menu-bar {
+                gap: 16px;
             }
         }
     </style>
@@ -68,6 +86,11 @@
             <div class="title-top">P.M.Bryant's</div>
             <div class="title-bottom">Old Hollywood Corner</div>
         </div>
+        <nav class="menu-bar">
+            <a href="#">Menu1</a>
+            <a href="#">Menu2</a>
+            <a href="#">Menumenu3</a>
+        </nav>
         <div class="content">
             <ul>
                 <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod, nisi eu consectetur cursus, nisl erat dictum urna, nec dictum enim enim nec enim.</li>
