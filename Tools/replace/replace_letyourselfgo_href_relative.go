@@ -118,6 +118,7 @@ document.write('<img src="https://www.typepad.com/t/stats?blog_id=50890&amp;user
 		{`href="https://profile.typepad.com/pmbryant"`, `href="https://pmbryant.com/profile.typepad.com/pmbryant.html"`},
 		{`value="pmbryant.typepad.com"`, `value="pmbryant.defunct.domain.goeshere"`},         // typepad refs in search button for BandB (search button already disabled)
 		{`<a href="https://pmbryant.typepad.com/.a/`, `<a href="https://pmbryant.com/x/.a/`}, // many large-image links fit this pattern
+		{` href="https://pmbryant.typepad.com/.a/`, ` href="https://pmbryant.com/x/.a/`},     // due diligence suggets mass replacing all these is appropriate
 	}
 
 	var files []string
