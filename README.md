@@ -7,6 +7,5 @@ files with special characters, plus fixing 'src' refs to a handful of inline ima
 links had not been converted to local refs.
 
 The 'downloads' folder contains the image links (larger images opened on separate page) 
-that were not downloaded via wget. The links in the html pages have not been updated
-and still refer to pmbryant.typepad.com.
-
+that were not downloaded via wget. The page links to those images have been disabled
+pending potential further work.
