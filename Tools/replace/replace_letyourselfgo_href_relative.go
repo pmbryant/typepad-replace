@@ -116,8 +116,9 @@ document.write('<img src="https://www.typepad.com/t/stats?blog_id=50890&amp;user
 		{`src="https://www.leftyblogs.com/cgi-bin/blogwire.cgi?feed=texas&site=pmbryant.typepad.com&tz=cst&n=60"`, ``}, // leftyblogs.com is defunct
 		{`href="https://pmbryant.typepad.com/about.html"`, `href="https://pmbryant.com/x/b_and_b/about.html"`},         // Will not work locally but impatient and don't want to deal with different folder depths.
 		{`href="https://profile.typepad.com/pmbryant"`, `href="https://pmbryant.com/profile.typepad.com/pmbryant.html"`},
-		{`value="pmbryant.typepad.com"`, `value="pmbryant.defunct.domain.goeshere"`},           // typepad refs in search button for BandB (search button already disabled)
-		{`href="https://pmbryant.typepad.com/`, `hrefDISABLED="https://pmbryant.typepad.com/`}, // Disable any other pmbryant.typepad.com links
+		{`value="pmbryant.typepad.com"`, `value="pmbryant.defunct.domain.goeshere"`},                                                                                                               // typepad refs in search button for BandB (search button already disabled)
+		{`href="https://pmbryant.typepad.com/`, `hrefDISABLED="https://pmbryant.typepad.com/`},                                                                                                     // Disable any other pmbryant.typepad.com links
+		{`<form id="search-blog" method="get" action="https://pmbryant.typepad.com/.services/`, `<form id="search-blog" method="get" action="https://pmbryant.defunct.domain.goeshere/.services/`}, // Disable search action on LYG
 	}
 
 	var files []string
