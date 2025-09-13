@@ -120,6 +120,7 @@ document.write('<img src="https://www.typepad.com/t/stats?blog_id=50890&amp;user
 		{`href="https://pmbryant.typepad.com/`, `hrefDISABLED="https://pmbryant.typepad.com/`},                                                                                                     // Disable any other pmbryant.typepad.com links
 		{`<form id="search-blog" method="get" action="https://pmbryant.typepad.com/.services/`, `<form id="search-blog" method="get" action="https://pmbryant.defunct.domain.goeshere/.services/`}, // Disable search action on LYG
 		{`<meta property="og:image" content="https://pmbryant.typepad.com/`, `<meta property="og:image" content="https://pmbryant.com/`},
+		{`<meta property="og:image" content="http://pmbryant.typepad.com/`, `<meta property="og:image" content="http://pmbryant.com/`},
 		{`<meta name="twitter:image" content="https://pmbryant.typepad.com/`, `<meta name="twitter:image" content="https://pmbryant.com/`},
 		{`rdf:about="https://pmbryant.typepad.com/`, `rdf:about="https://pmbryant.com/x/`},               // RDF block (BandB only)
 		{`dc:identifier="https://pmbryant.typepad.com/`, `dc:identifier="https://pmbryant.com/x/`},       // RDF block (BandB only)
