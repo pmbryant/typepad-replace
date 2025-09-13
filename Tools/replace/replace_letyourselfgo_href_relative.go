@@ -124,6 +124,7 @@ document.write('<img src="https://www.typepad.com/t/stats?blog_id=50890&amp;user
 		{`rdf:about="https://pmbryant.typepad.com/`, `rdf:about="https://pmbryant.com/x/`},               // RDF block (BandB only)
 		{`dc:identifier="https://pmbryant.typepad.com/`, `dc:identifier="https://pmbryant.com/x/`},       // RDF block (BandB only)
 		{`trackback:ping="https://www.typepad.com/`, `trackback:ping="https://defunct.domain.goeshere/`}, // RDF block (BandB only)
+		{` href="https://pmbryant.typepad.com"`, ` hrefDISABLED="https://pmbryant.typepad.com"`},         // Links from my name on my comments
 	}
 
 	var files []string
