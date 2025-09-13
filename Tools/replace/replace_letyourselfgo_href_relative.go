@@ -119,6 +119,8 @@ document.write('<img src="https://www.typepad.com/t/stats?blog_id=50890&amp;user
 		{`value="pmbryant.typepad.com"`, `value="pmbryant.defunct.domain.goeshere"`},                                                                                                               // typepad refs in search button for BandB (search button already disabled)
 		{`href="https://pmbryant.typepad.com/`, `hrefDISABLED="https://pmbryant.typepad.com/`},                                                                                                     // Disable any other pmbryant.typepad.com links
 		{`<form id="search-blog" method="get" action="https://pmbryant.typepad.com/.services/`, `<form id="search-blog" method="get" action="https://pmbryant.defunct.domain.goeshere/.services/`}, // Disable search action on LYG
+		{`<meta property="og:image" content="https://pmbryant.typepad.com/`, `<meta property="og:image" content="https://pmbryant.com/`},
+		{`<meta name="twitter:image" content="https://pmbryant.typepad.com/`, `<meta name="twitter:image" content="https://pmbryant.com/`},
 	}
 
 	var files []string
@@ -167,6 +169,8 @@ document.write('<img src="https://www.typepad.com/t/stats?blog_id=50890&amp;user
 \(function\(i,s,o,g,r,a,m\)\{i\['GoogleAnalyticsObject'\][\s\S]*ga\('Typepad.send', 'pageview'\);
 </script>`), `<!-- google - analytics REMOVED -->`},
 		{regexp.MustCompile(`<iframe src="https://www\.typepad\.com/services/connect/profile_module.*" width="100%" height="20" frameborder="0" scrolling="no" allowtransparency="true"></iframe>`), `<iframe  width="100%" height="20" frameborder="0" scrolling="no" allowtransparency="true"></iframe>`},
+		/*{regexp.MustCompile(`<!-- script type="text/javascript" src="//www.google.com/recaptcha/api/js/recaptcha_ajax.js"></script -->[\s\S]*function handleChange\(\) \{ return true; \};
+		</script>`), `<!-- recaptcha - REMOVED -->`}, */ // Removing this destroys formatting of comment block which is otherwise disable so not a big deal to leave in place.
 	}
 
 	matchAndReplaceRegex(rootDir, patterns)
