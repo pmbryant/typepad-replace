@@ -122,6 +122,7 @@ document.write('<img src="https://www.typepad.com/t/stats?blog_id=50890&amp;user
 		{`<meta property="og:image" content="https://pmbryant.typepad.com/`, `<meta property="og:image" content="https://pmbryant.com/`},
 		{`<meta property="og:image" content="http://pmbryant.typepad.com/`, `<meta property="og:image" content="http://pmbryant.com/`},
 		{`<meta name="twitter:image" content="https://pmbryant.typepad.com/`, `<meta name="twitter:image" content="https://pmbryant.com/`},
+		{`<meta name="twitter:image" content="http://pmbryant.typepad.com/`, `<meta name="twitter:image" content="http://pmbryant.com/`},
 		{`rdf:about="https://pmbryant.typepad.com/`, `rdf:about="https://pmbryant.com/x/`},               // RDF block (BandB only)
 		{`dc:identifier="https://pmbryant.typepad.com/`, `dc:identifier="https://pmbryant.com/x/`},       // RDF block (BandB only)
 		{`trackback:ping="https://www.typepad.com/`, `trackback:ping="https://defunct.domain.goeshere/`}, // RDF block (BandB only)
