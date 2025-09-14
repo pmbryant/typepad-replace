@@ -1,38 +1,181 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>pmbryant.com -- Coming Soon</title>
+    <title>P.M.Bryant's Corner of the Web</title>
+    <!-- No external font needed -->
     <style>
         body {
+            margin: 0;
+            background: #333;
+            min-height: 100vh;
+            font-family: 'Segoe UI', Arial, sans-serif;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 40px auto;
+            background: #fff;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+            border-radius: 8px;
+            overflow: hidden;
             display: flex;
+            flex-direction: column;
+        }
+        .title-bar {
+            width: 100%;
+            background: url('MillCreekPanorama2018.JPG') center center/cover no-repeat, #fff;
+            padding: 32px 32px 36px 32px;
+            border-bottom: 1px solid #eee;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: #fff;
+            position: relative;
+        }
+        .title-bar::before {
+            content: "";
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(255,255,255,0.35);
+            z-index: 0;
+        }
+        .title-top, .title-bottom {
+            position: relative;
+            z-index: 1;
+        }
+        .title-top {
+            color: #222;
+            font-size: 2.6rem;
+            font-weight: bold;
+            letter-spacing: 0.01em;
+            margin-bottom: 6px;
+            text-align: left;
+        }
+        .title-bottom {
+            color: #222;
+            font-size: 1.3rem;
+            font-weight: 400;
+            text-align: left;
+            text-transform: titlecase;
+            letter-spacing: 0.02em;
+        }
+        .menu-bar {
+            width: 100%;
+            background: #e3e7f0;
+            color: #222;
+            padding: 0 18px;
+            display: flex;
+            align-items: center;
+            height: 36px;
+        }
+        .menu-items {
+            display: flex;
+            gap: 56px;
+        }
+        .menu-item {
+            color: #222;
+            font-size: 0.92rem;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+            text-decoration: none;
+        }
+        .main-row {
+            display: flex;
+            flex-direction: row;
+            gap: 0;
+            width: 100%;
+            background: #fff;
+            padding: 32px;
+            box-sizing: border-box;
+        }
+        .text-area {
+            max-width: 700px;
+            flex: 1 1 0;
+        }
+        .text-area ul {
+            padding-left: 1.2em;
+        }
+        .text-area li {
+            color: #222;
+            font-size: 1.08rem;
+            margin-bottom: 24px;
+            line-height: 1.7;
+        }
+        .image-area {
+            max-width: 400px;
+            flex: 0 0 400px;
+            display: flex;
+            flex-wrap: wrap;
             justify-content: center;
             align-items: flex-start;
-            height: 100vh;
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: linear-gradient(135deg, #b2f7ef 0%, #7fd8be 100%);
+            gap: 24px;
+            padding-left: 32px;
         }
-        .centered {
-            margin-top: 10vh;
-            text-align: center;
+        .black-square {
+            width: 100%;
+            max-width: 250px;
+            aspect-ratio: 1 / 1;
+            background: #111;
+            border-radius: 8px;
+            display: block;
         }
-        h1 {
-            color: #333;
-            font-size: 2rem;
-            margin-bottom: 2.5em;
-        }
-        .coming-soon {
-            color: #333;
-            font-size: 1.2rem;
+        @media (max-width: 900px) {
+            .container {
+                margin: 0;
+                border-radius: 0;
+            }
+            .title-bar, .menu-bar, .main-row {
+                padding-left: 12px;
+                padding-right: 12px;
+            }
+            .main-row {
+                flex-direction: column;
+                padding: 24px 12px;
+            }
+            .image-area {
+                padding-left: 0;
+                max-width: 100%;
+                flex: 1 1 0;
+                justify-content: center;
+            }
+            .black-square {
+                max-width: 180px;
+            }
         }
     </style>
 </head>
 <body>
-    <div class="centered">
-        <h1>pmbryant.com</h1>
-        <div class="coming-soon">Coming Soon</div>
+    <div class="container">
+        <div class="title-bar">
+            <div class="title-top">P.M.Bryant's</div>
+            <div class="title-bottom">Corner of the Web</div>
+        </div>
+        <nav class="menu-bar">
+            <div class="menu-items">
+                <a class="menu-item" href="/">Home</a>
+                <a class="menu-item" href="#">Let Yourself Go</a>
+                <a class="menu-item" href="#">B and B</a>
+            </div>
+        </nav>
+        <div class="main-row">
+            <div class="text-area">
+                <p>This site houses the archives of my Typepad blogs, <a href="x/letyourselfgo"><em>Let Yourself Go... To Old Hollywood</em></a> 
+                and <a href="/x/bandb"><em>B and B</em></a>.
+                The text, images and styles have been preserved, while most outgoing links to Typepad domains are disabled, 
+                as who knows who will end up owning them in the future.
+                Commenting, search and subscribe buttons are hence visible, but not functional. 
+                Links to open the inline images in a new tab do not yet work.</p>
+                <p>For twenty-one years, off-and-on, I have had a blogging presence on Typepad. From 2004 thru 2012, I wrote about politics, science, and some personal items on <a href="/x/bandb"><em>B and B</em></a>. 
+                In 2017, I started a classic Hollywood blog called <a href="/x/letyourselfgo"><em>Let Yourself Go... To Old Hollywood</em></a>, and kept it active until 2025.</p>
+                <p>Prompted by Typepad's shutdown at the end of September 2025, I have taken charge of all my writings and archived both blogs to this new personal domain. 
+                Soon I hope to start a new blog on this same domain. It should be a continuation of <em>Let Yourself Go</em>.</p>
+            </div>
+            <div class="image-area">
+                <img src="Typepad.LetYourselfGo.screenshot.2025sep14.small.png" alt="Let Yourself Go Screenshot" class="black-square" />
+                <img src="Typepad.BandB.screenshot.2025sep14.small.png" alt="B and B Screenshot" class="black-square" />
+            </div>
+        </div>
     </div>
 </body>
 </html>
