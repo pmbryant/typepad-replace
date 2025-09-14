@@ -4,3 +4,7 @@ tmp
 _site
 pmbryant.orig.html
 list.dat
+.hugo_build.lock
+pmbryant-hugo/public
+pmbryant-hugo/resources
+pmbryant-hugo/content/posts/GITIGNORE*

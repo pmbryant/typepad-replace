@@ -1,0 +1,4 @@
+baseURL = 'https://pmbryant.com/'
+languageCode = 'en-us'
+title = "P.M.Bryant's Corner of the Web"
+theme = "github.com/adityatelange/hugo-PaperMod"
