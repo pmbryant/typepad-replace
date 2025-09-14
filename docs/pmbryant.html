@@ -12,7 +12,7 @@
             font-family: 'Segoe UI', Arial, sans-serif;
         }
         .container {
-            max-width: 900px;
+            max-width: 1200px;
             margin: 40px auto;
             background: #f7f7f7;
             border-radius: 8px;
@@ -52,9 +52,21 @@
             font-weight: 500;
             text-transform: capitalize;
         }
+        .main-row {
+            background: #f3f1ed;
+            display: flex;
+            flex-direction: row;
+            align-items: stretch; 
+        }
         .content {
             background: #f3f1ed;
             padding: 32px 24px;
+            max-width: 800px;
+            margin-left: 0;
+            margin-right: 0;
+            float: left;
+            box-sizing: border-box;
+            min-height: 1px;
         }
         ul {
             padding-left: 1.2em;
@@ -65,7 +77,7 @@
             margin-bottom: 24px;
             line-height: 1.7;
         }
-        @media (max-width: 900px) {
+        @media (max-width: 1200px) {
             .container {
                 margin: 0;
                 border-radius: 0;
@@ -77,6 +89,36 @@
             .menu-bar {
                 gap: 16px;
             }
+            .right-column {
+                display: none;
+            }
+        }
+        @media (min-width: 1201px) {
+            .main-row {
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+            }
+            .content {
+                float: none;
+                max-width: 800px;
+                margin-left: 0;
+                margin-right: 0;
+                flex: 1 1 0;
+            }
+            .right-column {
+                display: block;
+                width: 400px;
+                min-width: 140px;
+                padding-top: 32px;
+            }
+            .right-column .square-img {
+                width: 140px;
+                height: 140px;
+                background: #111;
+                margin: 0 auto 32px auto;
+                display: block;
+            }
         }
     </style>
 </head>
@@ -87,16 +129,25 @@
             <div class="title-bottom">Old Hollywood Corner</div>
         </div>
         <nav class="menu-bar">
+        <!--
             <a href="#">Menu1</a>
             <a href="#">Menu2</a>
             <a href="#">Menumenu3</a>
+            -->
         </nav>
-        <div class="content">
-            <ul>
-                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod, nisi eu consectetur cursus, nisl erat dictum urna, nec dictum enim enim nec enim.</li>
-                <li>Morbi facilisis, sem at cursus dictum, enim erat dictum urna, nec dictum enim enim nec enim. Pellentesque euismod, nisi eu consectetur cursus.</li>
-                <li>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque euismod, nisi eu consectetur cursus, nisl erat dictum urna.</li>
-            </ul>
+        <div class="main-row">
+            <div class="content">
+                <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod, nisi eu consectetur cursus, nisl erat dictum urna, nec dictum enim enim nec enim.</li>
+                    <li>Morbi facilisis, sem at cursus dictum, enim erat dictum urna, nec dictum enim enim nec enim. Pellentesque euismod, nisi eu consectetur cursus.</li>
+                    <li>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque euismod, nisi eu consectetur cursus, nisl erat dictum urna.</li>
+                </ul>
+            </div>
+            <div class="right-column">
+                <div class="square-img"></div>
+                <div class="square-img"></div>
+                <div class="square-img"></div>
+            </div>
         </div>
     </div>
 </body>
