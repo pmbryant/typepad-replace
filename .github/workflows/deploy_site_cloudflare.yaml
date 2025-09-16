@@ -18,13 +18,7 @@ jobs:
         id: build
         # Pass "disabled" to merge_site.sh to not include the full content.
         run: |
-          ./build/merge_site.sh disabled
-
-      - name: Upload static files as artifact
-        id: deployment
-        uses: actions/upload-pages-artifact@v3 # or specific "vX.X.X" version tag for this action
-        with:
-          path: _site/
+          ./build/merge_site.sh
 
   deploy:
     needs: build
