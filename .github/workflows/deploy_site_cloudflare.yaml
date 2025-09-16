@@ -8,6 +8,10 @@ on:
 
 jobs:
   build:
+    permissions:
+      contents: read
+      deployments: write
+
     # Specify runner +  build & upload the static files as an artifact
     runs-on: ubuntu-latest
     steps:
@@ -20,13 +24,6 @@ jobs:
         run: |
           ./build/merge_site.sh
 
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      deployments: write
-    steps:
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v3
         with:
