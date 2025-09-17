@@ -17,6 +17,17 @@
             max-width: 1100px;
             margin: 40px auto;
             background: #fff;
+            position: relative;
+            overflow: hidden;
+        }
+        .container::after {
+            content: "";
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            pointer-events: none;
+            background: rgba(120, 60, 200, 0.35);
+            mix-blend-mode: multiply;
+            z-index: 2;
             box-shadow: 0 2px 8px rgba(0,0,0,0.10);
             border-radius: 8px;
             overflow: hidden;
@@ -160,7 +171,7 @@
         </nav>
         <div class="main-row">
             <div class="text-area">
-                COMING SOON!
+                This is not the expected host of pmbryant.com
             </div>
             <div class="image-area">
                 <a ><img src="Typepad.LetYourselfGo.screenshot.2025sep14.small.png" alt="Let Yourself Go Screenshot" class="black-square" /></a>
