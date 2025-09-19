@@ -22,7 +22,7 @@ jobs:
         id: build
         # Pass "disabled" to merge_site.sh to not include the full content
         run: |
-          ./build/merge_site.sh disabled
+          ./build/merge_site.sh
 
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v3
