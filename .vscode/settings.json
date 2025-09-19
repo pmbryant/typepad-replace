@@ -1,6 +1,6 @@
 {
     "liveServer.settings.port": 5505,
-    "liveServer.settings.root": "/pmbryant-hugo/public",
+    "liveServer.settings.root": "/_site",
     "liveServer.settings.NoBrowser" : false,
     "liveServer.settings.ignoreFiles" : [
             ".vscode/**",
