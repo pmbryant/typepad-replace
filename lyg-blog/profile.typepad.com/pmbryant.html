@@ -12,8 +12,8 @@
 <!--[if IE]>
     <link rel="stylesheet" href="../static.typepad.com/.shared/css/app/browsers/ie.css" type="text/css" />
 <![endif]-->
-    <link rel="alternate" type="application/atom+xml" href="https://profile.defunct.domain.goes.here/pmbryant/activity/atom.xml" title="P.M.Bryant's activity feed" />
-    <link rel="openid2.provider" href="https://defunct.domain.goes.here/secure/services/openid/profilesserver/" />
+    <link rel="alternate" type="application/atom+xml" href="https://profile.defunct.domain.goeshere/pmbryant/activity/atom.xml" title="P.M.Bryant's activity feed" />
+    <link rel="openid2.provider" href="https://defunct.domain.goeshere/secure/services/openid/profilesserver/" />
     <link rel="me" href="#content-main" />
     <link rel="shortcut icon" href="../6a.typepad.com/favicon.ico" />
     <link rel="apple-touch-icon-precomposed" href="../static.typepad.com/.shared/images/app/favicons/atip-129si.png" />
@@ -27,7 +27,7 @@
 
 <script type="text/javascript">
     if( !TPApp ) { var TPApp = {}; };
-    TPApp.app_uri = "https://defunct.domain.goes.here/";
+    TPApp.app_uri = "https://defunct.domain.goeshere/";
 </script>
 
 <!-- APP_RESPONSIVE -->
@@ -35,7 +35,7 @@
 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
  <div class="container">
 
-  <a class="navbar-brand" href="https://defunct.domain.goes.here/dashboard">
+  <a class="navbar-brand" href="https://defunct.domain.goeshere/dashboard">
     <img src="../static.typepad.com/.shared/images/app/global/nav-logo.png" alt="Typepad" width="23" height="14" style="padding-bottom:3px" />
   </a>
 
@@ -84,7 +84,7 @@
 </div><!--alpha-->
 <div class="beta col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
     <div class="join-claim-button-container">
-        <a class="join-claim-button" href="https://defunct.domain.goes.here/secure/services/register?acct_level=pro">Join Now!</a>
+        <a class="join-claim-button" href="https://defunct.domain.goeshere/secure/services/register?acct_level=pro">Join Now!</a>
         <div class="already">Already a member? <a  >Sign In</a></div>
     </div>
 </div><!--beta-->
@@ -146,7 +146,7 @@ YAHOO.util.Event.onDOMReady( function() {
         });
         YAHOO.util.Event.on(el, 'click', function(ev) {
             if (window.confirm('Are you sure you want to hide this update? This action cannot be undone.')) {
-                var client = new TC.JSONRPCClient('https://profile.defunct.domain.goes.here/services/json-rpc');
+                var client = new TC.JSONRPCClient('https://profile.defunct.domain.goeshere/services/json-rpc');
                 client.request({
                     method: 'Connect.HideEvent',
                     params: { event_id: eventId, token: token },
@@ -174,7 +174,7 @@ YAHOO.util.Event.onDOMReady( function() {
         YAHOO.util.Connect.setDefaultPostHeader( 'text/javascript+json' );
         YAHOO.util.Connect.asyncRequest(
             'GET',
-            'https://profile.defunct.comain.goes.here/pmbryant/events?start_token=' + token,
+            'https://profile.defunct.comain.goeshere/pmbryant/events?start_token=' + token,
             {
                 success: function( o ) {
                     var pager = YAHOO.util.Dom.get( 'pagination-more' );
@@ -894,10 +894,10 @@ Update has been hidden from all public facing feeds in Typepad
 <div class="bottom container"><div id="footer">
     <div id="footer-inner">
         <div class="copyright"><div class="pkg">
-    <p>&#169; 2025 <a href="https://defunct.domain.goes.here/">Typepad Holdings LLC</a>. All Rights Reserved.</p>
+    <p>&#169; 2025 <a href="https://defunct.domain.goeshere/">Typepad Holdings LLC</a>. All Rights Reserved.</p>
     <ul class="pkg">
-        <li class="first"><a href="https://defunct.domain.goes.here/tos" target="_blank">Terms of Service</a></li>
-        <li><a href="https://defunct.domain.goes.here/privacy" target="_blank">Privacy Policy</a></li>
+        <li class="first"><a href="https://defunct.domain.goeshere/tos" target="_blank">Terms of Service</a></li>
+        <li><a href="https://defunct.domain.goeshere/privacy" target="_blank">Privacy Policy</a></li>
     </ul>
 </div>
 
